@@ -1,0 +1,1105 @@
+Package: alsa-topology-conf
+Version: 1.2.5.1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bfedac195c749d26093bc59185c5ea2c
+SHA256sum: 5e5b255eae65a870deef66b20a1c1f7f2373ff18b670a58708f6344ce5756dbe
+Size: 15224
+Filename: alsa-topology-conf_1.2.5.1-r0_all.ipk
+Source: alsa-topology-conf_1.2.5.1.bb
+Description: ALSA topology configuration files
+OE: alsa-topology-conf
+HomePage: https://alsa-project.org
+License: BSD-3-Clause
+Priority: optional
+
+Package: alsa-ucm-conf
+Version: 1.2.14-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6708db31af364ea04b3fe2d9e2aea05a
+SHA256sum: ab7669cd0b69449bb9f1c3878ceb20f4be90f3142e33cbb24790c61157a38e9d
+Size: 104566
+Filename: alsa-ucm-conf_1.2.14-r0_all.ipk
+Source: alsa-ucm-conf_1.2.14.bb
+Description: ALSA Use Case Manager configuration
+OE: alsa-ucm-conf
+HomePage: https://alsa-project.org
+License: BSD-3-Clause
+Priority: optional
+
+Package: ca-certificates-dbg
+Version: 20250419-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5668c6f4efb64dbd79ac29dc2aaddfe2
+SHA256sum: 06cd4e0ad753c0808055e38800d38de37b222f394a7c0c42b53705b5afd1f5db
+Size: 706
+Filename: ca-certificates-dbg_20250419-r0_all.ipk
+Source: ca-certificates_20250419.bb
+Description: Common CA certificates - Debugging files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0-or-later & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-dev
+Version: 20250419-r0
+Recommends: ca-certificates (= 20250419-r0), openssl-bin-dev, openssl-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 886832bb087cf2819a6a4df195a3e257
+SHA256sum: 5ad6c928df6fdad648ab642307e331f3238219de20bf4bdf55028a0693203d86
+Size: 752
+Filename: ca-certificates-dev_20250419-r0_all.ipk
+Source: ca-certificates_20250419.bb
+Description: Common CA certificates - Development files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0-or-later & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-doc
+Version: 20250419-r0
+Section: doc
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 236bd80036e6e95c49739e6fa2b09f0a
+SHA256sum: 55cfe4be41a35de391a336bd80f7f3e8a2050db227514a8e79f6223252ee4569
+Size: 2330
+Filename: ca-certificates-doc_20250419-r0_all.ipk
+Source: ca-certificates_20250419.bb
+Description: Common CA certificates - Documentation files
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0-or-later & MPL-2.0
+Priority: optional
+
+Package: ca-certificates
+Version: 20250419-r0
+Depends: openssl, openssl-bin
+Section: misc
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5646d0bde6f775c8b022e20154c72558
+SHA256sum: d2e9f0e421b76d1bb31ee1e1d35464cfcf6067d6dc206fa71e51c43ad56afe39
+Size: 136350
+Filename: ca-certificates_20250419-r0_all.ipk
+Source: ca-certificates_20250419.bb
+Description: Common CA certificates
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0-or-later & MPL-2.0
+Priority: optional
+
+Package: enigma2-plugin-extensions-checkpycode-dbg
+Version: 1.1+git15+833a9a9-r0
+Section: devel
+Architecture: all
+Maintainer: Vasiliks
+MD5Sum: 297c6248f2e7fa19d5da1b688927c2bb
+SHA256sum: 9380f32d69bb6737ba584ce07d61fb383678f012f509958c2fa086a3f9d0f6f7
+Size: 598
+Filename: enigma2-plugin-extensions-checkpycode-dbg_1.1+git15+833a9a9-r0_all.ipk
+Source: enigma2-plugin-extensions-checkpycode.bb
+Description: Tool to check your Python code  - Debugging files
+OE: enigma2-plugin-extensions-checkpycode
+HomePage: http://gisclub.tv
+License: PD
+Priority: required
+
+Package: enigma2-plugin-extensions-checkpycode-dev
+Version: 1.1+git15+833a9a9-r0
+Recommends: enigma2-plugin-extensions-checkpycode (= 1.1+git15+833a9a9-r0), python3-core-dev, python3-dev
+Section: devel
+Architecture: all
+Maintainer: Vasiliks
+MD5Sum: d965bff3d73851c2f428f82301a2774f
+SHA256sum: dceb7c5f1745049c54d21eeb1d83b7b2e879ae6839575ab0757324d71feb4631
+Size: 646
+Filename: enigma2-plugin-extensions-checkpycode-dev_1.1+git15+833a9a9-r0_all.ipk
+Source: enigma2-plugin-extensions-checkpycode.bb
+Description: Tool to check your Python code  - Development files
+OE: enigma2-plugin-extensions-checkpycode
+HomePage: http://gisclub.tv
+License: PD
+Priority: required
+
+Package: enigma2-plugin-extensions-checkpycode
+Version: 1.1+git15+833a9a9-r0
+Depends: python3-core
+Section: base
+Architecture: all
+Maintainer: Vasiliks
+MD5Sum: e2dfbf856e64cb75decba062b9d410da
+SHA256sum: ee834988a21f6a372213b27a2d491075958f7effc54762024099960ac158d5f2
+Size: 313224
+Filename: enigma2-plugin-extensions-checkpycode_1.1+git15+833a9a9-r0_all.ipk
+Source: enigma2-plugin-extensions-checkpycode.bb
+Description: Tool to check your Python code
+OE: enigma2-plugin-extensions-checkpycode
+HomePage: http://gisclub.tv
+License: PD
+Priority: required
+
+Package: enigma2-plugin-extensions-timeseekbar-dbg
+Version: 1.1+git6+7473f83-r0
+Section: devel
+Architecture: all
+Maintainer: AliAbdul <nabil1978@web.de>, Dima73 <Dima-73@inbox.lv>, vadim72, nikolasi, MegANDREtH, Vasiliks
+MD5Sum: 6996fc898b08037d1e1e6196270fe6de
+SHA256sum: 9fca18760bdca02f3d0d92aa35f5c00a3af6f379c1a621139a1053bfc63fd4d8
+Size: 644
+Filename: enigma2-plugin-extensions-timeseekbar-dbg_1.1+git6+7473f83-r0_all.ipk
+Source: enigma2-plugin-extensions-timeseekbar.bb
+Description: Enigma2 plugin to  - Debugging files
+OE: enigma2-plugin-extensions-timeseekbar
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-timeseekbar-dev
+Version: 1.1+git6+7473f83-r0
+Recommends: enigma2-plugin-extensions-timeseekbar (= 1.1+git6+7473f83-r0), python3-core-dev, python3-dev
+Section: devel
+Architecture: all
+Maintainer: AliAbdul <nabil1978@web.de>, Dima73 <Dima-73@inbox.lv>, vadim72, nikolasi, MegANDREtH, Vasiliks
+MD5Sum: 0effe1adccde5704355c525cb19dc77e
+SHA256sum: 0ff6de74143b94e11b39aba2c3ff0727881c321e9b249a134ec91cfd5f37b570
+Size: 692
+Filename: enigma2-plugin-extensions-timeseekbar-dev_1.1+git6+7473f83-r0_all.ipk
+Source: enigma2-plugin-extensions-timeseekbar.bb
+Description: Enigma2 plugin to  - Development files
+OE: enigma2-plugin-extensions-timeseekbar
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-timeseekbar
+Version: 1.1+git6+7473f83-r0
+Depends: python3-core
+Section: base
+Architecture: all
+Maintainer: AliAbdul <nabil1978@web.de>, Dima73 <Dima-73@inbox.lv>, vadim72, nikolasi, MegANDREtH, Vasiliks
+MD5Sum: 4a11b4b2a36f53a0e478cb7f2a7b1da9
+SHA256sum: 7d44728ce25d39e65e2da0b1d42ee9aa91e07e70fa81c062fee10058c88a11f0
+Size: 19554
+Filename: enigma2-plugin-extensions-timeseekbar_1.1+git6+7473f83-r0_all.ipk
+Source: enigma2-plugin-extensions-timeseekbar.bb
+Description: Enigma2 plugin to
+OE: enigma2-plugin-extensions-timeseekbar
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-vzaphistory-dbg
+Version: 1.0+git23+c6b1125-r0
+Section: devel
+Architecture: all
+Maintainer: Vasiliks
+MD5Sum: 35d06cef2dc4e1a988ed6e64f1592579
+SHA256sum: 9705b17dd803b84727c86478006c49301ee2556dc0109c1bf49dbeb225efe1c9
+Size: 616
+Filename: enigma2-plugin-extensions-vzaphistory-dbg_1.0+git23+c6b1125-r0_all.ipk
+Source: enigma2-plugin-extensions-vzaphistory.bb
+Description: Enigma2 plugin to  - Debugging files
+OE: enigma2-plugin-extensions-vzaphistory
+HomePage: http://gisclub.tv, http://giclub.tv
+License: PD
+Priority: required
+
+Package: enigma2-plugin-extensions-vzaphistory-dev
+Version: 1.0+git23+c6b1125-r0
+Recommends: enigma2-plugin-extensions-vzaphistory (= 1.0+git23+c6b1125-r0), python3-core-dev, python3-dev
+Section: devel
+Architecture: all
+Maintainer: Vasiliks
+MD5Sum: 05ae6a2ec5762b5b737a6e6b685128c0
+SHA256sum: d05a3c2c43ddf0dbb829487ee23b2316538b27030e8856de49dd8b5b30716732
+Size: 666
+Filename: enigma2-plugin-extensions-vzaphistory-dev_1.0+git23+c6b1125-r0_all.ipk
+Source: enigma2-plugin-extensions-vzaphistory.bb
+Description: Enigma2 plugin to  - Development files
+OE: enigma2-plugin-extensions-vzaphistory
+HomePage: http://gisclub.tv, http://giclub.tv
+License: PD
+Priority: required
+
+Package: enigma2-plugin-extensions-vzaphistory
+Version: 1.0+git23+c6b1125-r0
+Depends: python3-core
+Section: base
+Architecture: all
+Maintainer: Vasiliks
+MD5Sum: 17d613fae129c26aa5b83efa08cc44d2
+SHA256sum: 50650d9f38fc2f45384e0eb509dac44574493e3f309f1e4a87f3226c7eb062d7
+Size: 27616
+Filename: enigma2-plugin-extensions-vzaphistory_1.0+git23+c6b1125-r0_all.ipk
+Source: enigma2-plugin-extensions-vzaphistory.bb
+Description: Enigma2 plugin to
+OE: enigma2-plugin-extensions-vzaphistory
+HomePage: http://gisclub.tv, http://giclub.tv
+License: PD
+Priority: required
+
+Package: enigma2-plugin-skins-cyber-fhd-dbg
+Version: git301+03a2eaf-r0
+Section: devel
+Architecture: all
+Maintainer: Vasiliks
+MD5Sum: 75fc3ef383766038204fc3488cc090ef
+SHA256sum: f509a59adab1f0f6bc6a1c7acc2a4b81e5cc781866403eb3a355d975fb508933
+Size: 560
+Filename: enigma2-plugin-skins-cyber-fhd-dbg_git301+03a2eaf-r0_all.ipk
+Source: enigma2-plugin-skins-cyber-fhd.bb
+Description: enigma2-plugin-skins-cyber-fhd version git-r0 - Debugging files
+OE: enigma2-plugin-skins-cyber-fhd
+License: PD
+Priority: optional
+
+Package: enigma2-plugin-skins-cyber-fhd-dev
+Version: git301+03a2eaf-r0
+Recommends: enigma2-plugin-skins-cyber-fhd (= git301+03a2eaf-r0)
+Section: devel
+Architecture: all
+Maintainer: Vasiliks
+MD5Sum: 274764315475f4a9eb953fb1ff2ade11
+SHA256sum: e5d85016eeacef0c267460149e1b537e458e34fc8564c20d62d3876dda2d4ab5
+Size: 596
+Filename: enigma2-plugin-skins-cyber-fhd-dev_git301+03a2eaf-r0_all.ipk
+Source: enigma2-plugin-skins-cyber-fhd.bb
+Description: enigma2-plugin-skins-cyber-fhd version git-r0 - Development files
+OE: enigma2-plugin-skins-cyber-fhd
+License: PD
+Priority: optional
+
+Package: enigma2-plugin-skins-cyber-fhd
+Version: git301+03a2eaf-r0
+Section: base
+Architecture: all
+Maintainer: Vasiliks
+MD5Sum: 56a7a97b4def9f4686a41bd8fa84e589
+SHA256sum: 140af62c0da514bbd4a068101c3f35807cc08f49924f03c9e7fe3c8ad4126a74
+Size: 4947506
+Filename: enigma2-plugin-skins-cyber-fhd_git301+03a2eaf-r0_all.ipk
+Source: enigma2-plugin-skins-cyber-fhd.bb
+Description: enigma2-plugin-skins-cyber-fhd version git-r0
+OE: enigma2-plugin-skins-cyber-fhd
+License: PD
+Priority: optional
+
+Package: enigma2-plugin-skins-e2darkos-dbg
+Version: 1.0+git273+3a86ced-r0
+Section: devel
+Architecture: all
+Maintainer: DimitarCC
+MD5Sum: 3b7b6d04da1a5dff8b02eb10f0b5b823
+SHA256sum: 4309d8a2fe75946537af104b867841c0a100fc0fce9de74a83ff30cc68c5288a
+Size: 594
+Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git273+3a86ced-r0_all.ipk
+Source: enigma2-plugin-skins-e2darkos.bb
+Description: enigma2-plugin-skins-e2darkos version 1.0+git-r0 - Debugging files
+OE: enigma2-plugin-skins-e2darkos
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-e2darkos-dev
+Version: 1.0+git273+3a86ced-r0
+Recommends: enigma2-plugin-skins-e2darkos (= 1.0+git273+3a86ced-r0)
+Section: devel
+Architecture: all
+Maintainer: DimitarCC
+MD5Sum: 178a13391801a58a03c594b8b65fe09b
+SHA256sum: 6067429346dee3d708b0a81149730696c78f13730e1f732e8eaf82728d96e1af
+Size: 628
+Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git273+3a86ced-r0_all.ipk
+Source: enigma2-plugin-skins-e2darkos.bb
+Description: enigma2-plugin-skins-e2darkos version 1.0+git-r0 - Development files
+OE: enigma2-plugin-skins-e2darkos
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-e2darkos
+Version: 1.0+git273+3a86ced-r0
+Recommends: enigma2-boxlogos
+Section: base
+Architecture: all
+Maintainer: DimitarCC
+MD5Sum: 0211a8e618aca433662c1deabae0546b
+SHA256sum: e24b8b09c46b7a8874b8185debafcc1341d69b8161f474f0a5a38252ce584b32
+Size: 3072606
+Filename: enigma2-plugin-skins-e2darkos_1.0+git273+3a86ced-r0_all.ipk
+Source: enigma2-plugin-skins-e2darkos.bb
+Description: enigma2-plugin-skins-e2darkos version 1.0+git-r0
+OE: enigma2-plugin-skins-e2darkos
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-magic
+Version: 1.0+git331+8b5fb84-r0
+Depends: font-valis-enigma
+Section: base
+Architecture: all
+Maintainer: Mike Looijmans
+MD5Sum: 6c020447463e63599c8ed8a34ba5a006
+SHA256sum: 6feb9e16e86e3dbd2653a8fbc6c1be0ffdd30562edba01a8d3358ff04613d38f
+Size: 123212
+Filename: enigma2-plugin-skins-magic_1.0+git331+8b5fb84-r0_all.ipk
+Source: enigma2-plugin-skins-magic.bb
+Description: enigma2-plugin-skins-magic version 1.0+git-r0
+OE: enigma2-plugin-skins-magic
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd-dbg
+Version: 0.1+git2319+974a9a6-r0
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 95045f498a59d0d3fec0fd1ced830d4d
+SHA256sum: 0f14307ac69f64adf063222db73f0a2135ac6d816559a0a2cacca87295d8724a
+Size: 566
+Filename: enigma2-plugin-skins-pli-hd-dbg_0.1+git2319+974a9a6-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0 - Debugging files
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd-dev
+Version: 0.1+git2319+974a9a6-r0
+Recommends: enigma2-plugin-skins-pli-hd (= 0.1+git2319+974a9a6-r0)
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 01e8d4152cbdd22aaec76bba4d737bf7
+SHA256sum: 740bb0300d9c1a323b25768f9f41311cc22a1d4f2b001826611ad39533fbdbeb
+Size: 606
+Filename: enigma2-plugin-skins-pli-hd-dev_0.1+git2319+974a9a6-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0 - Development files
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd
+Version: 0.1+git2319+974a9a6-r0
+Section: base
+Architecture: all
+Maintainer: littlesat
+MD5Sum: b45318f11dfa46cdfcb14797eb7c6c65
+SHA256sum: ed92902ff4f28034e8bfd081b9787a690169eee78fbeadd9418dcfe423713a36
+Size: 462874
+Filename: enigma2-plugin-skins-pli-hd_0.1+git2319+974a9a6-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
+Package: fakelocale-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OpenPli team
+MD5Sum: 170d35cb0d013b9bc61bd40a1eb0098d
+SHA256sum: 877ce9703e8b8dfda91a8fe730803cedb6c5163c2a5fee3e8d5b167d62e450a7
+Size: 544
+Filename: fakelocale-dbg_1.0-r0_all.ipk
+Source: fakelocale.bb
+Description: LC_TIME locale support - Debugging files
+OE: fakelocale
+License: CLOSED
+Priority: required
+
+Package: fakelocale-dev
+Version: 1.0-r0
+Recommends: fakelocale (= 1.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OpenPli team
+MD5Sum: d5dde61e53846c9529111a21e90227df
+SHA256sum: 22c0aab6323a27f24c7b5bf44b7bc58062a52645962de0bf04aa8a1ce86a801a
+Size: 582
+Filename: fakelocale-dev_1.0-r0_all.ipk
+Source: fakelocale.bb
+Description: LC_TIME locale support - Development files
+OE: fakelocale
+License: CLOSED
+Priority: required
+
+Package: fakelocale-locale
+Version: 1.0-r0
+Section: base
+Architecture: all
+Maintainer: OpenPli team
+MD5Sum: a13cc764381dcd1ce7591106919671ef
+SHA256sum: be3edfbc822bae86bfde271f95949985df1ecba1f8aeac52bbcc51ff94ce790f
+Size: 1020
+Filename: fakelocale-locale_1.0-r0_all.ipk
+Source: fakelocale.bb
+Description: LC_TIME locale support
+OE: fakelocale
+License: CLOSED
+Priority: required
+
+Package: fakelocale
+Version: 1.0-r0
+Provides: locale-base-ar-ae, locale-base-bg-bg, locale-base-c.utf-8, locale-base-ca-ad, locale-base-cs-cz, locale-base-da-dk, locale-base-de-de, locale-base-el-gr, locale-base-en-gb, locale-base-es-es, locale-base-et-ee, locale-base-fa-ir, locale-base-fi-fi, locale-base-fr-fr, locale-base-fy-nl, locale-base-gl-es, locale-base-he-il, locale-base-hr-hr, locale-base-hu-hu, locale-base-id-id, locale-base-is-is, locale-base-it-it, locale-base-ku-tr, locale-base-lt-lt, locale-base-lv-lv, locale-base-mk-mk, locale-base-nb-no, locale-base-nl-nl, locale-base-pl-pl, locale-base-pt-br, locale-base-pt-pt, locale-base-ro-ro, locale-base-ru-ru, locale-base-sk-sk, locale-base-sl-si, locale-base-sr-rs, locale-base-sv-se, locale-base-th-th, locale-base-tr-tr, locale-base-uk-ua, locale-base-vi-vn, locale-base-zh-cn, locale-base-zh-hk, virtual-locale-C.UTF-8, virtual-locale-ar, virtual-locale-ar-ae, virtual-locale-bg, virtual-locale-bg-bg, virtual-locale-c.utf-8, virtual-locale-ca, virtual-locale-ca-ad, virtual-locale-cs, virtual-locale-cs-cz, virtual-locale-da, virtual-locale-da-dk, virtual-locale-de, virtual-locale-de-de, virtual-locale-el, virtual-locale-el-gr, virtual-locale-en, virtual-locale-en-gb, virtual-locale-es, virtual-locale-es-es, virtual-locale-et, virtual-locale-et-ee, virtual-locale-fa, virtual-locale-fa-ir, virtual-locale-fi, virtual-locale-fi-fi, virtual-locale-fr, virtual-locale-fr-fr, virtual-locale-fy, virtual-locale-fy-nl, virtual-locale-gl, virtual-locale-gl-es, virtual-locale-he, virtual-locale-he-il, virtual-locale-hr, virtual-locale-hr-hr, virtual-locale-hu, virtual-locale-hu-hu, virtual-locale-id, virtual-locale-id-id, virtual-locale-is, virtual-locale-is-is, virtual-locale-it, virtual-locale-it-it, virtual-locale-ku, virtual-locale-ku-tr, virtual-locale-lt, virtual-locale-lt-lt, virtual-locale-lv, virtual-locale-lv-lv, virtual-locale-mk, virtual-locale-mk-mk, virtual-locale-nb, virtual-locale-nb-no, virtual-locale-nl, virtual-locale-nl-nl, virtual-locale-pl, virtual-locale-pl-pl, virtual-locale-pt, virtual-locale-pt-br, virtual-locale-pt-pt, virtual-locale-ro, virtual-locale-ro-ro, virtual-locale-ru, virtual-locale-ru-ru, virtual-locale-sk, virtual-locale-sk-sk, virtual-locale-sl, virtual-locale-sl-si, virtual-locale-sr, virtual-locale-sr-rs, virtual-locale-sv, virtual-locale-sv-se, virtual-locale-th, virtual-locale-th-th, virtual-locale-tr, virtual-locale-tr-tr, virtual-locale-uk, virtual-locale-uk-ua, virtual-locale-vi, virtual-locale-vi-vn, virtual-locale-zh, virtual-locale-zh-cn, virtual-locale-zh-hk
+Replaces: locale-base-ar-ae, locale-base-bg-bg, locale-base-c.utf-8, locale-base-ca-ad, locale-base-cs-cz, locale-base-da-dk, locale-base-de-de, locale-base-el-gr, locale-base-en-gb, locale-base-es-es, locale-base-et-ee, locale-base-fa-ir, locale-base-fi-fi, locale-base-fr-fr, locale-base-fy-nl, locale-base-gl-es, locale-base-he-il, locale-base-hr-hr, locale-base-hu-hu, locale-base-id-id, locale-base-is-is, locale-base-it-it, locale-base-ku-tr, locale-base-lt-lt, locale-base-lv-lv, locale-base-mk-mk, locale-base-nb-no, locale-base-nl-nl, locale-base-pl-pl, locale-base-pt-br, locale-base-pt-pt, locale-base-ro-ro, locale-base-ru-ru, locale-base-sk-sk, locale-base-sl-si, locale-base-sr-rs, locale-base-sv-se, locale-base-th-th, locale-base-tr-tr, locale-base-uk-ua, locale-base-vi-vn, locale-base-zh-cn, locale-base-zh-hk
+Conflicts: locale-base-ar-ae, locale-base-bg-bg, locale-base-c.utf-8, locale-base-ca-ad, locale-base-cs-cz, locale-base-da-dk, locale-base-de-de, locale-base-el-gr, locale-base-en-gb, locale-base-es-es, locale-base-et-ee, locale-base-fa-ir, locale-base-fi-fi, locale-base-fr-fr, locale-base-fy-nl, locale-base-gl-es, locale-base-he-il, locale-base-hr-hr, locale-base-hu-hu, locale-base-id-id, locale-base-is-is, locale-base-it-it, locale-base-ku-tr, locale-base-lt-lt, locale-base-lv-lv, locale-base-mk-mk, locale-base-nb-no, locale-base-nl-nl, locale-base-pl-pl, locale-base-pt-br, locale-base-pt-pt, locale-base-ro-ro, locale-base-ru-ru, locale-base-sk-sk, locale-base-sl-si, locale-base-sr-rs, locale-base-sv-se, locale-base-th-th, locale-base-tr-tr, locale-base-uk-ua, locale-base-vi-vn, locale-base-zh-cn, locale-base-zh-hk
+Section: base
+Architecture: all
+Maintainer: OpenPli team
+MD5Sum: f58e63db0e6eaaf47995f4454a36bd4b
+SHA256sum: 18d887feca626e9bad66098d1a1f4f087561b43f749365f87be72d0e70d88fef
+Size: 1043150
+Filename: fakelocale_1.0-r0_all.ipk
+Source: fakelocale.bb
+Description: LC_TIME locale support
+OE: fakelocale
+License: CLOSED
+Priority: required
+
+Package: font-valis-enigma
+Version: 1.0+git331+8b5fb84-r0
+Section: base
+Architecture: all
+Maintainer: Mike Looijmans
+MD5Sum: 7483cf8dbc9cb154b853c1bb3bc9a36c
+SHA256sum: b4fca6ab623721e33f6ea09d9ef7c75160a1b01111c6fe784ad90c0b579982a5
+Size: 37390
+Filename: font-valis-enigma_1.0+git331+8b5fb84-r0_all.ipk
+Source: enigma2-plugin-skins-magic.bb
+Description: enigma2-plugin-skins-magic version 1.0+git-r0
+OE: enigma2-plugin-skins-magic
+License: GPL-2.0-only
+Priority: optional
+
+Package: iso-codes-dbg
+Version: 4.18.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8260056eb926fca2036472725226811b
+SHA256sum: 9e5c484e1967983a215c11b78e5f88668cd35225ca49f3cea53896dc0038fc3e
+Size: 742
+Filename: iso-codes-dbg_4.18.0-r0_all.ipk
+Source: iso-codes_4.18.0.bb
+Description: ISO language, territory, currency, script codes and their translations - Debugging files
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPL-2.1-only
+Priority: optional
+
+Package: iso-codes-dev
+Version: 4.18.0-r0
+Recommends: iso-codes (= 4.18.0-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 64f39d78030dbaf768c133a2f9eb9410
+SHA256sum: 5bff2d2e3734076594b6b192e048271a0491b1270cc78614e0371f35735634b3
+Size: 1026
+Filename: iso-codes-dev_4.18.0-r0_all.ipk
+Source: iso-codes_4.18.0.bb
+Description: ISO language, territory, currency, script codes and their translations - Development files
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPL-2.1-only
+Priority: optional
+
+Package: iso-codes-locale
+Version: 4.18.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 23dbd08d790c6007565a411c3f655b91
+SHA256sum: 7a0b0ef46332d151099eac03e9e865d585fa095d1394482045465b0ad49a3fe2
+Size: 5496746
+Filename: iso-codes-locale_4.18.0-r0_all.ipk
+Source: iso-codes_4.18.0.bb
+Description: ISO language, territory, currency, script codes and their translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPL-2.1-only
+Priority: optional
+
+Package: iso-codes
+Version: 4.18.0-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 699fbb853f34ffd2907400892028282b
+SHA256sum: 389eb8651b47ed604aabe406b58d064336663c26c5de29e7fe3ca434e108b816
+Size: 366970
+Filename: iso-codes_4.18.0-r0_all.ipk
+Source: iso-codes_4.18.0.bb
+Description: ISO language, territory, currency, script codes and their translations
+OE: iso-codes
+HomePage: https://salsa.debian.org/iso-codes-team/iso-codes
+License: LGPL-2.1-only
+Priority: optional
+
+Package: mm-common-dbg
+Version: 1.0.7-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7138ab8b61f30aa9fe472a455ae3f059
+SHA256sum: fce1275aea184782597aca57ccea50c7db0d8c09673603389793981496f2fb91
+Size: 594
+Filename: mm-common-dbg_1.0.7-r0_all.ipk
+Source: mm-common_1.0.7.bb
+Description: Common GNOME build files for C++ bindings - Debugging files
+OE: mm-common
+License: GPL-2.0-only
+Priority: optional
+
+Package: mm-common-dev
+Version: 1.0.7-r0
+Recommends: mm-common (= 1.0.7-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5227fadc075335c717eb3c8a9befffa9
+SHA256sum: fd13f7e064ee0e46fcc680cd45cca1870e8eb736fd4a86d14a105d1f69ce03dd
+Size: 355364
+Filename: mm-common-dev_1.0.7-r0_all.ipk
+Source: mm-common_1.0.7.bb
+Description: Common GNOME build files for C++ bindings - Development files
+OE: mm-common
+License: GPL-2.0-only
+Priority: optional
+
+Package: mm-common-doc
+Version: 1.0.7-r0
+Section: doc
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3480eb9757a297a82687815648b56e58
+SHA256sum: f4857b3e1987c6a537298c31d243bebf1ce5ce23b6da429665c8290d2c079c22
+Size: 32886
+Filename: mm-common-doc_1.0.7-r0_all.ipk
+Source: mm-common_1.0.7.bb
+Description: Common GNOME build files for C++ bindings - Documentation files
+OE: mm-common
+License: GPL-2.0-only
+Priority: optional
+
+Package: netbase-dbg
+Version: 1:6.5-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: fd446e2ab9be4106ebd42d313e1d72ca
+SHA256sum: 97d0d104f953f71f98ba54ff6b95f507e8f6d6a85ae41ed329ac807d4b3d24aa
+Size: 648
+Filename: netbase-dbg_6.5-r0_all.ipk
+Source: netbase_6.5.bb
+Description: Basic TCP/IP networking support - Debugging files
+OE: netbase
+HomePage: http://packages.debian.org/netbase
+License: GPL-2.0-only
+Priority: optional
+
+Package: netbase-dev
+Version: 1:6.5-r0
+Recommends: netbase (= 1:6.5-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9c0fa45561bc140864759094d6cf3190
+SHA256sum: b120d3acdc66eba4e06af16d338df3ded9d10a8b4e522e6057b92d9276234f81
+Size: 676
+Filename: netbase-dev_6.5-r0_all.ipk
+Source: netbase_6.5.bb
+Description: Basic TCP/IP networking support - Development files
+OE: netbase
+HomePage: http://packages.debian.org/netbase
+License: GPL-2.0-only
+Priority: optional
+
+Package: netbase
+Version: 1:6.5-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7414c72a6dfd52379a29cfedd6a70ea5
+SHA256sum: 62f9b23e5caf75f8a15c2d3188e66ae44647fac4078cdb370b4d082f631945ab
+Size: 9518
+Filename: netbase_6.5-r0_all.ipk
+Source: netbase_6.5.bb
+Description: Basic TCP/IP networking support
+OE: netbase
+HomePage: http://packages.debian.org/netbase
+License: GPL-2.0-only
+Priority: optional
+
+Package: run-postinsts-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 82d4c6b5811db267eec66bde8df5eee2
+SHA256sum: da7149000d726902de9426e68dfb4c460fcd68e3aec21deec99010dc74dee8d4
+Size: 590
+Filename: run-postinsts-dbg_1.0-r0_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device - Debugging files
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts-dev
+Version: 1.0-r0
+Recommends: initscripts-dev, run-postinsts (= 1.0-r0), update-rc.d-dev, util-linux-fcntl-lock-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 69d5e2e6d8cf8c20676b62c904d51245
+SHA256sum: c2cd7cf2f1a7b3e37aae5f8139fd7337763e6c022e74d96191fc9ec1364ac709
+Size: 664
+Filename: run-postinsts-dev_1.0-r0_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device - Development files
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts
+Version: 1.0-r0
+Depends: util-linux-fcntl-lock
+Recommends: update-rc.d
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e10f3f1233e9c385766f47630797ea6f
+SHA256sum: a009c229e740386fa3313f7d71636e5e5c7b7ec3e0ce2f90347b248e8ffb3181
+Size: 1918
+Filename: run-postinsts_1.0-r0_all.ipk
+Source: run-postinsts_1.0.bb
+Description: Runs postinstall scripts on first boot of the target device
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: settings-autorestore
+Version: 2021081701-r0
+Section: base
+Architecture: all
+Maintainer: OpenPLi team
+MD5Sum: 38bef90fcd95dadbe5d555e906b5cb29
+SHA256sum: 5694357b563bdced68c53515ed1d6e9240be3876aa69a74d5df8cd04128a8e54
+Size: 6738
+Filename: settings-autorestore_2021081701-r0_all.ipk
+Source: settings-autorestore.bb
+Description: settings-autorestore version 2021081701-r0
+OE: settings-autorestore
+License: GPL-2.0-only
+Priority: optional
+
+Package: tuxbox-common-dbg
+Version: 2+git1142+c3b6d10-3
+Section: devel
+Architecture: all
+Maintainer: PLi team
+MD5Sum: d1b0e23500931059d6c5571ef17a422c
+SHA256sum: 0755d79051f5cedf00d9b0a25d1a3cae0088549e09cb07157db356463fa33506
+Size: 558
+Filename: tuxbox-common-dbg_2+git1142+c3b6d10-3_all.ipk
+Source: tuxbox-common.bb
+Description: tuxbox-common version 2+git-3 - Debugging files
+OE: tuxbox-common
+License: GPL-2.0-only
+Priority: optional
+
+Package: tuxbox-common-dev
+Version: 2+git1142+c3b6d10-3
+Recommends: tuxbox-common (>= 2+git1142+c3b6d10-3), tuxbox-common (<< 2+git1142+c3b6d10-3.0), xz-dev
+Section: devel
+Architecture: all
+Maintainer: PLi team
+MD5Sum: f6a132bf596234a885a390d6bac6b3ff
+SHA256sum: 7abedc84d6f4ec1ae2fa21ef9e0b245468890b19dd0b78347ba9fdd519282e1a
+Size: 614
+Filename: tuxbox-common-dev_2+git1142+c3b6d10-3_all.ipk
+Source: tuxbox-common.bb
+Description: tuxbox-common version 2+git-3 - Development files
+OE: tuxbox-common
+License: GPL-2.0-only
+Priority: optional
+
+Package: tuxbox-common
+Version: 2+git1142+c3b6d10-3
+Depends: xz
+Section: base
+Architecture: all
+Maintainer: PLi team
+MD5Sum: d48020d34c9a0f6244d2a50541a05a1a
+SHA256sum: 03ca95304ebeaa86ab1c38988d519809002cd3262cbcb210a3a2bf0db5a2e02d
+Size: 71350
+Filename: tuxbox-common_2+git1142+c3b6d10-3_all.ipk
+Source: tuxbox-common.bb
+Description: tuxbox-common version 2+git-3
+OE: tuxbox-common
+License: GPL-2.0-only
+Priority: optional
+
+Package: tzdata-africa
+Version: 2025b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 49cfe3e405240aacea105c754b4451bd
+SHA256sum: eca6f352fc5ef510e8a2a4c22938044f4dae70c8144bf007c2bb5a4f6ea248f7
+Size: 4468
+Filename: tzdata-africa_2025b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-americas
+Version: 2025b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4da7fb9e771b9e2aa967f65d406ce142
+SHA256sum: bebf6d1a14fff7c602fa559740024420a1c3cdcc2f03dcf75d8b652bd2aaf0fb
+Size: 21816
+Filename: tzdata-americas_2025b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-antarctica
+Version: 2025b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 57f1b9d6bce87df3b8cc31e302c5c65e
+SHA256sum: c96a252a32deb2e0da896de0594b16a9e841fcb6e6fb631b878b90783a9a3dd2
+Size: 2834
+Filename: tzdata-antarctica_2025b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-arctic
+Version: 2025b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d31bd4049d2f219ef90c7260a7578bef
+SHA256sum: 75c249ea08041d8ba95470a1b08b918f2eb415f4bd79ad02f2dd55c9e48de6b1
+Size: 1146
+Filename: tzdata-arctic_2025b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-asia
+Version: 2025b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c8ea510cb07d0d244f70f2326f77c452
+SHA256sum: d275cc44c78029d455764bd2d5d66c14da7dbe6ced77e08612f2dc7ff5604cac
+Size: 14048
+Filename: tzdata-asia_2025b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-atlantic
+Version: 2025b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ae2acfbdbdc3368efab4a7706e1a7059
+SHA256sum: 913635ca682b98681d1f21885dae5a6008f4114cd734335bcdfb76e4e218d120
+Size: 3558
+Filename: tzdata-atlantic_2025b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-australia
+Version: 2025b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a91249b0a1c74b985786ae54f8ff810f
+SHA256sum: 39d365b8a7231d8c81c01753a1ddedcbade6c0d91da2f90d4dbc820bbafbc682
+Size: 2702
+Filename: tzdata-australia_2025b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-core
+Version: 2025b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: abd404ba9cd307f6b188d0decc376024
+SHA256sum: 5eb19b75da835cced519a7a2a41dd321cf3850f740a8e134a43bc58d4782a528
+Size: 57760
+Filename: tzdata-core_2025b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-europe
+Version: 2025b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 241207cfedd416aecaec17784ef1b4d7
+SHA256sum: 2261d312f57f986b1809f4ca64669066bab960328242279a822179093e655cd3
+Size: 8472
+Filename: tzdata-europe_2025b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-misc
+Version: 2025b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ebc41094911018e3374f43204ed3d903
+SHA256sum: 76edb76e5a97e3445a00aeac59173adbdb324839d0e6e674f5e32476ac9748fc
+Size: 6888
+Filename: tzdata-misc_2025b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-pacific
+Version: 2025b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a195c6611a6dc9e970f294b2f24a9e5f
+SHA256sum: 9321fc8acf25d4bbd6f6700565db5c44d79ada1ca06b587f73872dea40067a8c
+Size: 4676
+Filename: tzdata-pacific_2025b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-posix
+Version: 2025b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 08686948da54cbac532c12539d57eec1
+SHA256sum: a0f40c4fd266c848b4efe7ca8b876d8029f6091b6f4cc6d4982a51b562d0f128
+Size: 56938
+Filename: tzdata-posix_2025b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata-right
+Version: 2025b-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0d7bc6ca82aee3ce08b696b40882da0c
+SHA256sum: a8412c33e25e9d81a8c2492006eba0c6ea67e696d2a013013f40f8898d3fd984
+Size: 58398
+Filename: tzdata-right_2025b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
+
+Package: tzdata
+Version: 2025b-r0
+Depends: tzdata-africa, tzdata-americas, tzdata-antarctica, tzdata-arctic, tzdata-asia, tzdata-atlantic, tzdata-australia, tzdata-core, tzdata-europe, tzdata-misc, tzdata-pacific, tzdata-posix, tzdata-right
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 92213891afb367d5c869d5232be67e37
+SHA256sum: 13cbf529ab7d4f155b97217b07cab2ea1ba377d42c0fb3f524a4834e323be44a
+Size: 976
+Filename: tzdata_2025b-r0_all.ipk
+Source: tzdata.bb
+Description: Timezone data
+OE: tzdata
+HomePage: http://www.iana.org/time-zones
+License: PD & BSD-3-Clause
+Priority: optional
+
+Package: update-rc.d-dbg
+Version: 0.8+git-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8dd02011800faa7efdb9306c4e97d6a7
+SHA256sum: 1af436664353d07e98bb9f39f48edbe0a833feb3a1e16a4221c5cd27a2895714
+Size: 672
+Filename: update-rc.d-dbg_0.8+git-r0_all.ipk
+Source: update-rc.d_0.8.bb
+Description: manage symlinks in /etc/rcN.d - Debugging files
+OE: update-rc.d
+HomePage: http://github.com/philb/update-rc.d/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: update-rc.d-dev
+Version: 0.8+git-r0
+Recommends: update-rc.d (= 0.8+git-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 80d58a4da1c5e05484c1cc6cdf2250df
+SHA256sum: 14a03b785436045ab83c9a863e1274b6d45d3c9f175130ed5731ff380cae6212
+Size: 704
+Filename: update-rc.d-dev_0.8+git-r0_all.ipk
+Source: update-rc.d_0.8.bb
+Description: manage symlinks in /etc/rcN.d - Development files
+OE: update-rc.d
+HomePage: http://github.com/philb/update-rc.d/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: update-rc.d
+Version: 0.8+git-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 15caab6321ec5a8ba587b350b4ba49a9
+SHA256sum: d57d53d8d9415c01b07c4d23d1ca2dbeea799b17af1deb58c48d6b1df2f21d17
+Size: 3166
+Filename: update-rc.d_0.8+git-r0_all.ipk
+Source: update-rc.d_0.8.bb
+Description: manage symlinks in /etc/rcN.d
+OE: update-rc.d
+HomePage: http://github.com/philb/update-rc.d/
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: volatile-media
+Version: 3-r0
+Section: base
+Architecture: all
+Maintainer: PLi team
+MD5Sum: 0eb825f47a9cc211fbf56c55014b41a9
+SHA256sum: 91a7e4563546d1ea54c7a3da2523fdac63056d7a121a74252dd27bbd25326718
+Size: 972
+Filename: volatile-media_3-r0_all.ipk
+Source: volatile-media.bb
+Description: volatile-media version 3-r0
+OE: volatile-media
+License: GPL-2.0-only
+Priority: optional
+
+Package: wireless-regdb-dbg
+Version: 2018.10.24-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3226f1959ef08ea40c559d4fc64c5c54
+SHA256sum: 8dfcc0e4baadb1dae21235ed675a48ad2dc4c8c2d0c485b40d16dac19793a829
+Size: 634
+Filename: wireless-regdb-dbg_2018.10.24-r0_all.ipk
+Source: wireless-regdb_2018.10.24.bb
+Description: Wireless Central Regulatory Domain Database - Debugging files
+OE: wireless-regdb
+HomePage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+License: ISC
+Priority: optional
+
+Package: wireless-regdb-dev
+Version: 2018.10.24-r0
+Recommends: wireless-regdb (= 2018.10.24-r0)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7b744589d833662392e0c906055e8aed
+SHA256sum: 8e9170a004289006acb99105a1c1cf5e4b7f3b3f61b196e63ff59d5f687c644e
+Size: 664
+Filename: wireless-regdb-dev_2018.10.24-r0_all.ipk
+Source: wireless-regdb_2018.10.24.bb
+Description: Wireless Central Regulatory Domain Database - Development files
+OE: wireless-regdb
+HomePage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+License: ISC
+Priority: optional
+
+Package: wireless-regdb-static
+Version: 2018.10.24-r0
+Section: net
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 66fd031e9e62b767c8b4a108bff76ea2
+SHA256sum: 39b8aa8f1686e272b1a5ceabcf86e827c4e36b8c5948981d99bd56b9eac69338
+Size: 3748
+Filename: wireless-regdb-static_2018.10.24-r0_all.ipk
+Source: wireless-regdb_2018.10.24.bb
+Description: Wireless Central Regulatory Domain Database
+OE: wireless-regdb
+HomePage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+License: ISC
+Priority: optional
+
+Package: wireless-regdb
+Version: 2018.10.24-r0
+Conflicts: wireless-regdb-static
+Suggests: crda
+Section: net
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 949e010b52e917aa6081df20e0912ad8
+SHA256sum: a340b4dccf02a4344296c531b86661663a55cf2271852131bf3af71a20695b1e
+Size: 3736
+Filename: wireless-regdb_2018.10.24-r0_all.ipk
+Source: wireless-regdb_2018.10.24.bb
+Description: Wireless Central Regulatory Domain Database
+OE: wireless-regdb
+HomePage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+License: ISC
+Priority: optional
+
