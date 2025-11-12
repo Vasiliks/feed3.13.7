@@ -7004,13 +7004,13 @@ Priority: optional
 
 Package: exteplayer3
 Version: 181+gitr151+c4a51ac-r0
-Depends: ffmpeg, libavcodec62 (>= 8.0), libavformat62 (>= 8.0), libavutil60 (>= 8.0), libbluray, libc6 (>= 2.42+git), libswresample6 (>= 8.0), libswscale9 (>= 8.0)
+Depends: ffmpeg, libavcodec62 (>= 8.0+git120715+44bfe0d), libavformat62 (>= 8.0+git120715+44bfe0d), libavutil60 (>= 8.0+git120715+44bfe0d), libbluray, libc6 (>= 2.42+git), libswresample6 (>= 8.0+git120715+44bfe0d), libswscale9 (>= 8.0+git120715+44bfe0d)
 Section: multimedia
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1235ca9118f457444592d754e081e1f9
-SHA256sum: 86c66024462aaf6ebd9b25542a342e716b13d62cbfb48398b8c51638c9083040
-Size: 130194
+MD5Sum: f7e9a8d0bc62e17e0280c0efd685f8dd
+SHA256sum: 31ce4b63a4f3d12923925a966380a58608c1e92f9fe287fb464f71c97871fa15
+Size: 130208
 Filename: exteplayer3_181+gitr151+c4a51ac-r0_armv7ahf-neon.ipk
 Source: exteplayer3.bb
 Description: exteplayer3 - media player for E2
@@ -7171,15 +7171,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: ffmpeg-dbg
-Version: 8.0-r2
+Version: 8.0+git120715+44bfe0d-r2
 Recommends: alsa-lib-dbg, dav1d-dbg, freetype-dbg, glibc-dbg, libavcodec-dbg, libavdevice-dbg, libavfilter-dbg, libavformat-dbg, libavutil-dbg, libbluray-dbg, libbz2-dbg, libcrypto-dbg, liblzma-dbg, libssl-dbg, libswresample-dbg, libswscale-dbg, libxml2-dbg, rtmpdump-dbg, srt-dbg, x264-dbg, zlib-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aee5b535893d49debd4ed106e54cb342
-SHA256sum: 13644a7fce8cf10eeedcfab0e2a98ffb71b3fd2ed417f1c7dc4cee17571a0cfa
-Size: 948
-Filename: ffmpeg-dbg_8.0-r2_armv7ahf-neon.ipk
+MD5Sum: 4d57e075aeda598758cf9ab184e90734
+SHA256sum: af08f0dd3d4d0bdb1f190a4196a09cbbcaf48204a0daa754f00587ef243b7a4e
+Size: 964
+Filename: ffmpeg-dbg_8.0+git120715+44bfe0d-r2_armv7ahf-neon.ipk
 Source: ffmpeg_8.0.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video. - Debugging files
 OE: ffmpeg
@@ -7188,16 +7188,16 @@ License: GPL-2.0-or-later & LGPL-2.1-or-later & ISC & MIT & BSD-2-Clause & BSD-3
 Priority: optional
 
 Package: ffmpeg-dev
-Version: 8.0-r2
+Version: 8.0+git120715+44bfe0d-r2
 Depends: libavcodec, libavdevice, libavfilter, libavformat, libavutil, libswresample, libswscale
-Recommends: alsa-lib-dev, bzip2-dev, dav1d-dev, ffmpeg (= 8.0-r2), freetype-dev, glibc-dev, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libbluray-dev, libbz2-dev, libcrypto-dev, liblzma-dev, libogg-dev, librtmp-dev, libssl-dev, libswresample-dev, libswscale-dev, libtheora-dev, libxml2-dev, openssl-dev, rtmpdump-dev, srt-dev, x264-dev, x265-dev, xz-dev, zlib-dev
+Recommends: alsa-lib-dev, bzip2-dev, dav1d-dev, ffmpeg (= 8.0+git120715+44bfe0d-r2), freetype-dev, glibc-dev, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libbluray-dev, libbz2-dev, libcrypto-dev, liblzma-dev, libogg-dev, librtmp-dev, libssl-dev, libswresample-dev, libswscale-dev, libtheora-dev, libxml2-dev, openssl-dev, rtmpdump-dev, srt-dev, x264-dev, x265-dev, xz-dev, zlib-dev
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dd67d20905c7eb8e070a5adf4b040c39
-SHA256sum: 0297e29657ae5e712928977db0246cd541c76a7e2f91b44df210fa063c560569
-Size: 301162
-Filename: ffmpeg-dev_8.0-r2_armv7ahf-neon.ipk
+MD5Sum: 56bed8e45a289425abc08f8d3e7775b6
+SHA256sum: e702db49a6043ef4d42da90bee69c0eb45fc11facf08a2c03267ebc34a244685
+Size: 301178
+Filename: ffmpeg-dev_8.0+git120715+44bfe0d-r2_armv7ahf-neon.ipk
 Source: ffmpeg_8.0.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video. - Development files
 OE: ffmpeg
@@ -7206,14 +7206,14 @@ License: GPL-2.0-or-later & LGPL-2.1-or-later & ISC & MIT & BSD-2-Clause & BSD-3
 Priority: optional
 
 Package: ffmpeg-examples
-Version: 8.0-r2
+Version: 8.0+git120715+44bfe0d-r2
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 53f76662647b4cb7a2b30516accab9b2
-SHA256sum: fa10a81146e279b55b1ed59d0658820b517d730a30d50963cd0af48fac727208
-Size: 48816
-Filename: ffmpeg-examples_8.0-r2_armv7ahf-neon.ipk
+MD5Sum: 3f5a52d6d929c4a3dfbfce2623df9ba3
+SHA256sum: 01298882f015d84fcdfac031d9881017fd7f3f62824e8dcb519e7d2228acc3f5
+Size: 48834
+Filename: ffmpeg-examples_8.0+git120715+44bfe0d-r2_armv7ahf-neon.ipk
 Source: ffmpeg_8.0.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -7222,15 +7222,15 @@ License: GPL-2.0-or-later & LGPL-2.1-or-later & ISC & MIT & BSD-2-Clause & BSD-3
 Priority: optional
 
 Package: ffmpeg
-Version: 8.0-r2
-Depends: libavcodec62 (>= 8.0), libavdevice62 (>= 8.0), libavfilter11 (>= 8.0), libavformat62 (>= 8.0), libavutil60 (>= 8.0), libc6 (>= 2.42+git), libswresample6 (>= 8.0), libswscale9 (>= 8.0), libz1 (>= 1.3.1)
+Version: 8.0+git120715+44bfe0d-r2
+Depends: libavcodec62 (>= 8.0+git120715+44bfe0d), libavdevice62 (>= 8.0+git120715+44bfe0d), libavfilter11 (>= 8.0+git120715+44bfe0d), libavformat62 (>= 8.0+git120715+44bfe0d), libavutil60 (>= 8.0+git120715+44bfe0d), libc6 (>= 2.42+git), libswresample6 (>= 8.0+git120715+44bfe0d), libswscale9 (>= 8.0+git120715+44bfe0d), libz1 (>= 1.3.1)
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d5c8a00c93e14e5c1d1a37a1e61dd5b5
-SHA256sum: a08cbee40dd5192a4010d35f4f0bf794e3e79eceb331ca3f9f3122b2c1e73f4d
-Size: 242350
-Filename: ffmpeg_8.0-r2_armv7ahf-neon.ipk
+MD5Sum: bfd34a47893dfd75ed5ef0b88714b4bf
+SHA256sum: 2ebc0727f636ff1a45506b3b74793ef181a1027b55a7bbaac892129dd1da2fc6
+Size: 242366
+Filename: ffmpeg_8.0+git120715+44bfe0d-r2_armv7ahf-neon.ipk
 Source: ffmpeg_8.0.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -33915,13 +33915,13 @@ Priority: optional
 
 Package: gstreamer1.0-libav
 Version: 1.26.7-r0
-Depends: gstreamer1.0 (>= 1.26.7), libavcodec62 (>= 8.0), libavfilter11 (>= 8.0), libavformat62 (>= 8.0), libavutil60 (>= 8.0), libc6 (>= 2.42+git), libglib-2.0-0 (>= 2.86.0), libgstaudio-1.0-0 (>= 1.26.7), libgstpbutils-1.0-0 (>= 1.26.7), libgstvideo-1.0-0 (>= 1.26.7)
+Depends: gstreamer1.0 (>= 1.26.7), libavcodec62 (>= 8.0+git120715+44bfe0d), libavfilter11 (>= 8.0+git120715+44bfe0d), libavformat62 (>= 8.0+git120715+44bfe0d), libavutil60 (>= 8.0+git120715+44bfe0d), libc6 (>= 2.42+git), libglib-2.0-0 (>= 2.86.0), libgstaudio-1.0-0 (>= 1.26.7), libgstpbutils-1.0-0 (>= 1.26.7), libgstvideo-1.0-0 (>= 1.26.7)
 Section: multimedia
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0a4a12d156605a4a1a3f07dc52e5e685
-SHA256sum: ea9d336e359115db61e28d5e187df257c8048c1dcc3ab9ed5c3df89612363ef0
-Size: 122772
+MD5Sum: 89abf9b5dcb892c1898cf65ba0367537
+SHA256sum: 4bfd40b53085d37fa5fdf327e755d73769d9ccd681b75b7d0b0a6b788c51f5d4
+Size: 122788
 Filename: gstreamer1.0-libav_1.26.7-r0_armv7ahf-neon.ipk
 Source: gstreamer1.0-libav_1.26.5.bb
 Description: Libav-based GStreamer 1.x plugin
@@ -41696,16 +41696,16 @@ License: LGPL-2.1-or-later
 Priority: optional
 
 Package: libavcodec62
-Version: 8.0-r2
-Depends: dav1d (>= 1.5.1), libavutil60 (>= 8.0), libc6 (>= 2.42+git), liblzma5 (>= 5.8.1), libswresample6 (>= 8.0), libx264-164 (>= r2970+git), libz1 (>= 1.3.1)
+Version: 8.0+git120715+44bfe0d-r2
+Depends: dav1d (>= 1.5.1), libavutil60 (>= 8.0+git120715+44bfe0d), libc6 (>= 2.42+git), liblzma5 (>= 5.8.1), libswresample6 (>= 8.0+git120715+44bfe0d), libx264-164 (>= r2970+git), libz1 (>= 1.3.1)
 Provides: libavcodec
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 90eab66289cf686ef2bb1476d9b9753d
-SHA256sum: 1ed8d176dd6eb7be7736b55448343fd64cfa10832cf5e0750522fc958d482fc7
-Size: 7246660
-Filename: libavcodec62_8.0-r2_armv7ahf-neon.ipk
+MD5Sum: f9f8342a344b725de51ee8e8834b8970
+SHA256sum: 4e1fc0e605afda448f879f8cad33a48070dff84783814a6679d2804070683844
+Size: 7246674
+Filename: libavcodec62_8.0+git120715+44bfe0d-r2_armv7ahf-neon.ipk
 Source: ffmpeg_8.0.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -41714,16 +41714,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libavdevice62
-Version: 8.0-r2
-Depends: libasound2 (>= 1.2.14), libavcodec62 (>= 8.0), libavfilter11 (>= 8.0), libavformat62 (>= 8.0), libavutil60 (>= 8.0), libc6 (>= 2.42+git)
+Version: 8.0+git120715+44bfe0d-r2
+Depends: libasound2 (>= 1.2.14), libavcodec62 (>= 8.0+git120715+44bfe0d), libavfilter11 (>= 8.0+git120715+44bfe0d), libavformat62 (>= 8.0+git120715+44bfe0d), libavutil60 (>= 8.0+git120715+44bfe0d), libc6 (>= 2.42+git)
 Provides: libavdevice
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 32235ac927efefc0de4e29d8807c7c13
-SHA256sum: 451ffd5ff0570da0c14a29b00ff0075ced2b85b0672c7f6544af768542ac26e9
-Size: 32396
-Filename: libavdevice62_8.0-r2_armv7ahf-neon.ipk
+MD5Sum: fd44ddc5967795cacdacc4ef4ba5a4ec
+SHA256sum: b5100b0eb085fe518716f54c944649e96787a2ff6587e93e0cbb03c2dd294679
+Size: 32414
+Filename: libavdevice62_8.0+git120715+44bfe0d-r2_armv7ahf-neon.ipk
 Source: ffmpeg_8.0.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -41732,16 +41732,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libavfilter11
-Version: 8.0-r2
-Depends: libavcodec62 (>= 8.0), libavformat62 (>= 8.0), libavutil60 (>= 8.0), libc6 (>= 2.42+git), libfreetype6 (>= 2.13.3), libswresample6 (>= 8.0), libswscale9 (>= 8.0)
+Version: 8.0+git120715+44bfe0d-r2
+Depends: libavcodec62 (>= 8.0+git120715+44bfe0d), libavformat62 (>= 8.0+git120715+44bfe0d), libavutil60 (>= 8.0+git120715+44bfe0d), libc6 (>= 2.42+git), libfreetype6 (>= 2.13.3), libswresample6 (>= 8.0+git120715+44bfe0d), libswscale9 (>= 8.0+git120715+44bfe0d)
 Provides: libavfilter
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5843eec36f3dea134d6d55d8964a3952
-SHA256sum: 8ea0feb41aa2a3832630403b3a77f542cd86c523f2a644cc8fc6a95748d8480b
-Size: 2005238
-Filename: libavfilter11_8.0-r2_armv7ahf-neon.ipk
+MD5Sum: 85a6ac86850a2050051ee8ad81c59047
+SHA256sum: ead61d63aca83e90675382369e4efff7d970f5c1cf4dac2ceebee733ede11c36
+Size: 2005254
+Filename: libavfilter11_8.0+git120715+44bfe0d-r2_armv7ahf-neon.ipk
 Source: ffmpeg_8.0.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -41750,16 +41750,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libavformat62
-Version: 8.0-r2
-Depends: libavcodec62 (>= 8.0), libavutil60 (>= 8.0), libbluray (>= v1.4.0+git3076+6155d65), libbz2-1 (>= 1.0.8), libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0), libsrt1.4 (>= 1.4.4), libssl3 (>= 3.6.0), libxml2 (>= 2.14.6), libz1 (>= 1.3.1), rtmpdump (>= 2.6+git)
+Version: 8.0+git120715+44bfe0d-r2
+Depends: libavcodec62 (>= 8.0+git120715+44bfe0d), libavutil60 (>= 8.0+git120715+44bfe0d), libbluray (>= v1.4.0+git3076+6155d65), libbz2-1 (>= 1.0.8), libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0), libsrt1.4 (>= 1.4.4), libssl3 (>= 3.6.0), libxml2 (>= 2.14.6), libz1 (>= 1.3.1), rtmpdump (>= 2.6+git)
 Provides: libavformat
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e606cdd27def7dfc47203db98d487c28
-SHA256sum: f400e514a10d0f12a6a2b8cae70625deae1b51829463df1658741ed81502ba3e
-Size: 1210140
-Filename: libavformat62_8.0-r2_armv7ahf-neon.ipk
+MD5Sum: 9a343f1f5df5b69e000afe918999cd22
+SHA256sum: dba4af76a9e26f56de52fcc4acd29e43f59f9203774402059b61ec372be3aaa0
+Size: 1210152
+Filename: libavformat62_8.0+git120715+44bfe0d-r2_armv7ahf-neon.ipk
 Source: ffmpeg_8.0.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -41768,16 +41768,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libavutil60
-Version: 8.0-r2
+Version: 8.0+git120715+44bfe0d-r2
 Depends: libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0)
 Provides: libavutil
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 917c012cb6633f62daa4a6163185462b
-SHA256sum: 3c991421f5de7e4182071429761c8dbd1e0c22a38230fd86a4c9e30ed4085150
-Size: 371118
-Filename: libavutil60_8.0-r2_armv7ahf-neon.ipk
+MD5Sum: ef47a3f2555b6cdbecb58607fd93a2b1
+SHA256sum: 57bdd19b5a727ea9002e26a354b7079ba3b974fee241cd88903015046cd4087c
+Size: 371134
+Filename: libavutil60_8.0+git120715+44bfe0d-r2_armv7ahf-neon.ipk
 Source: ffmpeg_8.0.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -59644,16 +59644,16 @@ License: GPL-3.0-with-GCC-exception
 Priority: optional
 
 Package: libswresample6
-Version: 8.0-r2
-Depends: libavutil60 (>= 8.0), libc6 (>= 2.42+git)
+Version: 8.0+git120715+44bfe0d-r2
+Depends: libavutil60 (>= 8.0+git120715+44bfe0d), libc6 (>= 2.42+git)
 Provides: libswresample
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c8f241120ee912e7961c77a8ea05a49c
-SHA256sum: b50bddceb27e479bd59f6b30017d1e423a068f405accd6fc2025bc7b5057ec0d
-Size: 62460
-Filename: libswresample6_8.0-r2_armv7ahf-neon.ipk
+MD5Sum: 4bb20099c636f728a958b70654772d02
+SHA256sum: 5b8adac3bf46a99212cecab402697e6e1d1904287150e1b6cf22076148db9d94
+Size: 62474
+Filename: libswresample6_8.0+git120715+44bfe0d-r2_armv7ahf-neon.ipk
 Source: ffmpeg_8.0.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -59662,16 +59662,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libswscale9
-Version: 8.0-r2
-Depends: libavutil60 (>= 8.0), libc6 (>= 2.42+git)
+Version: 8.0+git120715+44bfe0d-r2
+Depends: libavutil60 (>= 8.0+git120715+44bfe0d), libc6 (>= 2.42+git)
 Provides: libswscale
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5ae2f87ce919bebe4bc10df7f8eb3f93
-SHA256sum: 5e2ac43866de8b71687a10815f1e9d3868000d022835536d0b2205508aff9300
-Size: 575368
-Filename: libswscale9_8.0-r2_armv7ahf-neon.ipk
+MD5Sum: 0a03e6d6610ec0f5023d2bc2f724a986
+SHA256sum: 7feccb08b11f12d945163370d368274730596bfde72c753a121fe134753b5d20
+Size: 575380
+Filename: libswscale9_8.0+git120715+44bfe0d-r2_armv7ahf-neon.ipk
 Source: ffmpeg_8.0.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
@@ -72536,14 +72536,14 @@ License: OLDAP-2.8
 Priority: optional
 
 Package: openpli-bootlogo-dbg
-Version: 20251110-r1
+Version: 20251112-r1
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: PLi team
-MD5Sum: 325537508628d89de96931a02c95b197
-SHA256sum: ca8931e6c2dbad3d88649984c1dad7e3f44928fd4a51063161fb7a508015fca4
+MD5Sum: cd329f7262c9d242b6af55ae79286158
+SHA256sum: 22ca3fc150662ad01d1679e150e3ad7583b2021bf00b3cf165c6d35123a7c35f
 Size: 566
-Filename: openpli-bootlogo-dbg_20251110-r1_armv7ahf-neon.ipk
+Filename: openpli-bootlogo-dbg_20251112-r1_armv7ahf-neon.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r1 - Debugging files
 OE: openpli-bootlogo
@@ -72551,15 +72551,15 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openpli-bootlogo-dev
-Version: 20251110-r1
-Recommends: initscripts-dev, openpli-bootlogo (= 20251110-r1), showiframe-dev, update-rc.d-dev
+Version: 20251112-r1
+Recommends: initscripts-dev, openpli-bootlogo (= 20251112-r1), showiframe-dev, update-rc.d-dev
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: PLi team
-MD5Sum: df11d0383df4931b1b6f23f902fee4a1
-SHA256sum: 4c26181c5b0f73e29d2d26174e04c77de29295870dc9e03797d0046f11e9805e
-Size: 632
-Filename: openpli-bootlogo-dev_20251110-r1_armv7ahf-neon.ipk
+MD5Sum: 8af87272fbd7fbb84623c074c25e1dc2
+SHA256sum: 0f24f43bac64490bc445844730132d082e574f9ef1fc3fdea4fbeead9c4d44f4
+Size: 634
+Filename: openpli-bootlogo-dev_20251112-r1_armv7ahf-neon.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r1 - Development files
 OE: openpli-bootlogo
@@ -72567,16 +72567,16 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openpli-bootlogo
-Version: 20251110-r1
+Version: 20251112-r1
 Depends: showiframe
 Recommends: update-rc.d
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: PLi team
-MD5Sum: 5b7001f5319c3d43e6d8e31aba58b2cf
-SHA256sum: dcf460f1be0396728ee6158d870493d9eaf11bc35bb1dbc4408dded7153f3603
-Size: 294284
-Filename: openpli-bootlogo_20251110-r1_armv7ahf-neon.ipk
+MD5Sum: 30576b8d785906c49f67d682ace10366
+SHA256sum: 340b1109edf53669a69a8e77cbcfb089558173e7cf7b0cc439a7fb545165cba7
+Size: 294286
+Filename: openpli-bootlogo_20251112-r1_armv7ahf-neon.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r1
 OE: openpli-bootlogo
