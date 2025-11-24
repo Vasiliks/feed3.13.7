@@ -246,15 +246,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: aio-grab-dbg
-Version: 1.0+git123+32e30fe-r0
+Version: 1.0+git124+a908606-r0
 Recommends: glibc-dbg, libgomp-dbg, libjpeg-turbo-dbg, libpng-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: PLi team
-MD5Sum: 02c531395a9d83df8cb51f8cc0e27422
-SHA256sum: 047ce77abf9a8e32190e79c0fa9f373b79c5a6bb32e13f46dce9e0e4e7df24c5
-Size: 43740
-Filename: aio-grab-dbg_1.0+git123+32e30fe-r0_armv7ahf-neon.ipk
+MD5Sum: 81699412ce5457d15387b7a28224faf4
+SHA256sum: 75b505b77f2e8f4d21670dc585f49c23e7325e1d44aedc02cc085aff95010096
+Size: 46986
+Filename: aio-grab-dbg_1.0+git124+a908606-r0_armv7ahf-neon.ipk
 Source: aio-grab.bb
 Description: aio-grab version 1.0+git-r0 - Debugging files
 OE: aio-grab
@@ -262,15 +262,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: aio-grab-dev
-Version: 1.0+git123+32e30fe-r0
-Recommends: aio-grab (= 1.0+git123+32e30fe-r0), glibc-dev, jpeg-dev, libgomp-dev, libjpeg-turbo-dev, libpng-dev, zlib-dev
+Version: 1.0+git124+a908606-r0
+Recommends: aio-grab (= 1.0+git124+a908606-r0), glibc-dev, jpeg-dev, libgomp-dev, libjpeg-turbo-dev, libpng-dev, zlib-dev
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: PLi team
-MD5Sum: ee17e07d3900f5565ba553022b14e186
-SHA256sum: 2cccf6c405d734191eb26f626f12e8655f9c250f92010b113eedd67a17b846da
-Size: 642
-Filename: aio-grab-dev_1.0+git123+32e30fe-r0_armv7ahf-neon.ipk
+MD5Sum: 117b10806c0022d9ef68348dda803ac2
+SHA256sum: 377bf3cf6650a1e486943af371834a6c5e983d8285d93a8ebf4695218057629f
+Size: 644
+Filename: aio-grab-dev_1.0+git124+a908606-r0_armv7ahf-neon.ipk
 Source: aio-grab.bb
 Description: aio-grab version 1.0+git-r0 - Development files
 OE: aio-grab
@@ -278,15 +278,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: aio-grab
-Version: 1.0+git123+32e30fe-r0
+Version: 1.0+git124+a908606-r0
 Depends: libc6 (>= 2.42+git), libgomp1 (>= 15.2.0), libjpeg62 (>= 3.1.2), libpng16-16 (>= 1.6.50)
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: PLi team
-MD5Sum: 9e9f335efaf113b0c9e7c3f8d61240fd
-SHA256sum: 9f45db05117cba6aaa30feb5fb35b52d781130b3669bb4b674f549e30fed0cdd
-Size: 32374
-Filename: aio-grab_1.0+git123+32e30fe-r0_armv7ahf-neon.ipk
+MD5Sum: 161d99ef44d68ca4c4d4187bc6e7b98e
+SHA256sum: 091573ebff3517f1a88a55591ecb569e4c33fcd682144cd448f6031971598918
+Size: 33326
+Filename: aio-grab_1.0+git124+a908606-r0_armv7ahf-neon.ipk
 Source: aio-grab.bb
 Description: aio-grab version 1.0+git-r0
 OE: aio-grab
@@ -3221,16 +3221,16 @@ License: GPL-2.0-or-later & LGPL-2.1-or-later
 Priority: optional
 
 Package: bsdcpio
-Version: 3.8.1-r0
+Version: 3.8.2-r0
 Depends: libacl1 (>= 2.3.2), libbz2-1 (>= 1.0.8), libc6 (>= 2.42+git), liblzma5 (>= 5.8.1), libz1 (>= 1.3.1), libzstd1 (>= 1.5.7), update-alternatives-opkg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e63e96a4da385a9974214c87c1e12a44
-SHA256sum: 068b4f97232ac49dba5fe75a11cac4596bbcba1a7707c1698ad3b95d04118fdc
-Size: 412930
-Filename: bsdcpio_3.8.1-r0_armv7ahf-neon.ipk
-Source: libarchive_3.8.1.bb
+MD5Sum: 175381f9f7555a8c43a4750abdc8f413
+SHA256sum: 1b5b32d543fefdaac2ad6e7aada54bd97e06afd5432df69bae8c98d10c3825f2
+Size: 413494
+Filename: bsdcpio_3.8.2-r0_armv7ahf-neon.ipk
+Source: libarchive_3.8.2.bb
 Description: Support for reading various archive formats
 OE: libarchive
 HomePage: http://www.libarchive.org/
@@ -3238,16 +3238,16 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: bsdtar
-Version: 3.8.1-r0
+Version: 3.8.2-r0
 Depends: libacl1 (>= 2.3.2), libbz2-1 (>= 1.0.8), libc6 (>= 2.42+git), liblzma5 (>= 5.8.1), libz1 (>= 1.3.1), libzstd1 (>= 1.5.7), update-alternatives-opkg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1070e1e72502415ad2cd0ce8b8239d3f
-SHA256sum: 15e8c620dac5f84bccee63611a4cbf55aab3de2b86827f5f28284eb01413dbed
-Size: 434078
-Filename: bsdtar_3.8.1-r0_armv7ahf-neon.ipk
-Source: libarchive_3.8.1.bb
+MD5Sum: 023dcfea795e420bc61576a5265d02cc
+SHA256sum: c3d7991a61f18a5540d1fb7209dce58c48929ca7dc0c7fc8c9ee40a8af996225
+Size: 434702
+Filename: bsdtar_3.8.2-r0_armv7ahf-neon.ipk
+Source: libarchive_3.8.2.bb
 Description: Support for reading various archive formats
 OE: libarchive
 HomePage: http://www.libarchive.org/
@@ -4859,9 +4859,9 @@ Recommends: freetype-dbg, glibc-dbg, libgcc-dbg, libjpeg-turbo-dbg, libpng-dbg, 
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 18fba375d7d391b1c2889114461442ad
-SHA256sum: c5f6e3e568eaa93a2cac286e385d52bab0db0929f28d864418e19750bad4dbec
-Size: 5269378
+MD5Sum: 662fb3438dbc8f4714a93e81b716e87f
+SHA256sum: c06252151069d38687d1d72e4add8c09d805f91c2c763f8bc8671ef332760b96
+Size: 5269376
 Filename: directfb-dbg_1.7.7-r0_armv7ahf-neon.ipk
 Source: directfb_1.7.7.bb
 Description: Graphics abstraction library for the Linux Framebuffer Device - Debugging files
@@ -4910,9 +4910,9 @@ Depends: libc6 (>= 2.42+git), libfreetype6 (>= 2.13.3), libgcc1 (>= 15.2.0), lib
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 398f350df3b3da475deea90669efa78e
-SHA256sum: 819e496377683170264cb65ce8ad3a3267764ee51b1d6a6e737cd6d1b70ec571
-Size: 1296052
+MD5Sum: 016ac8736f1ac623e7345c628b61729e
+SHA256sum: c9b2c7ff54df63156256359169baea40ab9b5c5cd7784525e0c1d7c44c5051f0
+Size: 1296032
 Filename: directfb_1.7.7-r0_armv7ahf-neon.ipk
 Source: directfb_1.7.7.bb
 Description: Graphics abstraction library for the Linux Framebuffer Device
@@ -7004,12 +7004,12 @@ Priority: optional
 
 Package: exteplayer3
 Version: 181+gitr151+c4a51ac-r0
-Depends: ffmpeg, libavcodec62 (>= 8.0+git120716+22d0f10), libavformat62 (>= 8.0+git120716+22d0f10), libavutil60 (>= 8.0+git120716+22d0f10), libbluray, libc6 (>= 2.42+git), libswresample6 (>= 8.0+git120716+22d0f10), libswscale9 (>= 8.0+git120716+22d0f10)
+Depends: ffmpeg, libavcodec62 (>= 8.0.1+git120768+45455e1), libavformat62 (>= 8.0.1+git120768+45455e1), libavutil60 (>= 8.0.1+git120768+45455e1), libbluray, libc6 (>= 2.42+git), libswresample6 (>= 8.0.1+git120768+45455e1), libswscale9 (>= 8.0.1+git120768+45455e1)
 Section: multimedia
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 743f9ca2f804ff72f049807fe2573866
-SHA256sum: 0d45ed2491e963e00b0e0d9a6408d3ff0e4307db732407e82d771ac27219cf83
+MD5Sum: f69752de5ff80b0eae6cd8e9efa7cdaa
+SHA256sum: 4941fe14d733b11ba51d296890727ec8527d0fbb51bda581db3dc22eca566667
 Size: 130208
 Filename: exteplayer3_181+gitr151+c4a51ac-r0_armv7ahf-neon.ipk
 Source: exteplayer3.bb
@@ -7171,16 +7171,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: ffmpeg-dbg
-Version: 8.0+git120716+22d0f10-r0
+Version: 8.0.1+git120768+45455e1-r0
 Recommends: alsa-lib-dbg, dav1d-dbg, freetype-dbg, glibc-dbg, libavcodec-dbg, libavdevice-dbg, libavfilter-dbg, libavformat-dbg, libavutil-dbg, libbluray-dbg, libbz2-dbg, libcrypto-dbg, liblzma-dbg, libssl-dbg, libswresample-dbg, libswscale-dbg, libxml2-dbg, rtmpdump-dbg, srt-dbg, x264-dbg, zlib-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 697951f8826b3cac67fd1a42fe67bd82
-SHA256sum: 275c725194e4145af8106b9b8bfbaf01441a477957c80819bed63aaf643ce564
-Size: 966
-Filename: ffmpeg-dbg_8.0+git120716+22d0f10-r0_armv7ahf-neon.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: 366bb1c8b8014da5d9df23742a9f0965
+SHA256sum: 8a629cc592c21dcb3bbb0cd66c8c9466a97a8fc1eccb25a61bc0e15786bd8033
+Size: 968
+Filename: ffmpeg-dbg_8.0.1+git120768+45455e1-r0_armv7ahf-neon.ipk
+Source: ffmpeg_8.0.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video. - Debugging files
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -7188,17 +7188,17 @@ License: GPL-2.0-or-later & LGPL-2.1-or-later & ISC & MIT & BSD-2-Clause & BSD-3
 Priority: optional
 
 Package: ffmpeg-dev
-Version: 8.0+git120716+22d0f10-r0
+Version: 8.0.1+git120768+45455e1-r0
 Depends: libavcodec, libavdevice, libavfilter, libavformat, libavutil, libswresample, libswscale
-Recommends: alsa-lib-dev, bzip2-dev, dav1d-dev, ffmpeg (= 8.0+git120716+22d0f10-r0), freetype-dev, glibc-dev, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libbluray-dev, libbz2-dev, libcrypto-dev, liblzma-dev, libogg-dev, librtmp-dev, libssl-dev, libswresample-dev, libswscale-dev, libtheora-dev, libxml2-dev, openssl-dev, rtmpdump-dev, srt-dev, x264-dev, x265-dev, xz-dev, zlib-dev
+Recommends: alsa-lib-dev, bzip2-dev, dav1d-dev, ffmpeg (= 8.0.1+git120768+45455e1-r0), freetype-dev, glibc-dev, libavcodec-dev, libavdevice-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libbluray-dev, libbz2-dev, libcrypto-dev, liblzma-dev, libogg-dev, librtmp-dev, libssl-dev, libswresample-dev, libswscale-dev, libtheora-dev, libxml2-dev, openssl-dev, rtmpdump-dev, srt-dev, x264-dev, x265-dev, xz-dev, zlib-dev
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 659721c5b26b8f45a448f5e305528d3b
-SHA256sum: 085ec5546d1687d68dee65d1e654d07bb63a5f510f4b4fcc74f445e946417998
-Size: 301162
-Filename: ffmpeg-dev_8.0+git120716+22d0f10-r0_armv7ahf-neon.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: bcfb0858dc3f610070dbb1d444a3335c
+SHA256sum: 3421e1aa1bba2c3587b61fb2797684d533ec7410c51665f88f843f7fb184878c
+Size: 301172
+Filename: ffmpeg-dev_8.0.1+git120768+45455e1-r0_armv7ahf-neon.ipk
+Source: ffmpeg_8.0.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video. - Development files
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -7206,15 +7206,15 @@ License: GPL-2.0-or-later & LGPL-2.1-or-later & ISC & MIT & BSD-2-Clause & BSD-3
 Priority: optional
 
 Package: ffmpeg-examples
-Version: 8.0+git120716+22d0f10-r0
+Version: 8.0.1+git120768+45455e1-r0
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 743756afc4f14189c0c88461588c5f9b
-SHA256sum: a31343f79d464518315154f0b499b27a7733e918c538924fa4736364ad6d5d57
-Size: 48838
-Filename: ffmpeg-examples_8.0+git120716+22d0f10-r0_armv7ahf-neon.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: b55845b791e93dfdd40a6548a7937160
+SHA256sum: 17f64978e8a6b795d70a5e3956682cd212f35dc39458f06c0e9f26874c52bdc1
+Size: 48832
+Filename: ffmpeg-examples_8.0.1+git120768+45455e1-r0_armv7ahf-neon.ipk
+Source: ffmpeg_8.0.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -7222,16 +7222,16 @@ License: GPL-2.0-or-later & LGPL-2.1-or-later & ISC & MIT & BSD-2-Clause & BSD-3
 Priority: optional
 
 Package: ffmpeg
-Version: 8.0+git120716+22d0f10-r0
-Depends: libavcodec62 (>= 8.0+git120716+22d0f10), libavdevice62 (>= 8.0+git120716+22d0f10), libavfilter11 (>= 8.0+git120716+22d0f10), libavformat62 (>= 8.0+git120716+22d0f10), libavutil60 (>= 8.0+git120716+22d0f10), libc6 (>= 2.42+git), libswresample6 (>= 8.0+git120716+22d0f10), libswscale9 (>= 8.0+git120716+22d0f10), libz1 (>= 1.3.1)
+Version: 8.0.1+git120768+45455e1-r0
+Depends: libavcodec62 (>= 8.0.1+git120768+45455e1), libavdevice62 (>= 8.0.1+git120768+45455e1), libavfilter11 (>= 8.0.1+git120768+45455e1), libavformat62 (>= 8.0.1+git120768+45455e1), libavutil60 (>= 8.0.1+git120768+45455e1), libc6 (>= 2.42+git), libswresample6 (>= 8.0.1+git120768+45455e1), libswscale9 (>= 8.0.1+git120768+45455e1), libz1 (>= 1.3.1)
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e876a7b9d81352634abddd5973582ad8
-SHA256sum: 36114c59c7db5270c38f7b21c37c5fd2b94be020089e182230553cdbe922cfa4
-Size: 242374
-Filename: ffmpeg_8.0+git120716+22d0f10-r0_armv7ahf-neon.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: b23e47b96302fb19917c5238e365c5a5
+SHA256sum: c5f30963f2fdd842408de573e4dbdf85ebf9beab70829bda438871221b6ed2a7
+Size: 242402
+Filename: ffmpeg_8.0.1+git120768+45455e1-r0_armv7ahf-neon.ipk
+Source: ffmpeg_8.0.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -33915,13 +33915,13 @@ Priority: optional
 
 Package: gstreamer1.0-libav
 Version: 1.26.8-r0
-Depends: gstreamer1.0 (>= 1.26.8), libavcodec62 (>= 8.0+git120716+22d0f10), libavfilter11 (>= 8.0+git120716+22d0f10), libavformat62 (>= 8.0+git120716+22d0f10), libavutil60 (>= 8.0+git120716+22d0f10), libc6 (>= 2.42+git), libglib-2.0-0 (>= 2.86.0), libgstaudio-1.0-0 (>= 1.26.8), libgstpbutils-1.0-0 (>= 1.26.8), libgstvideo-1.0-0 (>= 1.26.8)
+Depends: gstreamer1.0 (>= 1.26.8), libavcodec62 (>= 8.0.1+git120768+45455e1), libavfilter11 (>= 8.0.1+git120768+45455e1), libavformat62 (>= 8.0.1+git120768+45455e1), libavutil60 (>= 8.0.1+git120768+45455e1), libc6 (>= 2.42+git), libglib-2.0-0 (>= 2.86.0), libgstaudio-1.0-0 (>= 1.26.8), libgstpbutils-1.0-0 (>= 1.26.8), libgstvideo-1.0-0 (>= 1.26.8)
 Section: multimedia
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0da494678999692a98b5971160302b73
-SHA256sum: c1751b79fc3a0c89047455fd210caa4060bb8ba6f9226b7819cd5f5fc89021bd
-Size: 122788
+MD5Sum: 1aa2ff55249bd65db524481a82e43d85
+SHA256sum: e26db7cd4d65f71e247b27dd346238b77ec683db517756e4237e539319c1b19f
+Size: 122790
 Filename: gstreamer1.0-libav_1.26.8-r0_armv7ahf-neon.ipk
 Source: gstreamer1.0-libav_1.26.5.bb
 Description: Libav-based GStreamer 1.x plugin
@@ -37806,9 +37806,9 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 63b8962a96327aa20d7d1b5c7a590e0c
-SHA256sum: 6a29cf637f29621afcd1c9d348fd6165c3eee412f804722c989d8626c04d5a75
-Size: 193166
+MD5Sum: 6eadcaa1397cef738d53a5e304eb7e6a
+SHA256sum: 909bdab21371a3f34dc96c0f8ca8bd02c5ab03fbe378969256c8225b709a538e
+Size: 193270
 Filename: hdparm-dbg_9.65-r0_armv7ahf-neon.ipk
 Source: hdparm_9.65.bb
 Description: Utility for viewing/manipulating IDE disk drive/driver parameters - Debugging files
@@ -37823,8 +37823,8 @@ Recommends: bash-dev, coreutils-dev, gawk-dev, glibc-dev, hdparm (= 9.65-r0), up
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dfbb08211281cb6f3c0c9181cfcb0ee5
-SHA256sum: 0ae663c09bf57b63d6321d9d0616b8c6af045c7907acedb2fa07df7c86bb28bc
+MD5Sum: a9c9e1a0bdfcabbb3dcfee6db53a1910
+SHA256sum: fc89aa8aa5abb5defefc2554fce2a7c4cb30a4e78070a3fd6ec732029e154892
 Size: 770
 Filename: hdparm-dev_9.65-r0_armv7ahf-neon.ipk
 Source: hdparm_9.65.bb
@@ -37839,9 +37839,9 @@ Version: 9.65-r0
 Section: doc
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 938a88cb4fb9e06d3c0381b168d4d346
-SHA256sum: f4e9bd3c3d8874626013ae9ddbc42a3a8bcf1a9944be359a87273599eaa36c2f
-Size: 15154
+MD5Sum: 05f9c014dbcb4435c4745e6feada24e8
+SHA256sum: 9d27af65e97069f91c7ea14c75f56ce02874f79c61f961f6bea3b5b2fb0fc098
+Size: 15152
 Filename: hdparm-doc_9.65-r0_armv7ahf-neon.ipk
 Source: hdparm_9.65.bb
 Description: Utility for viewing/manipulating IDE disk drive/driver parameters - Documentation files
@@ -37856,8 +37856,8 @@ Depends: libc6 (>= 2.42+git), update-alternatives-opkg
 Section: console/utils
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7518d7d2168788e58da2e57e14447659
-SHA256sum: db41ecdd0892bbeb0c3f18e5e352ae6105787decd34bb0bd1d1dd5161a31ef65
+MD5Sum: 5f7067deff611e5f33f9ca945aec8c0d
+SHA256sum: 6dec1a35d4d6d37014044ce077f94f48fd10f2d1b3b61ae9e62f989469adfcf3
 Size: 67906
 Filename: hdparm_9.65-r0_armv7ahf-neon.ipk
 Source: hdparm_9.65.bb
@@ -40897,87 +40897,17 @@ HomePage: https://www.samba.org/
 License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
 Priority: optional
 
-Package: libaio-dbg
-Version: 0.3.113-r0
-Recommends: glibc-dbg
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f7d386c75c1c9221987111fc360d87c7
-SHA256sum: 40c8ce96d7527eee2d1064980bac969518f0db79d9a0848654efa9a6996b0cf6
-Size: 14182
-Filename: libaio-dbg_0.3.113-r0_armv7ahf-neon.ipk
-Source: libaio_0.3.113.bb
-Description: Asynchronous I/O library - Debugging files
-OE: libaio
-HomePage: http://lse.sourceforge.net/io/aio.html
-License: LGPL-2.1-or-later
-Priority: optional
-
-Package: libaio-dev
-Version: 0.3.113-r0
-Depends: libaio
-Recommends: glibc-dev, libaio1 (= 0.3.113-r0)
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 686ccb68d5245cbb704714fd9af6286b
-SHA256sum: be8d789317727b4f59056c496cbcb5a6bae806c72037b000b6245fba740fd809
-Size: 3316
-Filename: libaio-dev_0.3.113-r0_armv7ahf-neon.ipk
-Source: libaio_0.3.113.bb
-Description: Asynchronous I/O library - Development files
-OE: libaio
-HomePage: http://lse.sourceforge.net/io/aio.html
-License: LGPL-2.1-or-later
-Priority: optional
-
-Package: libaio-staticdev
-Version: 0.3.113-r0
-Depends: libaio-dev (= 0.3.113-r0)
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 048788fe89944073438348e81cfbd16f
-SHA256sum: 9da75d94879925bf5e422621bd76b2392b5cdd35795b635d6e8236a58f2dbf6d
-Size: 13524
-Filename: libaio-staticdev_0.3.113-r0_armv7ahf-neon.ipk
-Source: libaio_0.3.113.bb
-Description: Asynchronous I/O library - Development files (Static Libraries)
-OE: libaio
-HomePage: http://lse.sourceforge.net/io/aio.html
-License: LGPL-2.1-or-later
-Priority: optional
-
-Package: libaio1
-Version: 0.3.113-r0
-Depends: libc6 (>= 2.42+git)
-Provides: libaio
-Section: base
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2050d5a6818f51a3f297aaba1edaad83
-SHA256sum: 18ec36eac9923c3e43921f589077eba745c516c05c0b2216d8a0c5fd843058e2
-Size: 3232
-Filename: libaio1_0.3.113-r0_armv7ahf-neon.ipk
-Source: libaio_0.3.113.bb
-Description: Asynchronous I/O library
-OE: libaio
-HomePage: http://lse.sourceforge.net/io/aio.html
-License: LGPL-2.1-or-later
-Priority: optional
-
 Package: libarchive-dbg
-Version: 3.8.1-r0
+Version: 3.8.2-r0
 Recommends: glibc-dbg, libacl-dbg, libbz2-dbg, liblzma-dbg, libzstd-dbg, zlib-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9d3f199444744de8dbedafbe43ca851b
-SHA256sum: 973acbfa228a6e776c2879b58da0f0029e4856642ee74226e1df2a4968c3714a
-Size: 4211004
-Filename: libarchive-dbg_3.8.1-r0_armv7ahf-neon.ipk
-Source: libarchive_3.8.1.bb
+MD5Sum: b349e9c4724293e89c3c2fb25b206264
+SHA256sum: 8ae2bb103a8a82516c3cd1345c5a3f6cebda0bcf0086221f6f9c738888bcab04
+Size: 4215262
+Filename: libarchive-dbg_3.8.2-r0_armv7ahf-neon.ipk
+Source: libarchive_3.8.2.bb
 Description: Support for reading various archive formats - Debugging files
 OE: libarchive
 HomePage: http://www.libarchive.org/
@@ -40985,17 +40915,17 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: libarchive-dev
-Version: 3.8.1-r0
+Version: 3.8.2-r0
 Depends: libarchive
-Recommends: acl-dev, attr-dev, bzip2-dev, glibc-dev, libacl-dev, libarchive (= 3.8.1-r0), libbz2-dev, liblzma-dev, libzstd-dev, update-alternatives-opkg-dev, xz-dev, zlib-dev, zstd-dev
+Recommends: acl-dev, attr-dev, bzip2-dev, glibc-dev, libacl-dev, libarchive (= 3.8.2-r0), libbz2-dev, liblzma-dev, libzstd-dev, update-alternatives-opkg-dev, xz-dev, zlib-dev, zstd-dev
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 85cbb338f65d23da7beee8f1a2c5d605
-SHA256sum: 5ac111d0fc9a8eefb7a9a4e6fccaff993c1169ff0bf444de825e1269c2ff9de4
-Size: 22924
-Filename: libarchive-dev_3.8.1-r0_armv7ahf-neon.ipk
-Source: libarchive_3.8.1.bb
+MD5Sum: 13b1939e63f4bcef5560fd4b54482036
+SHA256sum: 2bf478c3ac119d0ba710025ae11c87ed5cf4d1e77bafa7e5dd823f495e985431
+Size: 22922
+Filename: libarchive-dev_3.8.2-r0_armv7ahf-neon.ipk
+Source: libarchive_3.8.2.bb
 Description: Support for reading various archive formats - Development files
 OE: libarchive
 HomePage: http://www.libarchive.org/
@@ -41003,15 +40933,15 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: libarchive-doc
-Version: 3.8.1-r0
+Version: 3.8.2-r0
 Section: doc
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f52f29af7c40823faf71ecf738952ab1
-SHA256sum: d124bfe2297c1406214fc693c6f2a780b6bcccf257d4261a78a6e20136bd41df
-Size: 85142
-Filename: libarchive-doc_3.8.1-r0_armv7ahf-neon.ipk
-Source: libarchive_3.8.1.bb
+MD5Sum: 258f5d8f3a1f09228cac8768556f7f32
+SHA256sum: ec0b01482012df4cd43e4ba94658213b02cb76460e60440871270bb0a321bc80
+Size: 85132
+Filename: libarchive-doc_3.8.2-r0_armv7ahf-neon.ipk
+Source: libarchive_3.8.2.bb
 Description: Support for reading various archive formats - Documentation files
 OE: libarchive
 HomePage: http://www.libarchive.org/
@@ -41019,16 +40949,16 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: libarchive-staticdev
-Version: 3.8.1-r0
-Depends: libarchive-dev (= 3.8.1-r0)
+Version: 3.8.2-r0
+Depends: libarchive-dev (= 3.8.2-r0)
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5d6c376abc29487b2c860dbc7cae50dd
-SHA256sum: 858ab0484d475a9f0744523adf2d804db16bdcc4c9718398aea4c51d97288203
-Size: 2254434
-Filename: libarchive-staticdev_3.8.1-r0_armv7ahf-neon.ipk
-Source: libarchive_3.8.1.bb
+MD5Sum: 8047dd4d6102c62a224b9114ba13d174
+SHA256sum: d45b2904b473c66d385995be95e6c55c4128a7495e30186a63a0e23c121329cf
+Size: 2259164
+Filename: libarchive-staticdev_3.8.2-r0_armv7ahf-neon.ipk
+Source: libarchive_3.8.2.bb
 Description: Support for reading various archive formats - Development files (Static Libraries)
 OE: libarchive
 HomePage: http://www.libarchive.org/
@@ -41036,16 +40966,16 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: libarchive
-Version: 3.8.1-r0
+Version: 3.8.2-r0
 Depends: libacl1 (>= 2.3.2), libbz2-1 (>= 1.0.8), libc6 (>= 2.42+git), liblzma5 (>= 5.8.1), libz1 (>= 1.3.1), libzstd1 (>= 1.5.7)
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 75969ffe03ec7c35ba2d5cacf126bb40
-SHA256sum: b09831282d0c21a37e8c2178c1fef537c070f4e6bf8c395d63aa9fc3dc1da490
-Size: 502004
-Filename: libarchive_3.8.1-r0_armv7ahf-neon.ipk
-Source: libarchive_3.8.1.bb
+MD5Sum: e0d7c28da6a900b292691508b2c3defc
+SHA256sum: ce4f933df3c59c479428f89d62f6bb08d38b25c8f6999e11864d0f030d86ff77
+Size: 502716
+Filename: libarchive_3.8.2-r0_armv7ahf-neon.ipk
+Source: libarchive_3.8.2.bb
 Description: Support for reading various archive formats
 OE: libarchive
 HomePage: http://www.libarchive.org/
@@ -41696,17 +41626,17 @@ License: LGPL-2.1-or-later
 Priority: optional
 
 Package: libavcodec62
-Version: 8.0+git120716+22d0f10-r0
-Depends: dav1d (>= 1.5.1), libavutil60 (>= 8.0+git120716+22d0f10), libc6 (>= 2.42+git), liblzma5 (>= 5.8.1), libswresample6 (>= 8.0+git120716+22d0f10), libx264-164 (>= r2970+git), libz1 (>= 1.3.1)
+Version: 8.0.1+git120768+45455e1-r0
+Depends: dav1d (>= 1.5.1), libavutil60 (>= 8.0.1+git120768+45455e1), libc6 (>= 2.42+git), liblzma5 (>= 5.8.1), libswresample6 (>= 8.0.1+git120768+45455e1), libx264-164 (>= r2970+git), libz1 (>= 1.3.1)
 Provides: libavcodec
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cd935b8acd24597eab79394dc7e962c1
-SHA256sum: e51c0b3fa589ab0708ab70b11a50ca6b9649f13b0cc58ef791510d823b21cccb
-Size: 7246682
-Filename: libavcodec62_8.0+git120716+22d0f10-r0_armv7ahf-neon.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: 70d8cce44bc6b29475e76deb4e07630f
+SHA256sum: c53bdc2a12dd86459f0b46fcce7180618540e1eb36ceedbf6d3bfcde124a4461
+Size: 7245462
+Filename: libavcodec62_8.0.1+git120768+45455e1-r0_armv7ahf-neon.ipk
+Source: ffmpeg_8.0.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -41714,17 +41644,17 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libavdevice62
-Version: 8.0+git120716+22d0f10-r0
-Depends: libasound2 (>= 1.2.14), libavcodec62 (>= 8.0+git120716+22d0f10), libavfilter11 (>= 8.0+git120716+22d0f10), libavformat62 (>= 8.0+git120716+22d0f10), libavutil60 (>= 8.0+git120716+22d0f10), libc6 (>= 2.42+git)
+Version: 8.0.1+git120768+45455e1-r0
+Depends: libasound2 (>= 1.2.14), libavcodec62 (>= 8.0.1+git120768+45455e1), libavfilter11 (>= 8.0.1+git120768+45455e1), libavformat62 (>= 8.0.1+git120768+45455e1), libavutil60 (>= 8.0.1+git120768+45455e1), libc6 (>= 2.42+git)
 Provides: libavdevice
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 94922700c8bbab2fbdaf31e0fb895fea
-SHA256sum: 182f05366769fd7dfe0376163dc6816db06479a8c41afa888632123eeed80cf5
-Size: 32414
-Filename: libavdevice62_8.0+git120716+22d0f10-r0_armv7ahf-neon.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: 30125b9d9c01e94169aacb5fba0d9c7c
+SHA256sum: 72d19fd39818ba6f5c745459f72be86b50527911bf51114624f1dcf13b965b88
+Size: 32352
+Filename: libavdevice62_8.0.1+git120768+45455e1-r0_armv7ahf-neon.ipk
+Source: ffmpeg_8.0.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -41732,17 +41662,17 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libavfilter11
-Version: 8.0+git120716+22d0f10-r0
-Depends: libavcodec62 (>= 8.0+git120716+22d0f10), libavformat62 (>= 8.0+git120716+22d0f10), libavutil60 (>= 8.0+git120716+22d0f10), libc6 (>= 2.42+git), libfreetype6 (>= 2.13.3), libswresample6 (>= 8.0+git120716+22d0f10), libswscale9 (>= 8.0+git120716+22d0f10)
+Version: 8.0.1+git120768+45455e1-r0
+Depends: libavcodec62 (>= 8.0.1+git120768+45455e1), libavformat62 (>= 8.0.1+git120768+45455e1), libavutil60 (>= 8.0.1+git120768+45455e1), libc6 (>= 2.42+git), libfreetype6 (>= 2.13.3), libswresample6 (>= 8.0.1+git120768+45455e1), libswscale9 (>= 8.0.1+git120768+45455e1)
 Provides: libavfilter
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e6366fee1f648e2198ac733a6d2ccc60
-SHA256sum: 5219d4eb27ed848e0c5d925cbddb6738f76222281972406fbdf5b9cb13c25c1d
-Size: 2005256
-Filename: libavfilter11_8.0+git120716+22d0f10-r0_armv7ahf-neon.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: 8d3f5789bf8ecc269eb86ebcc2fc35fb
+SHA256sum: 33f2eefb0217c3b198efe94a20c123954497704652ef3ad28e13c846907aa429
+Size: 2005620
+Filename: libavfilter11_8.0.1+git120768+45455e1-r0_armv7ahf-neon.ipk
+Source: ffmpeg_8.0.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -41750,17 +41680,17 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libavformat62
-Version: 8.0+git120716+22d0f10-r0
-Depends: libavcodec62 (>= 8.0+git120716+22d0f10), libavutil60 (>= 8.0+git120716+22d0f10), libbluray (>= v1.4.0+git3076+6155d65), libbz2-1 (>= 1.0.8), libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0), libsrt1.4 (>= 1.4.4), libssl3 (>= 3.6.0), libxml2 (>= 2.14.6), libz1 (>= 1.3.1), rtmpdump (>= 2.6+git)
+Version: 8.0.1+git120768+45455e1-r0
+Depends: libavcodec62 (>= 8.0.1+git120768+45455e1), libavutil60 (>= 8.0.1+git120768+45455e1), libbluray (>= v1.4.0+git3076+6155d65), libbz2-1 (>= 1.0.8), libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0), libsrt1.4 (>= 1.4.4), libssl3 (>= 3.6.0), libxml2 (>= 2.14.6), libz1 (>= 1.3.1), rtmpdump (>= 2.6+git)
 Provides: libavformat
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6224176a0ac19a82a47cae6a09730f65
-SHA256sum: 644ac1f87c8008583c2a5b2ab5f9f6fc9f5875966fdb041cee2cec2b9679728c
-Size: 1210158
-Filename: libavformat62_8.0+git120716+22d0f10-r0_armv7ahf-neon.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: de601f54e696bd1071ff9b0dabece20d
+SHA256sum: af25efd7ce46a8e636d3e41946d8c362e34162ec877e6e633f3ce9a848eeba60
+Size: 1210652
+Filename: libavformat62_8.0.1+git120768+45455e1-r0_armv7ahf-neon.ipk
+Source: ffmpeg_8.0.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -41768,17 +41698,17 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libavutil60
-Version: 8.0+git120716+22d0f10-r0
+Version: 8.0.1+git120768+45455e1-r0
 Depends: libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0)
 Provides: libavutil
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4645ef53634545b28c46929076efd9c8
-SHA256sum: 0557021953c732ffd430639219344bdc57d85c7f1dfaa798e59dd0f545fffd96
-Size: 371136
-Filename: libavutil60_8.0+git120716+22d0f10-r0_armv7ahf-neon.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: 3ec0511c814204a55322517ea1abfcbe
+SHA256sum: 247d4ee5551de4193c9eac3c50dbc546493f4afa5358c87e3045f2b8b4a22636
+Size: 371082
+Filename: libavutil60_8.0.1+git120768+45455e1-r0_armv7ahf-neon.ipk
+Source: ffmpeg_8.0.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -42778,61 +42708,6 @@ HomePage: https://www.samba.org/
 License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
 Priority: optional
 
-Package: libcmocka-dbg
-Version: 1.1.7+git-r0
-Provides: cmocka-dbg
-Recommends: glibc-dbg
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6af582d19c1c9f6b59e38b6849cb05b7
-SHA256sum: 03c10620a62a6a3407fd3013acea86443c81d91bf5bc2afb7cfca5ff6bc90b48
-Size: 126052
-Filename: libcmocka-dbg_1.1.7+git-r0_armv7ahf-neon.ipk
-Source: cmocka_1.1.7.bb
-Description: cmocka version 1.1.7+git-r0 - Debugging files
-OE: cmocka
-HomePage: https://cmocka.org/
-License: Apache-2.0
-Priority: optional
-
-Package: libcmocka-dev
-Version: 1.1.7+git-r0
-Depends: cmocka
-Provides: cmocka-dev
-Recommends: glibc-dev, libcmocka0 (= 1.1.7+git-r0)
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9907b4d9ed2c3dfccc1564319c7f9aaa
-SHA256sum: f654afb05ba24ca3c2f5fa0555483a43ee12850869bf7a101c55f51a89cef6e5
-Size: 17618
-Filename: libcmocka-dev_1.1.7+git-r0_armv7ahf-neon.ipk
-Source: cmocka_1.1.7.bb
-Description: cmocka version 1.1.7+git-r0 - Development files
-OE: cmocka
-HomePage: https://cmocka.org/
-License: Apache-2.0
-Priority: optional
-
-Package: libcmocka-examples
-Version: 1.1.7+git-r0
-Depends: libc6 (>= 2.42+git), libcmocka0 (>= 1.1.7+git)
-Provides: cmocka-examples
-Section: base
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f65c87a29d5de8cc1db5797a3c0683f9
-SHA256sum: 2a18777000bedc90bb4a0e666707ab9ee83dea0f9ab863d318ff9ef8a9636464
-Size: 12884
-Filename: libcmocka-examples_1.1.7+git-r0_armv7ahf-neon.ipk
-Source: cmocka_1.1.7.bb
-Description: cmocka version 1.1.7+git-r0
-OE: cmocka
-HomePage: https://cmocka.org/
-License: Apache-2.0
-Priority: optional
-
 Package: libcmocka-private-samba
 Version: 4.23.1-r3
 Depends: libc6 (>= 2.42+git), samba-common
@@ -42848,24 +42723,6 @@ Description: Samba cmocka-private-samba library
 OE: samba
 HomePage: https://www.samba.org/
 License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
-Priority: optional
-
-Package: libcmocka0
-Version: 1.1.7+git-r0
-Depends: libc6 (>= 2.42+git)
-Provides: cmocka
-Section: base
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 058e0d87db16c00d7f18ea418cb8641e
-SHA256sum: e86c01e8fa47417947f9f22f6726c629b7bd051b0e2f88235d8258195aeff54c
-Size: 23368
-Filename: libcmocka0_1.1.7+git-r0_armv7ahf-neon.ipk
-Source: cmocka_1.1.7.bb
-Description: cmocka version 1.1.7+git-r0
-OE: cmocka
-HomePage: https://cmocka.org/
-License: Apache-2.0
 Priority: optional
 
 Package: libcom-err-private-samba
@@ -53169,57 +53026,6 @@ HomePage: https://www.samba.org/
 License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
 Priority: optional
 
-Package: libldb-dbg
-Version: 2.8.2-r0
-Recommends: glibc-dbg, libatomic-dbg, libpython3-dbg, libtalloc-dbg, libtdb-dbg, libtevent-dbg, popt-dbg
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a3dfcc3493a5e63c20d5b5d63c7f0a21
-SHA256sum: 97c83f1c83f37491036ee914ac768c3d6af57a7070576e83979e00cf270bdd09
-Size: 681998
-Filename: libldb-dbg_2.8.2-r0_armv7ahf-neon.ipk
-Source: libldb_2.8.2.bb
-Description: Hierarchical, reference counted memory pool system with destructors - Debugging files
-OE: libldb
-HomePage: https://ldb.samba.org
-License: LGPL-3.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later
-Priority: optional
-
-Package: libldb-dev
-Version: 2.8.2-r0
-Depends: libldb, libtalloc-dev, libtdb-dev
-Recommends: acl-dev, attr-dev, cmocka-dev, glibc-dev, libatomic-dev, libldb (= 2.8.2-r0), libpython3-dev, libtalloc-dev, libtdb-dev, libtevent-dev, popt-dev, python3-dev
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c6a83dc6067e5bfaa4fdc0bf9ed0509e
-SHA256sum: dea35c6d529c5683dffdeb9dd7f43a0bf969a395e21e3bb074feed12ccca7adc
-Size: 28054
-Filename: libldb-dev_2.8.2-r0_armv7ahf-neon.ipk
-Source: libldb_2.8.2.bb
-Description: Hierarchical, reference counted memory pool system with destructors - Development files
-OE: libldb
-HomePage: https://ldb.samba.org
-License: LGPL-3.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later
-Priority: optional
-
-Package: libldb-doc
-Version: 2.8.2-r0
-Section: doc
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4e95df7fff0f1cc31d87869fa4cbcae2
-SHA256sum: d5f8d4ee24cea75002030cdcbc6e9fba923463cf7034dc7a548c4b0bbc341874
-Size: 5288
-Filename: libldb-doc_2.8.2-r0_armv7ahf-neon.ipk
-Source: libldb_2.8.2.bb
-Description: Hierarchical, reference counted memory pool system with destructors - Documentation files
-OE: libldb
-HomePage: https://ldb.samba.org
-License: LGPL-3.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later
-Priority: optional
-
 Package: libldb-key-value-private-samba
 Version: 4.23.1-r3
 Depends: libc6 (>= 2.42+git), libldb-private-samba (>= 4.23.1), libldb-tdb-err-map-private-samba (>= 4.23.1), libtalloc (>= 2.4.3), libtdb-private-samba (>= 4.23.1), libtevent-private-samba (>= 4.23.1), samba-common
@@ -53286,23 +53092,6 @@ Description: Samba ldb-tdb-int-private-samba library
 OE: samba
 HomePage: https://www.samba.org/
 License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
-Priority: optional
-
-Package: libldb
-Version: 2.8.2-r0
-Depends: libatomic1 (>= 15.2.0), libc6 (>= 2.42+git), libpopt0 (>= 1.19), libpython3.13-1.0 (>= 3.13.9), libtalloc (>= 2.4.3), libtdb1 (>= 1.4.14), libtevent0 (>= 0.17.1)
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ae050ddbfbe731fb0cab1bb48222af94
-SHA256sum: 9762f52a193c513e53b9c0aab93e6b6de7fe7e1e69b0228909bbcbdb4f0955da
-Size: 173830
-Filename: libldb_2.8.2-r0_armv7ahf-neon.ipk
-Source: libldb_2.8.2.bb
-Description: Hierarchical, reference counted memory pool system with destructors
-OE: libldb
-HomePage: https://ldb.samba.org
-License: LGPL-3.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later
 Priority: optional
 
 Package: libldbsamba-private-samba
@@ -54723,17 +54512,17 @@ License: BSD-3-Clause
 Priority: optional
 
 Package: libopkg1
-Version: 1:0.7.0-r0
-Depends: libarchive (>= 3.8.1), libc6 (>= 2.42+git), libsolv1 (>= 0.7.35)
+Version: 1:0.8.0-r0
+Depends: libarchive (>= 3.8.2), libc6 (>= 2.42+git), libsolv1 (>= 0.7.35)
 Provides: libopkg
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 32fcd08665aad545eb6391fec5fcac50
-SHA256sum: 279ffe3907fdf030e81fcbcb8b0c96bd21c2da9f34dedb9d1a9ebd5abbfbee31
-Size: 84178
-Filename: libopkg1_0.7.0-r0_armv7ahf-neon.ipk
-Source: opkg_0.7.0.bb
+MD5Sum: a6c93599e50b61069f0d20193b88fa68
+SHA256sum: 00337c30726e6b1318efbb7f3972cac97116e8672af42009a6495983f81ec8aa
+Size: 84410
+Filename: libopkg1_0.8.0-r0_armv7ahf-neon.ipk
+Source: opkg_0.8.0.bb
 Description: Open Package Manager library
 OE: opkg
 HomePage: https://git.yoctoproject.org/opkg/
@@ -54852,9 +54641,9 @@ Recommends: glibc-dbg, libxcrypt-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 00850df6424a906958f8d402523531e7
-SHA256sum: 812caf3f1f879e8baf112737ffe5fa93340590e7f9508c8cef7b8654d734ce62
-Size: 560378
+MD5Sum: f34c2b15a2b88a353589c20f06661b8f
+SHA256sum: 1ceb0fd444aa36bf4f7adb5ed2dd60dd25bfaeb2905e3e46eac813d2fba9e3cd
+Size: 560436
 Filename: libpam-dbg_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - Debugging files
@@ -54870,9 +54659,9 @@ Recommends: bash-dev, coreutils-dev, glibc-dev, libpam (= 1.7.1-r0), libpam-suff
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d8429e61e2b0bbd2538b1955e6bc35d4
-SHA256sum: 47a3c4384c737556f07d394eb206afd2961f5da533a5a38cdb0d14e3c83fc36a
-Size: 14730
+MD5Sum: 9d07336748b545ddc4e4ae0e68982461
+SHA256sum: dda68ca6be7261661bacf79f9dcc11f7a3f4877d89181d40f98a0fab31b9d746
+Size: 14748
 Filename: libpam-dev_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - Development files
@@ -54888,8 +54677,8 @@ Recommends: virtual-locale-af
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1b5c3f507065861309d1930398e66518
-SHA256sum: fc930e0b403086b235e274fae046042c008a5cba8c6594d382cc01b1354b2095
+MD5Sum: 66bd4c1b82ef042eced6d37e98c0773e
+SHA256sum: 719953e5eb266a2c02333453d43a65c61c3a718c1c5a67a74c0ba42ab2096197
 Size: 1212
 Filename: libpam-locale-af_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -54906,9 +54695,9 @@ Recommends: virtual-locale-am
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7315e31dbc46bd57f362b9f63af731ed
-SHA256sum: ed49b7289be3080f7c745023a79777acefbf0edb88a4fe9a0fbec429f710e3fa
-Size: 1210
+MD5Sum: e586cca48357c76a4e18b60182ae19ba
+SHA256sum: 58d14223f0f4807b6002495ade694af57e53f2625c3a8a3e84d9a24686066c41
+Size: 1208
 Filename: libpam-locale-am_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - am translations
@@ -54924,9 +54713,9 @@ Recommends: virtual-locale-ar
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7400ac9632165e2a3fa24a8f9687afaf
-SHA256sum: 6671997c681b1dbe065154e72a50597a05cfa518faa835a6d53378625e7318f3
-Size: 3996
+MD5Sum: bec8861f1d1b9f6438baaa49bdc026af
+SHA256sum: 13a80431ac26a654e6db9f8ea4b615be2f2d990edfca0cea879cac5615347fce
+Size: 3994
 Filename: libpam-locale-ar_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - ar translations
@@ -54942,9 +54731,9 @@ Recommends: virtual-locale-as
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cbc39ffdf815aa8d852e272bf9636477
-SHA256sum: bbc04d68b460dcb6ece47409b74ef1b9fc8c047bfe324a1c2bcfe04a10298109
-Size: 4730
+MD5Sum: dcb220ce8b96f149bddad8f411d2672f
+SHA256sum: 81b3d500fdfcfed9b77c737596959db18b958ed40db904a06ba1378e27b08ba7
+Size: 4728
 Filename: libpam-locale-as_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - as translations
@@ -54960,8 +54749,8 @@ Recommends: virtual-locale-az
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a0eddbcee3294ccfc46cb634b9f8a0c3
-SHA256sum: 9c4a36bea80449ace992a5661aedb12bca7353bb699a31a291b7a7c2a3bce5a6
+MD5Sum: f9001722fa0708c31e013a78ee149fe4
+SHA256sum: 98afa634d65055fa978f110dcbb9626f970d6fb14f045f72e3aca2bebbaa5428
 Size: 2090
 Filename: libpam-locale-az_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -54978,8 +54767,8 @@ Recommends: virtual-locale-be
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ce04d5e5c83e08ccd5b56d1079d7fa0a
-SHA256sum: 87470b0eccbef06374d66502e9026f77a82a9f75640affe219f9cb30f8221fe9
+MD5Sum: 1e818eb5b9d50b381e47b04d14623258
+SHA256sum: 4ddaa31871d81152515068cce025e24c218ce8dd6b08dc3ebb220dd031aff197
 Size: 1264
 Filename: libpam-locale-be_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -54996,9 +54785,9 @@ Recommends: virtual-locale-bg
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 68a83164d16594d751e42d8b7a5b40ee
-SHA256sum: 4a84c9fc7050d666204914d867f8d2d6634e4f0e50d31eb3089759d98438d376
-Size: 5826
+MD5Sum: 66723b846e5884d44e5ef23f816b7aef
+SHA256sum: dc111a0bacf0d8bee2de3217659c3ff08742e021bf3a2679d197ccdd351f915d
+Size: 5824
 Filename: libpam-locale-bg_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - bg translations
@@ -55014,9 +54803,9 @@ Recommends: virtual-locale-bn-in
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 457737bae0e36aa12e09edce019a6100
-SHA256sum: c6ab068a309e93f559c0d50a58f1e657a2c186a5bae59316f84c258bf640f184
-Size: 4814
+MD5Sum: 3063c2083a2d3502ab12cd4203f36fba
+SHA256sum: ae77b7c70143dc1801ea42fd44e63ac77c46a49e8ff3d662b69f231d5fc5c10f
+Size: 4812
 Filename: libpam-locale-bn-in_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - bn_IN translations
@@ -55032,8 +54821,8 @@ Recommends: virtual-locale-bn
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 681dca84e4190012a320440730211315
-SHA256sum: aad5ba211a714fc15ef7516d680d7eb1c65d0c0ff8052ec0235ad331f22f2a3b
+MD5Sum: b1a84a17aa4f6866681866b81e4f0e7c
+SHA256sum: dac97c4a4585e3f986db4f81e0a5ea6ff015d2f867124f10a1f18addbc5a5be2
 Size: 4810
 Filename: libpam-locale-bn_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55050,8 +54839,8 @@ Recommends: virtual-locale-bs
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 176393d5fae6a6287bdce59d62c9788a
-SHA256sum: 6757f36889e90cb6fab7ac7902cabc8340d3351a6b86188ea3cb2968bc312de0
+MD5Sum: a0d09b316393f7ec33886acf5a1891d1
+SHA256sum: 99fb09a5c9ca092a8611b9a1d2f1cba2902f7b6e8c5722b04ccf3eeb2bab3e5b
 Size: 1260
 Filename: libpam-locale-bs_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55068,9 +54857,9 @@ Recommends: virtual-locale-ca
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ee701f47b11fa4731e0af59692750195
-SHA256sum: ae7ff094eae14720f394107fca9f99b42916fd226fbf18d106b7d066c0565729
-Size: 5194
+MD5Sum: 34b6aaa7bea2c0da1b1b59a25a1ce899
+SHA256sum: dc76b82fd027c662cb6484d4770ae3b2829d57504912a5e52973f49c50e7e747
+Size: 5192
 Filename: libpam-locale-ca_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - ca translations
@@ -55086,9 +54875,9 @@ Recommends: virtual-locale-cs
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1d994eb6e0284bbf644a47679ec5ab29
-SHA256sum: 4522b8195d57b9f62b458111300e4387df5005722f3b559dafc2c07aed414d36
-Size: 5496
+MD5Sum: d7158d6d9d5378fbc6d9303f3dbeea42
+SHA256sum: b977ad3c00fbe39be16683b5bfd1971183654de6a26821f83dd38239f8d6fdf3
+Size: 5494
 Filename: libpam-locale-cs_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - cs translations
@@ -55104,8 +54893,8 @@ Recommends: virtual-locale-cy
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0aed938970eb4641dc3360e65a90de76
-SHA256sum: 51e68f1bd069926073e8cf1d319052f60a744a802ec175b825123a56bd045b52
+MD5Sum: 6a858d0e1718fccfbf9987c2df218062
+SHA256sum: 3efc8d080c29b813bc0300afb3c5bbba3cabe31e1cd4e02e2b039417b5e770f3
 Size: 1244
 Filename: libpam-locale-cy_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55122,9 +54911,9 @@ Recommends: virtual-locale-da
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 29d5d2a47c9903622ac6ad851d31c2d2
-SHA256sum: d38216a343858f09c9d403a6ada58da7ccf687786799d92147d8fa8ca2fd51d5
-Size: 5202
+MD5Sum: 53ea3b0c03d8bcb977e4f0ba38e6c132
+SHA256sum: 0fa55c32c7214e1eae6a2f24f196075bad6a643d5cbba2e316079ff4c87a25bf
+Size: 5200
 Filename: libpam-locale-da_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - da translations
@@ -55140,8 +54929,8 @@ Recommends: virtual-locale-de-ch
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d1cd4212a47c8a8edf1f33a0ca1910b5
-SHA256sum: 6aa8e4079c50a2692a9a5280c2507935b60721606d4bae4d78dece53fe901622
+MD5Sum: e135cf2a91da6c0edf1df188bb007f26
+SHA256sum: 2ed43a39123008175f5470c6aa62cff567e0f2d03eb4705bc5680db3ec4cdbb6
 Size: 1234
 Filename: libpam-locale-de-ch_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55158,9 +54947,9 @@ Recommends: virtual-locale-de
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d1b581edd42a57a7fe202bc09a071b3c
-SHA256sum: 702833412b62eef6ee3dad410357aaf3b7f4b08767899821ea542902f818e1ea
-Size: 5390
+MD5Sum: a2020577e5f81bf00ade2b6cbcb3af30
+SHA256sum: 16daba3c5ef23972a7df0d7455c07ec263fd8aa2e37d5137bfe61e6411333b31
+Size: 5388
 Filename: libpam-locale-de_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - de translations
@@ -55176,8 +54965,8 @@ Recommends: virtual-locale-el
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8f7088990fe530c70441c21b6644eba7
-SHA256sum: 2fc022a0fab976c0ab41667f062b39746b0426c35a7db1eaa446ee991940d888
+MD5Sum: 81f2f5745c9a3daee5a15221e723d95d
+SHA256sum: ce71c9bc26aa702ea930b3dfe760acb17f569362dd4b2f7eab75cc61d8b9af8b
 Size: 1192
 Filename: libpam-locale-el_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55194,9 +54983,9 @@ Recommends: virtual-locale-eo
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 262dd95fe820ea5c7b4ed553da597e92
-SHA256sum: fe5b2c8ee2ba80147a8596b5b20626f91ce00ac0c76c610b7ebb1ddf90f44409
-Size: 2656
+MD5Sum: 87063d120ae8711f4d77422508860726
+SHA256sum: 0c1d9d9dc690ceb7258c15d286ad58624ab90d8c15ae8c146443a9e5fa22a958
+Size: 2654
 Filename: libpam-locale-eo_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - eo translations
@@ -55212,8 +55001,8 @@ Recommends: virtual-locale-es
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cfd194404c3535c49d73f7f68ba9d193
-SHA256sum: cd9bf35d6ca85528d9991118e91491cdf12767b1bfeec96f12e14e7c81df482d
+MD5Sum: 899f76ff535344495dd461cbf0979bf2
+SHA256sum: 1c62f140534e5f1b5f7ba1b3545361f2de170f324ab62221520a1d81aca3d76b
 Size: 4686
 Filename: libpam-locale-es_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55230,9 +55019,9 @@ Recommends: virtual-locale-et
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6a0b517541ea74796acba00ef2bf6280
-SHA256sum: fcf7b3f8178e93d5d92bc788b0aa23162969ae66a69c246c569885f1138b93be
-Size: 2178
+MD5Sum: b25aaaba58145abd991e7b7219cd5c60
+SHA256sum: 8529cd9d14077594d56e006d21d5bbdcc3fe33cb6fba3b7d3db541b815943446
+Size: 2176
 Filename: libpam-locale-et_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - et translations
@@ -55248,8 +55037,8 @@ Recommends: virtual-locale-eu
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e1cc02381b8eab4b261c59ae60ff65ac
-SHA256sum: 0f5f8d981680749faa63a0b7c91b17cb88e339b91b6c0c5874bda00f8ee79fcd
+MD5Sum: 59268fea906b01c07a0e76537d756c04
+SHA256sum: d81ac69b6f9fc4e1c50c70d361e1752500141dc25ba8fa3cd6a3239e54b2f2ca
 Size: 1442
 Filename: libpam-locale-eu_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55266,9 +55055,9 @@ Recommends: virtual-locale-fa
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d20f50510440e923f814e1df4c5841f1
-SHA256sum: 00b949dc82ab5c82b79da9bc9a07e794c2e8f78f2b215c30cc1447047f8fd4a7
-Size: 1204
+MD5Sum: 7774907fa6b682da71b47570d9701d89
+SHA256sum: 9bb8eba2efd99c2142972787651ca6b5729c9b3bde149ac922a0a7ef0612d154
+Size: 1200
 Filename: libpam-locale-fa_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - fa translations
@@ -55284,9 +55073,9 @@ Recommends: virtual-locale-fi
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f5cadd298ffb213309ccd3b84d00a494
-SHA256sum: 85e98e65c4d32310fd8d7c869e1a996ba2685007b02450af0edf2aed6ca00b2c
-Size: 5364
+MD5Sum: 105abe320cdcca3fe45778e057956400
+SHA256sum: 7952d77981258fd2c28b82ff4f206682b636192675e90b3ba47596cdf9dbd0ac
+Size: 5362
 Filename: libpam-locale-fi_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - fi translations
@@ -55302,8 +55091,8 @@ Recommends: virtual-locale-fr
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9a7b48c6c6ec2fd9b0b847f65061f0e1
-SHA256sum: 810ccc550764c67b0522556f945255cfce774682b1b8dfe8157c340efc8fd05f
+MD5Sum: 7dbe2438db5e18a658807af2a85832e3
+SHA256sum: acf369a2159a8a92945cec99e4819135e6a107bde5dd2cae5d7827c668113e4e
 Size: 5468
 Filename: libpam-locale-fr_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55320,9 +55109,9 @@ Recommends: virtual-locale-ga
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7f2b957b7d1ba26028860c9514d343ec
-SHA256sum: a08b2f450bdc4060e485d559fe2d0c71ae7c9d6ed5adeb0f66f7e289a3265584
-Size: 5514
+MD5Sum: 2ddaca5ed77ab6f3b0e42fd4c3c82b61
+SHA256sum: 0d4b9a5a116f85928d75237f2ced28be49fc0e6e9a4c5b85b0edc5862bd62815
+Size: 5518
 Filename: libpam-locale-ga_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - ga translations
@@ -55338,9 +55127,9 @@ Recommends: virtual-locale-gl
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e3998fc880b7722a169ecb72b59e54e9
-SHA256sum: 86b15397081c24facf8aae18c6e51c42e7c7fd9e41b350b1e58fbcc703ff3657
-Size: 1212
+MD5Sum: d7601d8d590a3b4c037f35b735c93015
+SHA256sum: 60d1bdffce4ba1b04d3e9a58812687fe3cca2afea4506ea305db40f9f2d7e893
+Size: 1210
 Filename: libpam-locale-gl_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - gl translations
@@ -55356,8 +55145,8 @@ Recommends: virtual-locale-gu
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 83dc704f5fc2bd63fee3346e9254e5a8
-SHA256sum: 2dae6cb2f2b6de5f1339cff7e81181cb35a6637a244a44af9f437f780d1e1598
+MD5Sum: 2c40991d826e14515324e5484bde67de
+SHA256sum: c365f63b89260dd9f5dd3052d381bfc0b289068f69cd2c9a43f6f37d34460453
 Size: 4796
 Filename: libpam-locale-gu_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55374,9 +55163,9 @@ Recommends: virtual-locale-he
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1824be3b9b16476e37f0dca84cb11cf7
-SHA256sum: 2794d4ebe7e25df453dd411795572afce24110eb4298a462036d42147d6d5330
-Size: 5580
+MD5Sum: 08884c80e8add8c96350997153010605
+SHA256sum: 5ab10847959bab8fcf8c4cacd09d9d854e6a77db464c967719f9c52719fbc72f
+Size: 5578
 Filename: libpam-locale-he_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - he translations
@@ -55392,9 +55181,9 @@ Recommends: virtual-locale-hi
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fa70e29a0e9afb3bfdbf50d379e320ff
-SHA256sum: 622a82f0d2c9c9d3d82ac39772997081b725975119fc7b7ba1b82676372429db
-Size: 4694
+MD5Sum: 01447156adbb928aa4d3ea359c0dc699
+SHA256sum: 6360c7a09414d058bcbdfd2a3405c5d2ce2debf17f5795672f4caebd0e46216a
+Size: 4692
 Filename: libpam-locale-hi_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - hi translations
@@ -55410,9 +55199,9 @@ Recommends: virtual-locale-hr
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 68aac9c220311b39e3d3a7b93baeaeb2
-SHA256sum: f47a0cad744f6a89852a1d8f1216a6bf3dc2a137425dd45bcab40af5596f7a06
-Size: 5398
+MD5Sum: 781ae0c18b55e126c3abfe608996a181
+SHA256sum: 7b5dd0ba916217fdfffc74b05beadb93b0e9e563a46b93a2434d1ce9117ba0b6
+Size: 5396
 Filename: libpam-locale-hr_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - hr translations
@@ -55428,8 +55217,8 @@ Recommends: virtual-locale-hu
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0f699ae2930e00a49e5c21a3ff57f799
-SHA256sum: bf0ae4d2462380d31645934ddfaebe356a1f4240c755f2042da910548e9ee668
+MD5Sum: d21972baaab4ad7905808e014af1eb82
+SHA256sum: 85ef7d8f30efd11d6952cdfa7ddb2085255cf880fc1b01a8db18a4b8b60763e7
 Size: 5564
 Filename: libpam-locale-hu_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55446,9 +55235,9 @@ Recommends: virtual-locale-ia
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 11715935bf9a32a87eb6c4b3376f667f
-SHA256sum: 8ec73533ae485b1254447ca91eaefbdfa92d426a39cddef6170ebf3d815902bc
-Size: 4006
+MD5Sum: 0ad7f21bbadc6483efd7b33ff289c59d
+SHA256sum: ce2583cc1624930e5f5c2272283ba47fac9ac507a02594b45e7f4a36e041dc11
+Size: 4004
 Filename: libpam-locale-ia_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - ia translations
@@ -55464,9 +55253,9 @@ Recommends: virtual-locale-id
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d55a917d359ebbad0ec1ae1f0f84d426
-SHA256sum: 6049d814cb3e3c01425530bafc27918c5e9f05844f5af0ced8a3a104f2afb74c
-Size: 5202
+MD5Sum: d55db218d5449ee1fbf10d5d9db42f95
+SHA256sum: d231050f4555cd552820c93255b2f6f6b0074f94ac853e3a7a27a85aa4575d6f
+Size: 5200
 Filename: libpam-locale-id_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - id translations
@@ -55482,9 +55271,9 @@ Recommends: virtual-locale-is
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4ffc688ce8e52f9d0e79ff6529a4aeff
-SHA256sum: 076943917cdd1d05f7d006f23ea5c58cbe3c85b1f1f860ddbb1869cdaf652bad
-Size: 1212
+MD5Sum: 55b78cf1e3fb2e42102567d9a02388b5
+SHA256sum: 0bfe101646d2904ab5a07c6b8c578c3d954ccd144095d58960aa626dc0d92f0e
+Size: 1214
 Filename: libpam-locale-is_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - is translations
@@ -55500,9 +55289,9 @@ Recommends: virtual-locale-it
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 430476f2921af741980b01effeb07fd3
-SHA256sum: 887252c6d8a91e858826a70a049c2dd019363d1750da3d35f90f055ffdfc24aa
-Size: 5052
+MD5Sum: bfccb854328e6ab8fe3b84e06f019290
+SHA256sum: 1896ff5ca57093f531d9f3a32546d11867a207b30a1ccd6c6d5345f241ae8682
+Size: 5050
 Filename: libpam-locale-it_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - it translations
@@ -55518,8 +55307,8 @@ Recommends: virtual-locale-ja
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dcc419e6b89c5ac85abe00f8b1e648c1
-SHA256sum: 690050f336bae86003168d0e62368e3bbd592f99ec77a9aedacf699482032694
+MD5Sum: d8c69698cc91593fa74ca0cceebe40c0
+SHA256sum: bc542597b564673c3290956629d98c95ff2aa904b843454ed469172e3432c8ac
 Size: 5798
 Filename: libpam-locale-ja_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55536,8 +55325,8 @@ Recommends: virtual-locale-ka
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 164aae933be68094638a225542082710
-SHA256sum: b783964d289503ab327e6f4f5e16e0f35d9b6a707680319e5ed019eae84a67c9
+MD5Sum: 46290b4fc8639663e5591b244969230d
+SHA256sum: fc4788abb6202d0081467ee7d62c969bd147a77cfa36676a8bc99cb73f666aa4
 Size: 6106
 Filename: libpam-locale-ka_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55554,8 +55343,8 @@ Recommends: virtual-locale-kk
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4f23932ac415d01abbeb92ea05e208bf
-SHA256sum: 0efc2cca50a596b3752f7d0c5204c9e4825ea2f1eea5cbdef12e18c69fcb649a
+MD5Sum: dc26bec5269391028ca7c8b30d084a94
+SHA256sum: 78cdf80b3fff18db386e572479faee940a05c73da9a3910bc117717ebcc0d1b5
 Size: 5978
 Filename: libpam-locale-kk_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55572,8 +55361,8 @@ Recommends: virtual-locale-km
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0893b7ef87dba53ccad77c1acd7049ff
-SHA256sum: 0a9a545a07829a867f708521050f925198d987b033a57e9a6b3a91ada7f3dcdf
+MD5Sum: c68abbe7474a74aeb1595ce81994ab56
+SHA256sum: c28c3e728cf2a4719f7c1225f3110004927912bc321e6adda0e51ddadbe1a1d5
 Size: 4094
 Filename: libpam-locale-km_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55590,9 +55379,9 @@ Recommends: virtual-locale-kn
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a967a6ba78e2698a8aafc2c8dd85ed0a
-SHA256sum: 32736bb599ceb0d7d9944a9af43434684c5f42e8723950dacdf089366328f799
-Size: 4906
+MD5Sum: b5b3be9106345f3b67693985cd2c460e
+SHA256sum: be52172f2cfa455ac3bd37c5f97b2b80790e929d1ba2a692a79cc3cd70c2ece9
+Size: 4904
 Filename: libpam-locale-kn_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - kn translations
@@ -55608,9 +55397,9 @@ Recommends: virtual-locale-ko
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a8a67dc704084c5ce6a3286775a94cef
-SHA256sum: 9bcfe8ef13110a0a763f38fe4e26a94c78797fbe2596d2f34f2bab77f4321a70
-Size: 5692
+MD5Sum: 362c069669fa753ce81cd087bc9d7729
+SHA256sum: 04300c107ed009abc0db2d0a800c358e1407d6a386d7ede2e003e73dd6cb2444
+Size: 5690
 Filename: libpam-locale-ko_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - ko translations
@@ -55626,9 +55415,9 @@ Recommends: virtual-locale-kw-gb
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 50ccad8f75bbd740d079f27630abdb8d
-SHA256sum: 418663944ecf8aa303a84408cab686c49a013752d7030b525bb922b4ba1fb01c
-Size: 1184
+MD5Sum: b431732654f0032d8263183a63aa6e67
+SHA256sum: e9013686377d75e0697268a4e6d02ba0ed0b3703c55780211f0c8ea2389a90e5
+Size: 1182
 Filename: libpam-locale-kw-gb_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - kw_GB translations
@@ -55644,9 +55433,9 @@ Recommends: virtual-locale-ky
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d22622200d4c10ac8bc038c747ae9b9b
-SHA256sum: dfdd110a20e0c0294af229b0b67862f3b05eddcbcd4d51e3e83edf8aaf97683a
-Size: 1208
+MD5Sum: 61badac2b38c5470cb48fa670258aa88
+SHA256sum: 687210f9e80f81f703e5c9d963c213fbe10b459877fe19d9e7ec45c944b13963
+Size: 1206
 Filename: libpam-locale-ky_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - ky translations
@@ -55662,9 +55451,9 @@ Recommends: virtual-locale-lt
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c0cd8dd20ad9d4a5323b0017efecaafe
-SHA256sum: 8dd21f41965dcd08b180aa10281661a416944a3dc5174cd325b320572c351484
-Size: 1258
+MD5Sum: ca2457803484bf94c767dcb3ff5a1009
+SHA256sum: da4c373c59159684044ef29f137eb1a483081dad2df505b30f693118ce4ff0de
+Size: 1256
 Filename: libpam-locale-lt_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - lt translations
@@ -55680,8 +55469,8 @@ Recommends: virtual-locale-lv
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 718e48a8ebb8b1bc68cc2b6fb013ed13
-SHA256sum: 7b79dc4e7ac4be211a73666648173dbf4ebd8afa6460df015620e289c63a2e78
+MD5Sum: f52536af12d1c2bc925066b90bf2beb5
+SHA256sum: 68214177b834692381b8966fb86556e0274f9f58f4dfb73babef49523883f6a1
 Size: 1236
 Filename: libpam-locale-lv_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55698,9 +55487,9 @@ Recommends: virtual-locale-mk
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f3bf1253fccabc8bad3b6836d9c39b4b
-SHA256sum: 4f4039dbddd4233a635860ca10a022609c20048e1666a673360927acbe02c824
-Size: 1236
+MD5Sum: 762bc77c7102d1dff4b1a4e7b28a0efc
+SHA256sum: 927f6b28d46b9168459ea7029cb2371cc4fe474114764840057a908c6d0726be
+Size: 1234
 Filename: libpam-locale-mk_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - mk translations
@@ -55716,8 +55505,8 @@ Recommends: virtual-locale-ml
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7a93dc0e008a219617180f3aa9665479
-SHA256sum: 298a51cae1100b365a7fca0d0a7d34e7c2d86c1943fe3ee2582ebaec4845bd93
+MD5Sum: 028ac2bc8e963e0dd7ebeccfb6393dab
+SHA256sum: 108788166b457114442b1cbe9c96f2f5c54cfb80fda80f7ae293e1fc1d9f83a8
 Size: 4924
 Filename: libpam-locale-ml_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55734,8 +55523,8 @@ Recommends: virtual-locale-mn
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5c4851d640f95dc6f7ff8fd79174eeb5
-SHA256sum: 1dba421179a683d93125a29185d2617ef8aa818c6cfb3179888be0c0e7f58a07
+MD5Sum: ed5a585b018d883842b51b7b53f3d7cb
+SHA256sum: e829571d3249a27497f8fc3e51414c2ea8ba62ab322c536bd4e677dc38229cf3
 Size: 1212
 Filename: libpam-locale-mn_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55752,9 +55541,9 @@ Recommends: virtual-locale-mr
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a08870cd5a3ea00524bf3b5bfe817543
-SHA256sum: 62a223b60b8ec72bc4541a1735d4348516913b51f485605b3e8483915d0337c5
-Size: 4758
+MD5Sum: 22926c654b732d81eb3ea745b04b68aa
+SHA256sum: 1c3b84301011f5c9e5d7db8fc70775c8ebc0035b99b4e5587f4eb202cc2834a2
+Size: 4760
 Filename: libpam-locale-mr_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - mr translations
@@ -55770,8 +55559,8 @@ Recommends: virtual-locale-ms
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7b43d560a551a2619007c3cde2f6008a
-SHA256sum: b18d696c0fc9b493fcac2620df6ffaf031b53c5f62fee20b5a7f648d2650ff32
+MD5Sum: 76774fe3a7ba42f7a7817179433019da
+SHA256sum: 5cbb4c3c4a72575b6e3588dbcde22e08f3007bb149dfc208df33396f4fb7ead6
 Size: 1236
 Filename: libpam-locale-ms_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55788,8 +55577,8 @@ Recommends: virtual-locale-my
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f792ac289458db4a521abd4c8bce7cf4
-SHA256sum: 941f0e89cedd1afad13dec70a1ae5774d6b512efa47031c42e84472a3b428bd8
+MD5Sum: 6a42f2b4a68b1d3bf91b2160854cea75
+SHA256sum: d993d1765b4e0e7d211fdf4deea592f51b482a95352ac440e3f9ceeb8daf0bc4
 Size: 1208
 Filename: libpam-locale-my_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55806,9 +55595,9 @@ Recommends: virtual-locale-nb
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6e68cfcc2ed5e29aded4a4493eee3a1c
-SHA256sum: 51055ebcccef0eb255b0727d42f58f5194b5a6310b89690016a18485b2b87e0b
-Size: 5016
+MD5Sum: 09dbebef6efdc70890a89aabf79bc437
+SHA256sum: e03afa2d86a7b382a4bd62d9d3e2a26b1c7d12c1b794b71f6d2e9e205c783607
+Size: 5014
 Filename: libpam-locale-nb_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - nb translations
@@ -55824,9 +55613,9 @@ Recommends: virtual-locale-ne
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 74d6ff6b3d9bde763e020af65a61fb1d
-SHA256sum: f3ff3bf37b3b2acc1c070eac5fa46e9f6869cadcec2af60c175b99c0b40b00b2
-Size: 1210
+MD5Sum: e893e988202861522725bcf0887f95f5
+SHA256sum: f6829794a42f3354ba1bf57b2731d6221a09eeb50b94dfe442d74b60cd27bc21
+Size: 1212
 Filename: libpam-locale-ne_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - ne translations
@@ -55842,9 +55631,9 @@ Recommends: virtual-locale-nl
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b06cee2d0da39d4b27ed7faa81fb4ddf
-SHA256sum: e874dfb2ab8767b9e4ed36638263516a6c0885e7456171bac78090e6b7a7a502
-Size: 5054
+MD5Sum: 24a07dd1b145dea5f9248da8cad37260
+SHA256sum: e42dd329d8cbc977a4bfbad9742f741e9c0ac648abe1a62f41374edc4c32af5d
+Size: 5052
 Filename: libpam-locale-nl_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - nl translations
@@ -55860,8 +55649,8 @@ Recommends: virtual-locale-nn
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ded6b47061cc888dd32c1b2a9a832056
-SHA256sum: 2a5fdbe65d3f4f884b4348d3e13173db15362b98688f45bd18751a5a20ea4026
+MD5Sum: c2aed4006d95193e2fb47edff681b2a2
+SHA256sum: 5198bc29a7131767de95197d0a04a02efec2b743a2f6f1d5fb92544a8dabb59a
 Size: 5052
 Filename: libpam-locale-nn_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55878,9 +55667,9 @@ Recommends: virtual-locale-or
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 955934248eea9691ffa0a1bc5e69c2ef
-SHA256sum: c8afa2d0771ffeb43ec30392ea9279b713422351a0ba906f21542e6a08e79f13
-Size: 6008
+MD5Sum: d895e761b6b1c1d9bf31dc7303c67193
+SHA256sum: eb789114a4a136522bbc52d72944ed3f46080ebada502ac920056d352d395f2d
+Size: 6006
 Filename: libpam-locale-or_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - or translations
@@ -55896,9 +55685,9 @@ Recommends: virtual-locale-pa
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: af5465662a182782a3775b0a4934fc34
-SHA256sum: c6057653860563da605334da58ae464816cdaa9ec980373c12c911086ae7cf9d
-Size: 6092
+MD5Sum: f486b0006ef7026bbae5bf3229485f5d
+SHA256sum: 98642a2cec40ad0a164039f5897532238ebbeb1ce3301f59f8dac356bd14a6a0
+Size: 6090
 Filename: libpam-locale-pa_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - pa translations
@@ -55914,8 +55703,8 @@ Recommends: virtual-locale-pl
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 54d964b8c3f8c4e9d48fcf9aa5c0fee8
-SHA256sum: 7f85d54fc914f3f9c2bcd0b144bb9633048d5238e0afdbdd086be466cbb4886f
+MD5Sum: ed1dc4aad40aa05f99bfb50e7cbb29b6
+SHA256sum: ca634160b590a1ebf40a2eef728bc806da980d7c42fc5288d32592bf127669b9
 Size: 5526
 Filename: libpam-locale-pl_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55932,8 +55721,8 @@ Recommends: virtual-locale-pt-br
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 306f62d0563eaa187a80d53bb9fd6111
-SHA256sum: cae85011d5a7590d3d9f12179762bfe7619b3df1bcebae38fadec83982240129
+MD5Sum: d0593fd5248633bf65da1b4b760b731b
+SHA256sum: 71820df59ee27b32562bdbc18f19a3cc3dcfa4d0bd40251a206ab1cef1cffc91
 Size: 5276
 Filename: libpam-locale-pt-br_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -55950,9 +55739,9 @@ Recommends: virtual-locale-pt
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f6f791089adf930fd1b5bcab427a1f7f
-SHA256sum: 23874a555e03cc354656cf91bb24f1a0603d99a87cb3f5d6a9ae844b4f6e42d9
-Size: 5198
+MD5Sum: e807f1394f82f1915690d70d0ed2cdda
+SHA256sum: 311c75064ce09bd3304043ee35622134b75ae6dbe2414f923f375f01c15cdbbc
+Size: 5196
 Filename: libpam-locale-pt_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - pt translations
@@ -55968,9 +55757,9 @@ Recommends: virtual-locale-ro
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 868cbf8966a389e8df57318c3b5bbfd4
-SHA256sum: 610ed1e326a7e33cd86ca33c47691c96f61d04d0e42149f346ea6b19314ed4fb
-Size: 5456
+MD5Sum: 637594f49fa56e83900417018264deed
+SHA256sum: 29d66ea2e8e513c854ed47e0ed9c2bf30ac4eebfb8fc0e7100aca483358adcf9
+Size: 5454
 Filename: libpam-locale-ro_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - ro translations
@@ -55986,8 +55775,8 @@ Recommends: virtual-locale-ru
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2b7bd1c505f88e6b39e41ae20cb52821
-SHA256sum: 059edeb902bc3711874c9c5554a2e525e73166a34cef671f321b5c31daedc09a
+MD5Sum: 08646f9711d149b40faae1d780ef82f5
+SHA256sum: c63588ffcefe46ec8deaf09a9fe571459d7a061eaccb5aeaa7da1a88a1d370ae
 Size: 6194
 Filename: libpam-locale-ru_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -56004,8 +55793,8 @@ Recommends: virtual-locale-si
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 84dceec7014d1cfa8df468c97ad1b859
-SHA256sum: 21f7c8970968e42df71c57ef2b3a95ab7ee9aa7d9876f91705c49a3a5f9828b6
+MD5Sum: dd86458da4d543003298fb9237aa0e19
+SHA256sum: b7bab1e6da4a51c0a2cefc360e50823aba1c2c126f6651c95392a4ed2e7029bc
 Size: 4306
 Filename: libpam-locale-si_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -56022,9 +55811,9 @@ Recommends: virtual-locale-sk
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9859dc990c93ca07234143d79bbe96dc
-SHA256sum: ce833fc8bd137624d14b1a6f8ae8ff40807558caed46ed704bf4b8eec5ae93ae
-Size: 5500
+MD5Sum: 02e19ff083dec009c0436e7168e54f1d
+SHA256sum: dee7cbc7576d4c7d6e39538e36c75f3ddafc29d5fb01e7af5c8426de09ecb694
+Size: 5502
 Filename: libpam-locale-sk_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - sk translations
@@ -56040,8 +55829,8 @@ Recommends: virtual-locale-sl
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7c34a9a1a80f77a4562f6d1cefc90ff7
-SHA256sum: e3687899b1b098b255e01794fb67b95e6786b60a8af8e6f0c224531e9935a964
+MD5Sum: 5ae4cc6dd43ecb2041007172f39e921f
+SHA256sum: 6d84379af91334aedfd17a5818f0a51d099c96ac123e20334818a8e2213764a0
 Size: 5400
 Filename: libpam-locale-sl_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -56058,9 +55847,9 @@ Recommends: virtual-locale-sq
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8400d4819d57a032ff1e18eda9e2d1ef
-SHA256sum: 217571e906dd1a53a34e10a8ea05a45f5e59e3adbaf64be2309a9fc798b34680
-Size: 1212
+MD5Sum: c562c94676e5364b314b02eaa5335ab0
+SHA256sum: d8a0079628fb3a1bb12425918218776c28f30481be36e912426645e3315c8f82
+Size: 1214
 Filename: libpam-locale-sq_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - sq translations
@@ -56076,9 +55865,9 @@ Recommends: virtual-locale-sr+latin
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: afdb45ef10da42e158ce95201749d437
-SHA256sum: a670605e98434d36280a7824ca817e228604a84b107af901ef6437198431dee1
-Size: 4186
+MD5Sum: 6c8231e77758537948e5de53e77a3251
+SHA256sum: fe822a623bf316567d9b0e72115271ad760301debde093c54174e830ea17bf98
+Size: 4184
 Filename: libpam-locale-sr+latin_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - sr@latin translations
@@ -56094,8 +55883,8 @@ Recommends: virtual-locale-sr
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fcaea0e7ec29561eae61dcd05edab8f6
-SHA256sum: e841e1bcffdf79975ec577e927fe64acb7315bb46fdbb3bbe014cff673afc3e4
+MD5Sum: 9205c66b611da166acc402e348326201
+SHA256sum: 7ac16c7d8c11f1635b988002afef3f7cbe7e3a272efaf1ce9fc84edcad4c035a
 Size: 4798
 Filename: libpam-locale-sr_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -56112,8 +55901,8 @@ Recommends: virtual-locale-sv
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 592e328b7ba840fcf1b357f73be2895c
-SHA256sum: 028199b38ee22fc72fcb5598aa05347384a9c939745f11d05b1851d52d9e0812
+MD5Sum: bdd94208d78296d4df914b19e5e8f8ae
+SHA256sum: e3ea2430017fc8183f569b5497fffadda4d392c0f107a3fa7a4773c1ae17c28c
 Size: 5252
 Filename: libpam-locale-sv_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -56130,8 +55919,8 @@ Recommends: virtual-locale-ta
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8b247a5b7bb99042e83146cedc945265
-SHA256sum: 77e5fa463402fd97f5f206afae38cb4f0f1e3c490c69116ef85f635a9caaa4c5
+MD5Sum: 88d14989d71ead74b122bea181d973f8
+SHA256sum: 4155f251176612a355a1262fc3729b66df2ebf48014bbadf7bbb52296360c6b4
 Size: 4640
 Filename: libpam-locale-ta_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -56148,9 +55937,9 @@ Recommends: virtual-locale-te
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8c22839d124d6ac81b769535c63a5ca4
-SHA256sum: 46f132b4a037b570d41b117ae3e3fdf5bd60051089f22d96ff259e459089aae3
-Size: 4888
+MD5Sum: 7364e0a2336a2db78a24a5f08054cf28
+SHA256sum: 2002026fd3994971a4cd03d073ea138d52f8b7bef92b6dc7efa44c115348051b
+Size: 4886
 Filename: libpam-locale-te_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - te translations
@@ -56166,8 +55955,8 @@ Recommends: virtual-locale-tg
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7ea8edfd3118fc20eac25a8a978f6ab7
-SHA256sum: a625c6ff7a60bcda68a4ea184f0dc2a4ba12a8bd253acd0fb0991afe155254fa
+MD5Sum: eae7a7f787636a1c5d9c0198adffc597
+SHA256sum: 5e21c7a0586f196307dca839bc29a1debd6de2e737d1ad6dfd2ad08235934802
 Size: 1210
 Filename: libpam-locale-tg_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -56184,8 +55973,8 @@ Recommends: virtual-locale-th
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dca0b6c9ab599efc8e3b5d52f8bec33d
-SHA256sum: 80389c356ca133c4bad5697deac3e07b0e1011438b6da717412f3b257e315432
+MD5Sum: 156ea002537e695a08b613cc81980bab
+SHA256sum: 84bb41c1ac9c7e9b3e50a550a9041bfe6f70614b5e752296d9da03a10cf67b74
 Size: 1202
 Filename: libpam-locale-th_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -56202,8 +55991,8 @@ Recommends: virtual-locale-tr
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a23e5a1f88fa8148b414b356a384afeb
-SHA256sum: 5edbd4280af42c72e3b5d1f22efe5c0991276b4c56529767578980ad3b4f9ead
+MD5Sum: ef8a346e2c8af9d55f89253df3279745
+SHA256sum: 1f142a5f54780e0a2d20b53b37dbc0cdeb895f0744dd58e4d11506c94f4217ad
 Size: 5398
 Filename: libpam-locale-tr_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -56220,8 +56009,8 @@ Recommends: virtual-locale-uk
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4a68b408975e1f9976b69e089c430830
-SHA256sum: 7191a41968b86f83571ef7d0b689d5ee748d8230d3209c672d884ffe56c5565c
+MD5Sum: abf52f8381a173a894f5130b98ea0a0a
+SHA256sum: 4b2388b69f85f216dc4188a109db6bff7bae1692c657dd8460659461df246bc0
 Size: 6216
 Filename: libpam-locale-uk_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -56238,9 +56027,9 @@ Recommends: virtual-locale-ur
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a1010d45f4b7f455d716f2d6f42b9971
-SHA256sum: f46638d702de3525897cfccaa2404db3654be9034cdb55f8bbf468bcd81fdbf4
-Size: 1196
+MD5Sum: 14e11730706a20685a9c556b7fc0d603
+SHA256sum: b025c3588a9d3e44907ef7f66eda476d9893f3a09fb1eacf88a5be1c81efdbf9
+Size: 1194
 Filename: libpam-locale-ur_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - ur translations
@@ -56256,9 +56045,9 @@ Recommends: virtual-locale-vi
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 27889cbd5a7da58a67777ace86098ae1
-SHA256sum: c173dd7e8d09a87f5a2a24f63f194a5c5252e473291819bf755d149355c975ee
-Size: 4354
+MD5Sum: eac7438edc59696c5a1906f1c046c94c
+SHA256sum: 47b81951685a9a63e68aa11ff57f4407db8e6b13b94c0204c41f7aaa0cae1d56
+Size: 4352
 Filename: libpam-locale-vi_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - vi translations
@@ -56274,8 +56063,8 @@ Recommends: virtual-locale-yo
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6c939d51811547ed7d980459810d16c2
-SHA256sum: 9f3026489f3ea1b37f03c8df9e7b732aa16aeb11cf035c4ff5f64062cabb6223
+MD5Sum: fb12f45725f99db46e81185160194b4f
+SHA256sum: 7990125a04e2d7fb01cc1c8dc4d3a87d431cd4f828563cb0bc80aa598c40661d
 Size: 1136
 Filename: libpam-locale-yo_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -56292,9 +56081,9 @@ Recommends: virtual-locale-zh-cn
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 87a01a319d452e9ffd23eb72f76cb9aa
-SHA256sum: 8f71b087b48c9a47a14cca0988332cb915e44dc8ee4fc833d2c53d1cc7c4d693
-Size: 5406
+MD5Sum: b92e93e60ba1f80f2d7a5caea911dcbc
+SHA256sum: a058d2947af71f848fe0cb7ffbb184e9084bf61c7213427ae05c9c12ea6b359c
+Size: 5404
 Filename: libpam-locale-zh-cn_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - zh_CN translations
@@ -56310,8 +56099,8 @@ Recommends: virtual-locale-zh-hk
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0e5115ea010c0fa3d34d6c11b8ca9f24
-SHA256sum: 7d28af28330bd25e7777b631e09d1c328b47251c3b5940087cb70e7f214e5315
+MD5Sum: c5c5867bb8371f6c0b35976f3e2cc71d
+SHA256sum: 7e75d22815f05f3d099cabb3c7f1c88c01427e77176ae9319fd79743230aef1d
 Size: 1266
 Filename: libpam-locale-zh-hk_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -56328,9 +56117,9 @@ Recommends: virtual-locale-zh-tw
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5e68677389bd59a7d18d44ad7e81b5c7
-SHA256sum: fffc0bcfe31f752df79f9a64499665d4e3b5c56f981bc53142439f3abef4f2f4
-Size: 5428
+MD5Sum: 72e49f6cd4493cb25e3fb34db7594945
+SHA256sum: 03d070e52058a03f3d480663901abbb34b66925c9340e262e4de358a95bd3728
+Size: 5426
 Filename: libpam-locale-zh-tw_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules) - zh_TW translations
@@ -56346,8 +56135,8 @@ Recommends: virtual-locale-zu
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bf9dc7a61887d8a8b534d6e8ae7703c0
-SHA256sum: 0a7074e4e7cefd23d88fb3f386a4e8bd114b60a95b7bc848c84e562e72cabdd2
+MD5Sum: 1bf99144fd4f2f0af770f36a8b03af59
+SHA256sum: f7213720f390bc7c672dc35ad9f4e07212e7973d1694e73be9b6c58f76bc609d
 Size: 3662
 Filename: libpam-locale-zu_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -56364,9 +56153,9 @@ Provides: libpam-runtime-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a99255eaab8ab3378410747fe69a466f
-SHA256sum: 83d9aa91c0e7e92e91f3abf876b62ea2f11301aea134cdb66f440fd685a57219
-Size: 39878
+MD5Sum: ce1ac0b2eb7eac592c36a3db1439c818
+SHA256sum: 38ab99e67c1c4e93862e421ac4e8dcd5a77670e9fabbc689158f9bbf2370f378
+Size: 39886
 Filename: libpam-runtime_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: Linux-PAM (Pluggable Authentication Modules)
@@ -56383,8 +56172,8 @@ Recommends: libpam-runtime-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c35641e7512ddd208aa940de90408da7
-SHA256sum: 0b80bd433362de840514f650f4bd001b0e55ed46f6453174d03a0ab3b742b98f
+MD5Sum: f44ba46358bd47a0bbc569ebcc4a2d20
+SHA256sum: 730dce916a0ac5a07d2a0669f30d1c4e96a1c80b0934be5ccabc9716144081ee
 Size: 33832
 Filename: libpam_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -56428,72 +56217,6 @@ Description: ncurses panelw library
 OE: ncurses
 HomePage: http://www.gnu.org/software/ncurses/ncurses.html
 License: MIT
-Priority: optional
-
-Package: libparse-yapp-perl-dbg
-Version: 1.21-r0
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ca0177519bcb8d55622874851b85ce63
-SHA256sum: 2383cdeb2bff043f4d5cc2566a7f1d526e227e880b651e29779be603a1f1081a
-Size: 760
-Filename: libparse-yapp-perl-dbg_1.21-r0_armv7ahf-neon.ipk
-Source: libparse-yapp-perl_1.21.bb
-Description: Perl extension for generating and using LALR parsers - Debugging files
-OE: libparse-yapp-perl
-HomePage: http://search.cpan.org/dist/Parse-Yapp/
-License: Artistic-1.0 | GPL-1.0-or-later
-Priority: optional
-
-Package: libparse-yapp-perl-dev
-Version: 1.21-r0
-Recommends: libparse-yapp-perl (= 1.21-r0), perl-dev
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0e582721168bcc12ddf547475cb63a0f
-SHA256sum: 0045239088b370f166a9c3cfcae5a26d01150953bc9cca7139c4e0c1be9a8ff4
-Size: 794
-Filename: libparse-yapp-perl-dev_1.21-r0_armv7ahf-neon.ipk
-Source: libparse-yapp-perl_1.21.bb
-Description: Perl extension for generating and using LALR parsers - Development files
-OE: libparse-yapp-perl
-HomePage: http://search.cpan.org/dist/Parse-Yapp/
-License: Artistic-1.0 | GPL-1.0-or-later
-Priority: optional
-
-Package: libparse-yapp-perl-doc
-Version: 1.21-r0
-Section: doc
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 57ebdb0a2fe33c7b3a565b942c9e18ef
-SHA256sum: 01fc0c44ae585ba499246123ed65d548c1a366cebe2d2655b422b9af00be0e39
-Size: 10092
-Filename: libparse-yapp-perl-doc_1.21-r0_armv7ahf-neon.ipk
-Source: libparse-yapp-perl_1.21.bb
-Description: Perl extension for generating and using LALR parsers - Documentation files
-OE: libparse-yapp-perl
-HomePage: http://search.cpan.org/dist/Parse-Yapp/
-License: Artistic-1.0 | GPL-1.0-or-later
-Priority: optional
-
-Package: libparse-yapp-perl
-Version: 1.21-r0
-Depends: perl
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5222a5c8db29de8f6b1b065c570d05e7
-SHA256sum: 073aed072da53f95215022e826889136984ba2428c95865bd65a4cc2500698f9
-Size: 27890
-Filename: libparse-yapp-perl_1.21-r0_armv7ahf-neon.ipk
-Source: libparse-yapp-perl_1.21.bb
-Description: Perl extension for generating and using LALR parsers
-OE: libparse-yapp-perl
-HomePage: http://search.cpan.org/dist/Parse-Yapp/
-License: Artistic-1.0 | GPL-1.0-or-later
 Priority: optional
 
 Package: libpcre-dbg
@@ -59644,17 +59367,17 @@ License: GPL-3.0-with-GCC-exception
 Priority: optional
 
 Package: libswresample6
-Version: 8.0+git120716+22d0f10-r0
-Depends: libavutil60 (>= 8.0+git120716+22d0f10), libc6 (>= 2.42+git)
+Version: 8.0.1+git120768+45455e1-r0
+Depends: libavutil60 (>= 8.0.1+git120768+45455e1), libc6 (>= 2.42+git)
 Provides: libswresample
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 275eb1ad86c7b365d335892619a5720c
-SHA256sum: dd86814cfe4447f12f0f213be59d3e226d48987bbf2f1cf0d63e49229af97578
-Size: 62476
-Filename: libswresample6_8.0+git120716+22d0f10-r0_armv7ahf-neon.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: ec3bff38e521f9bbadc04fc00cbcd72b
+SHA256sum: e557f5382db8acea7ed7ea902ba251e241d61751a7dacb468e5468545ac8796e
+Size: 62462
+Filename: libswresample6_8.0.1+git120768+45455e1-r0_armv7ahf-neon.ipk
+Source: ffmpeg_8.0.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -59662,17 +59385,17 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: libswscale9
-Version: 8.0+git120716+22d0f10-r0
-Depends: libavutil60 (>= 8.0+git120716+22d0f10), libc6 (>= 2.42+git)
+Version: 8.0.1+git120768+45455e1-r0
+Depends: libavutil60 (>= 8.0.1+git120768+45455e1), libc6 (>= 2.42+git)
 Provides: libswscale
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8109339fb50ae06e2b8c093ef5927276
-SHA256sum: 060d8ee854332151451cad8e67370fd1ff1351eff5889022fe00778d7c5aad5e
-Size: 575382
-Filename: libswscale9_8.0+git120716+22d0f10-r0_armv7ahf-neon.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: 3fded5ba3eae2d12b7c083b422d1764b
+SHA256sum: dc6535e94959f5383908b8b5ede81f6d6e85221b2a27080ca3e940b2ed38c88d
+Size: 575630
+Filename: libswscale9_8.0.1+git120768+45455e1-r0_armv7ahf-neon.ipk
+Source: ffmpeg_8.0.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -59975,58 +59698,6 @@ HomePage: http://www.gnu.org/software/libtasn1/
 License: GPL-3.0-or-later & LGPL-2.1-or-later
 Priority: optional
 
-Package: libtdb-dbg
-Version: 1.4.14-r0
-Provides: python3-tdb-dbg
-Recommends: glibc-dbg, libatomic-dbg
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 92b779a2e9a99719f3a6454773484588
-SHA256sum: 95ea6ce836a4d60339b0efd65f4132cea556eb027d09004f179f5a7adfb750ae
-Size: 298870
-Filename: libtdb-dbg_1.4.14-r0_armv7ahf-neon.ipk
-Source: libtdb_1.4.14.bb
-Description: The tdb library - Debugging files
-OE: libtdb
-HomePage: https://tdb.samba.org/
-License: LGPL-3.0-or-later & GPL-3.0-or-later
-Priority: optional
-
-Package: libtdb-dev
-Version: 1.4.14-r0
-Depends: libtdb
-Recommends: acl-dev, attr-dev, glibc-dev, libatomic-dev, libtdb1 (= 1.4.14-r0), python3-dev
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7dd854db518ccfa7a1491a96d29524f2
-SHA256sum: 6f1e8a20ff66194bdb95f155ea7c807484aefb0ef051743e3e78834b870323d8
-Size: 9660
-Filename: libtdb-dev_1.4.14-r0_armv7ahf-neon.ipk
-Source: libtdb_1.4.14.bb
-Description: The tdb library - Development files
-OE: libtdb
-HomePage: https://tdb.samba.org/
-License: LGPL-3.0-or-later & GPL-3.0-or-later
-Priority: optional
-
-Package: libtdb-doc
-Version: 1.4.14-r0
-Section: doc
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f49d9bd369abda59c3d8e5170c9787b8
-SHA256sum: 189f2893a256d0081653eb56040506e344fafda1a79210c5436c7a331ea97d3b
-Size: 3920
-Filename: libtdb-doc_1.4.14-r0_armv7ahf-neon.ipk
-Source: libtdb_1.4.14.bb
-Description: The tdb library - Documentation files
-OE: libtdb
-HomePage: https://tdb.samba.org/
-License: LGPL-3.0-or-later & GPL-3.0-or-later
-Priority: optional
-
 Package: libtdb-private-samba
 Version: 4.23.1-r3
 Depends: libc6 (>= 2.42+git), libreplace-private-samba (>= 4.23.1), samba-common
@@ -60061,60 +59732,6 @@ HomePage: https://www.samba.org/
 License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
 Priority: optional
 
-Package: libtdb1
-Version: 1.4.14-r0
-Depends: libc6 (>= 2.42+git)
-Provides: libtdb
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2b355ac1625e3f39713593e792c0798a
-SHA256sum: 93f972937637f926e8b41f5671cb8651ee9b3ec5062b88e5d649fb0267a36dce
-Size: 51048
-Filename: libtdb1_1.4.14-r0_armv7ahf-neon.ipk
-Source: libtdb_1.4.14.bb
-Description: The tdb library
-OE: libtdb
-HomePage: https://tdb.samba.org/
-License: LGPL-3.0-or-later & GPL-3.0-or-later
-Priority: optional
-
-Package: libtevent-dbg
-Version: 0.17.1-r0
-Provides: python3-tevent-dbg
-Recommends: glibc-dbg, libatomic-dbg, libtalloc-dbg
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9582cf037d1c47b110b96b9c98cc92d9
-SHA256sum: 4baa761d2f127ec10309edfde6b5a0012741a5266227f7887f4e81f9abecdff1
-Size: 229530
-Filename: libtevent-dbg_0.17.1-r0_armv7ahf-neon.ipk
-Source: libtevent_0.17.1.bb
-Description: Hierarchical, reference counted memory pool system with destructors - Debugging files
-OE: libtevent
-HomePage: https://tevent.samba.org
-License: LGPL-3.0-or-later
-Priority: optional
-
-Package: libtevent-dev
-Version: 0.17.1-r0
-Depends: libtalloc-dev, libtevent
-Recommends: acl-dev, attr-dev, cmocka-dev, glibc-dev, libatomic-dev, libtalloc-dev, libtevent0 (= 0.17.1-r0), libtirpc-dev, python3-dev
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f59569ae7f0bf5ba2477aa2e1282d19d
-SHA256sum: 85ef5ce5120816a318cd58c96235d54a892f6cb99ec0e9818fdf1dddf199a6a5
-Size: 23784
-Filename: libtevent-dev_0.17.1-r0_armv7ahf-neon.ipk
-Source: libtevent_0.17.1.bb
-Description: Hierarchical, reference counted memory pool system with destructors - Development files
-OE: libtevent
-HomePage: https://tevent.samba.org
-License: LGPL-3.0-or-later
-Priority: optional
-
 Package: libtevent-private-samba
 Version: 4.23.1-r3
 Depends: libc6 (>= 2.42+git), libreplace-private-samba (>= 4.23.1), libtalloc (>= 2.4.3), samba-common
@@ -60147,24 +59764,6 @@ Description: Samba tevent-util-private-samba library
 OE: samba
 HomePage: https://www.samba.org/
 License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
-Priority: optional
-
-Package: libtevent0
-Version: 0.17.1-r0
-Depends: libc6 (>= 2.42+git), libtalloc (>= 2.4.3)
-Provides: libtevent
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ab0ba47570856ed96d8f73f0a7aeeaa1
-SHA256sum: 70973b24ff2878f6ef6a0476a2e7f0aedbdd93ccc261f5d12a74d099eeee2aff
-Size: 39192
-Filename: libtevent0_0.17.1-r0_armv7ahf-neon.ipk
-Source: libtevent_0.17.1.bb
-Description: Hierarchical, reference counted memory pool system with destructors
-OE: libtevent
-HomePage: https://tevent.samba.org
-License: LGPL-3.0-or-later
 Priority: optional
 
 Package: libtheora-dbg
@@ -71796,9 +71395,9 @@ Recommends: kernel-module-exportfs, kernel-module-nfs, update-rc.d
 Section: console/network
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bcea2976619a61a1d5c8e45514c6058c
-SHA256sum: 0dd9f2c7b3bbf34b0ae812391319de0ade7872b23a96e9037a836485e7e62810
-Size: 75718
+MD5Sum: 066bde8bcd09f935ede9adebb52d4a21
+SHA256sum: 797441d1e14fd3fe50aab0813193538e941bb9221850cb6b129919dac8e9ff94
+Size: 75710
 Filename: nfs-utils-client_2.5.3-r1_armv7ahf-neon.ipk
 Source: nfs-utils_2.5.3.bb
 Description: userspace utilities for kernel nfs
@@ -71813,9 +71412,9 @@ Recommends: glibc-dbg, libcap-dbg, libtirpc-dbg, libwrap-dbg, util-linux-libblki
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c2699439abe3f74ccaf1bb5b4e1a08dd
-SHA256sum: 9a7636fbdde7efaa1dca69e602ce4746d5c2d255fc401b9377d7fc8e706b2fe4
-Size: 807746
+MD5Sum: c415ea9b339588e694d3d7861aebbab7
+SHA256sum: 1dcea7377fdc8c9e6f89aa1e2dee8622a78c039610b9fe46e09fe9d712618462
+Size: 807770
 Filename: nfs-utils-dbg_2.5.3-r1_armv7ahf-neon.ipk
 Source: nfs-utils_2.5.3.bb
 Description: userspace utilities for kernel nfs - Debugging files
@@ -71830,8 +71429,8 @@ Recommends: base-files-dev, base-passwd-dev, glibc-dev, initd-functions-dev, ini
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 17fa82bef5a8f352aa431466c394c099
-SHA256sum: 0c0150d96492931e87f291983461fe472367cff8dc075abca2d5308bd6d35da7
+MD5Sum: f39efd933edf5b2fb00a72d225feee41
+SHA256sum: 75518dc0db08e603ffd4d4b7e98a9b815a3fbfb5e854cff86822deb8405221c1
 Size: 844
 Filename: nfs-utils-dev_2.5.3-r1_armv7ahf-neon.ipk
 Source: nfs-utils_2.5.3.bb
@@ -71846,9 +71445,9 @@ Version: 2.5.3-r1
 Section: doc
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 68b45158b5f11dd5939657d444c68d2c
-SHA256sum: 2a5314c4f0af50b15f7dbdd2c93d1df51a670e36a6a8a003b3d456f2cdfff0c1
-Size: 56886
+MD5Sum: bc01340b33db59184e60c1b263894223
+SHA256sum: 33d6933d1192f9b0728c70ed5229c20121c7063183d8959b2298c87963915c7b
+Size: 56890
 Filename: nfs-utils-doc_2.5.3-r1_armv7ahf-neon.ipk
 Source: nfs-utils_2.5.3.bb
 Description: userspace utilities for kernel nfs - Documentation files
@@ -71863,8 +71462,8 @@ Depends: libc6 (>= 2.42+git), libmount1 (>= 2.41.1), libtirpc3 (>= 1.3.6)
 Section: console/network
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f9b7af06dc899488f15bcd2fbf047f13
-SHA256sum: 30f9e19bb2961347711c46512be99a81abb3958ae117ee817ccf058228b9a640
+MD5Sum: 07aae114bb4f00dda5573533dc27f3a0
+SHA256sum: b04db11aedbdf3571ca3c8fb8b1db06559b449b72db59d1f2f0935df618e7335
 Size: 58272
 Filename: nfs-utils-mount_2.5.3-r1_armv7ahf-neon.ipk
 Source: nfs-utils_2.5.3.bb
@@ -71880,8 +71479,8 @@ Depends: python3-core
 Section: console/network
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 82e09d762f56962f072f8d0b83eceba4
-SHA256sum: 155b4a6ec128aee23cfe317f7776d021ebf949d95e60c79c4ea3ca62104895af
+MD5Sum: 1c3efda7343f1783d8eb9bdc7639761c
+SHA256sum: 8ee5c675ca6bc84982d89ff842ee8a61051666291515959ec4286dc5b3865aaf
 Size: 16594
 Filename: nfs-utils-stats_2.5.3-r1_armv7ahf-neon.ipk
 Source: nfs-utils_2.5.3.bb
@@ -71898,8 +71497,8 @@ Recommends: kernel-module-nfsd, update-rc.d
 Section: console/network
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 80ac2b6242b5290f81e50f5af50f9c7e
-SHA256sum: 39c5b6481f9106523a8e59567c393cca8333a437730baa436a67b668669f5b3a
+MD5Sum: da1e4b8fa4f705d8f22ab4e9e888b6ef
+SHA256sum: 1a697da1151983e723c4488c68e756293db6815bcc575666b4fc3c2dbd3e19ff
 Size: 92328
 Filename: nfs-utils_2.5.3-r1_armv7ahf-neon.ipk
 Source: nfs-utils_2.5.3.bb
@@ -72313,237 +71912,15 @@ HomePage: http://www.openjpeg.org
 License: BSD-2-Clause
 Priority: optional
 
-Package: openldap-backend-dnssrv
-Version: 2.6.10-r0
-Depends: libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0), libssl3 (>= 3.6.0), openldap (>= 2.6.10)
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ff33b4f8719c08e7146ff3baec5fb304
-SHA256sum: 970c20373f962660635b27f9c6d979e5d81d107d7d201e06a15581e9807142f7
-Size: 6484
-Filename: openldap-backend-dnssrv_2.6.10-r0_armv7ahf-neon.ipk
-Source: openldap_2.6.10.bb
-Description: OpenLDAP dnssrv backend
-OE: openldap
-HomePage: http://www.OpenLDAP.org/license.html
-License: OLDAP-2.8
-Priority: optional
-
-Package: openldap-backend-ldap
-Version: 2.6.10-r0
-Depends: libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0), libssl3 (>= 3.6.0), openldap (>= 2.6.10)
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ad18db0abf012647fc429706e8ff57d9
-SHA256sum: dbfc55ab5c60cb7f06ce9a2ab2875252bfff58954c7e4e53cc0100474754ad72
-Size: 67626
-Filename: openldap-backend-ldap_2.6.10-r0_armv7ahf-neon.ipk
-Source: openldap_2.6.10.bb
-Description: OpenLDAP ldap backend
-OE: openldap
-HomePage: http://www.OpenLDAP.org/license.html
-License: OLDAP-2.8
-Priority: optional
-
-Package: openldap-backend-meta
-Version: 2.6.10-r0
-Depends: libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0), libssl3 (>= 3.6.0), openldap (>= 2.6.10)
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 81ff401fd2b806f239318fcc6f0e9378
-SHA256sum: c07e5cb6640757d78a8a99c0d17dc1cfc3ba3b85048ff2af94083aa5951eb90f
-Size: 70224
-Filename: openldap-backend-meta_2.6.10-r0_armv7ahf-neon.ipk
-Source: openldap_2.6.10.bb
-Description: OpenLDAP meta backend
-OE: openldap
-HomePage: http://www.OpenLDAP.org/license.html
-License: OLDAP-2.8
-Priority: optional
-
-Package: openldap-backend-null
-Version: 2.6.10-r0
-Depends: libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0), libssl3 (>= 3.6.0), openldap (>= 2.6.10)
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d94758e607deb1d6a7ac1cebcb39bb92
-SHA256sum: 51f69c1019888e6f1d802128f4819b88ce2abe64d5a8857c4ded57a7837f7525
-Size: 5738
-Filename: openldap-backend-null_2.6.10-r0_armv7ahf-neon.ipk
-Source: openldap_2.6.10.bb
-Description: OpenLDAP null backend
-OE: openldap
-HomePage: http://www.OpenLDAP.org/license.html
-License: OLDAP-2.8
-Priority: optional
-
-Package: openldap-backend-passwd
-Version: 2.6.10-r0
-Depends: libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0), libssl3 (>= 3.6.0), openldap (>= 2.6.10)
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 32bea2d8115c334d8df07f06c81d5e1f
-SHA256sum: bc5df4aa7f3cc60aa7b758cdd57c1252686e95fb8b246b3d6e05aa2a573067a9
-Size: 5814
-Filename: openldap-backend-passwd_2.6.10-r0_armv7ahf-neon.ipk
-Source: openldap_2.6.10.bb
-Description: OpenLDAP passwd backend
-OE: openldap
-HomePage: http://www.OpenLDAP.org/license.html
-License: OLDAP-2.8
-Priority: optional
-
-Package: openldap-bin
-Version: 2.6.10-r0
-Depends: libc6 (>= 2.42+git), libuuid1 (>= 2.41.1), openldap (>= 2.6.10)
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 65ddb84330996c198bee996b5a91ea86
-SHA256sum: 1f0dce2126fac69e15ac141e8636844ea41ee9b49253ad09d76d1984fa6b4d46
-Size: 110390
-Filename: openldap-bin_2.6.10-r0_armv7ahf-neon.ipk
-Source: openldap_2.6.10.bb
-Description: OpenLDAP Directory Service
-OE: openldap
-HomePage: http://www.OpenLDAP.org/license.html
-License: OLDAP-2.8
-Priority: optional
-
-Package: openldap-dbg
-Version: 2.6.10-r0
-Recommends: glibc-dbg, libcrypto-dbg, libltdl-dbg, libssl-dbg, libxcrypt-dbg, util-linux-libuuid-dbg
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7359dab09cd91680544cd7144578e67e
-SHA256sum: d6d2b9f855c43709129c5be7c64254b8962d7a38db0007501799d3455f8d2492
-Size: 4675432
-Filename: openldap-dbg_2.6.10-r0_armv7ahf-neon.ipk
-Source: openldap_2.6.10.bb
-Description: OpenLDAP Directory Service - Debugging files
-OE: openldap
-HomePage: http://www.OpenLDAP.org/license.html
-License: OLDAP-2.8
-Priority: optional
-
-Package: openldap-dev
-Version: 2.6.10-r0
-Depends: openldap, openldap-overlay-proxycache
-Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libltdl-dev, libssl-dev, libtool-dev, libxcrypt-dev, openldap (= 2.6.10-r0), openldap-overlay-proxycache-dev, openssl-dev, update-rc.d-dev, util-linux-dev, util-linux-libuuid-dev
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8b4e29f8eafaaa04d8f95e6a0d520ce2
-SHA256sum: 47f497af0b238906627df802dc3f2d91fd979f44ef86a81c3dab8e01425ad9df
-Size: 39984
-Filename: openldap-dev_2.6.10-r0_armv7ahf-neon.ipk
-Source: openldap_2.6.10.bb
-Description: OpenLDAP Directory Service - Development files
-OE: openldap
-HomePage: http://www.OpenLDAP.org/license.html
-License: OLDAP-2.8
-Priority: optional
-
-Package: openldap-doc
-Version: 2.6.10-r0
-Section: doc
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9b2a4cb10c18478bb08c2071d147dc74
-SHA256sum: 97685f56c2bd533ad9d9a39f82457d5b06bfef4f3c3836581b986fcb8426e572
-Size: 209890
-Filename: openldap-doc_2.6.10-r0_armv7ahf-neon.ipk
-Source: openldap_2.6.10.bb
-Description: OpenLDAP Directory Service - Documentation files
-OE: openldap
-HomePage: http://www.OpenLDAP.org/license.html
-License: OLDAP-2.8
-Priority: optional
-
-Package: openldap-overlay-proxycache
-Version: 2.6.10-r0
-Depends: libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0), libssl3 (>= 3.6.0), openldap (>= 2.6.10)
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1e9ecaced04ebd6a689cc009cf57b136
-SHA256sum: a8c71f26d7178e983322db0d58e2263c603dd2d150dd0adb759147b4a1900140
-Size: 41636
-Filename: openldap-overlay-proxycache_2.6.10-r0_armv7ahf-neon.ipk
-Source: openldap_2.6.10.bb
-Description: OpenLDAP Directory Service
-OE: openldap
-HomePage: http://www.OpenLDAP.org/license.html
-License: OLDAP-2.8
-Priority: optional
-
-Package: openldap-slapd
-Version: 2.6.10-r0
-Depends: libc6 (>= 2.42+git), libcrypt2 (>= 4.4.38), libltdl7 (>= 2.5.4), libuuid1 (>= 2.41.1), openldap (>= 2.6.10)
-Recommends: update-rc.d
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2cfac5b09c169f6621ffc47bbd12df6e
-SHA256sum: b3b4412140d6c4007bc9b3ce4434abd09a8da10ffdbf4e944be6d7415feed913
-Size: 868794
-Filename: openldap-slapd_2.6.10-r0_armv7ahf-neon.ipk
-Source: openldap_2.6.10.bb
-Description: OpenLDAP Directory Service
-OE: openldap
-HomePage: http://www.OpenLDAP.org/license.html
-License: OLDAP-2.8
-Priority: optional
-
-Package: openldap-staticdev
-Version: 2.6.10-r0
-Depends: openldap-dev (= 2.6.10-r0)
-Section: devel
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 95476d6a96d80f61b87fe41e5a10a066
-SHA256sum: eb3942198d7a83612c7abf5eb6ec9ea24a5f529f1dbd1579852416561214b683
-Size: 909822
-Filename: openldap-staticdev_2.6.10-r0_armv7ahf-neon.ipk
-Source: openldap_2.6.10.bb
-Description: OpenLDAP Directory Service - Development files (Static Libraries)
-OE: openldap
-HomePage: http://www.OpenLDAP.org/license.html
-License: OLDAP-2.8
-Priority: optional
-
-Package: openldap
-Version: 2.6.10-r0
-Depends: libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0), libssl3 (>= 3.6.0)
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a0a4062f53517e67998fe0c9e58c7d0e
-SHA256sum: c70fc89c86b40dc00d5ccb18e67345a1aad4d0ee20fb79fa446e626f26c14fbb
-Size: 181214
-Filename: openldap_2.6.10-r0_armv7ahf-neon.ipk
-Source: openldap_2.6.10.bb
-Description: OpenLDAP Directory Service
-OE: openldap
-HomePage: http://www.OpenLDAP.org/license.html
-License: OLDAP-2.8
-Priority: optional
-
 Package: openpli-bootlogo-dbg
-Version: 20251113-r1
+Version: 20251124-r1
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: PLi team
-MD5Sum: ecb0332530c1367ca09cb06d96a2968e
-SHA256sum: 80c69c03c28a967d6063157a30c435267ca6161e94451d67edede050dc2b1caf
-Size: 566
-Filename: openpli-bootlogo-dbg_20251113-r1_armv7ahf-neon.ipk
+MD5Sum: a33b0b45c9bcd6fa72e5d85ad6d3523e
+SHA256sum: 273570e9d7344be8c43e94ad3852cf058e67044dd68278da0d6e50c456f6ea30
+Size: 568
+Filename: openpli-bootlogo-dbg_20251124-r1_armv7ahf-neon.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r1 - Debugging files
 OE: openpli-bootlogo
@@ -72551,15 +71928,15 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openpli-bootlogo-dev
-Version: 20251113-r1
-Recommends: initscripts-dev, openpli-bootlogo (= 20251113-r1), showiframe-dev, update-rc.d-dev
+Version: 20251124-r1
+Recommends: initscripts-dev, openpli-bootlogo (= 20251124-r1), showiframe-dev, update-rc.d-dev
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: PLi team
-MD5Sum: 4090c5f56d6b3850f994764d5b36ca58
-SHA256sum: 68e24cffb76833a6e381c1007e1662eed4561f8be2fd2c59b48624243c46aaa6
+MD5Sum: 2c243858f92c73bc98be48f6f8b6765a
+SHA256sum: fe376cf1d2f72ceca7cdf26740bef2f6bd6f384371e8025ddc301fe90d1d41dd
 Size: 632
-Filename: openpli-bootlogo-dev_20251113-r1_armv7ahf-neon.ipk
+Filename: openpli-bootlogo-dev_20251124-r1_armv7ahf-neon.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r1 - Development files
 OE: openpli-bootlogo
@@ -72567,16 +71944,16 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openpli-bootlogo
-Version: 20251113-r1
+Version: 20251124-r1
 Depends: showiframe
 Recommends: update-rc.d
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: PLi team
-MD5Sum: f3eaa03d8eaf9626f3f7ff6efa813a49
-SHA256sum: c0efe9b9c7f773db7348347970a98ed2b8d639d7363f9e347b5a43f37b41d314
+MD5Sum: b987da70b106641ba6cf170315a91b74
+SHA256sum: eb47b1dd2b728bc0a09cfc667fe8613fb052f462ec2a43beb7005b957bd6b7b2
 Size: 294286
-Filename: openpli-bootlogo_20251113-r1_armv7ahf-neon.ipk
+Filename: openpli-bootlogo_20251124-r1_armv7ahf-neon.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r1
 OE: openpli-bootlogo
@@ -72775,16 +72152,16 @@ License: BSD-2-Clause & BSD-3-Clause & ISC & MIT
 Priority: optional
 
 Package: opkg-dbg
-Version: 1:0.7.0-r0
+Version: 1:0.8.0-r0
 Recommends: glibc-dbg, libarchive-dbg, libopkg-dbg, libsolv-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2bebb53d9e8235530c7374df3cb30c34
-SHA256sum: 1352ef3767dd82a773926e921ef4e45915eddb4db8391e58f3dc83b209ca9426
-Size: 251926
-Filename: opkg-dbg_0.7.0-r0_armv7ahf-neon.ipk
-Source: opkg_0.7.0.bb
+MD5Sum: 50ee55e266e2550f0db8d9393f56b3fb
+SHA256sum: f0eff1ffdee7bc4773a0c8cd72abfbe223d5b7efa95c8b988e81eef0718b179a
+Size: 251408
+Filename: opkg-dbg_0.8.0-r0_armv7ahf-neon.ipk
+Source: opkg_0.8.0.bb
 Description: Open Package Manager - Debugging files
 OE: opkg
 HomePage: https://git.yoctoproject.org/opkg/
@@ -72792,17 +72169,17 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: opkg-dev
-Version: 1:0.7.0-r0
+Version: 1:0.8.0-r0
 Depends: libopkg
-Recommends: glibc-dev, libarchive-dev, libopkg-dev, libsolv-dev, opkg (= 1:0.7.0-r0), opkg-arch-config-dev, update-alternatives-opkg-dev, zstd-dev
+Recommends: glibc-dev, libarchive-dev, libopkg-dev, libsolv-dev, opkg (= 1:0.8.0-r0), opkg-arch-config-dev, update-alternatives-opkg-dev, zstd-dev
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0d2a3a40d5c6c3509782e277d94a4202
-SHA256sum: f69ca7798bff86e97bb4b73fe3e27c6e3a6bdc83476ed31202da765bdbca02e0
+MD5Sum: 2ac4566577cc408c8666f5d9710621c2
+SHA256sum: b375f11258b5ef5fc25644ccf05b3fe0e4b5a39293964556b364f93699b61f03
 Size: 1042
-Filename: opkg-dev_0.7.0-r0_armv7ahf-neon.ipk
-Source: opkg_0.7.0.bb
+Filename: opkg-dev_0.8.0-r0_armv7ahf-neon.ipk
+Source: opkg_0.8.0.bb
 Description: Open Package Manager - Development files
 OE: opkg
 HomePage: https://git.yoctoproject.org/opkg/
@@ -72810,15 +72187,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: opkg-doc
-Version: 1:0.7.0-r0
+Version: 1:0.8.0-r0
 Section: doc
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 99af25070ef322b307de882f0abdadb2
-SHA256sum: 0db773bd9a3c178ddbf1ee30b9c414391a7efcb1e3e6690f039acf11ed04ae8b
+MD5Sum: fb9a33933011c426532283bf2c3f26d4
+SHA256sum: a009620229a4cb3c905b4a7a0f5ae40aca100ef89a2e60dfef26ea09979f263b
 Size: 6000
-Filename: opkg-doc_0.7.0-r0_armv7ahf-neon.ipk
-Source: opkg_0.7.0.bb
+Filename: opkg-doc_0.8.0-r0_armv7ahf-neon.ipk
+Source: opkg_0.8.0.bb
 Description: Open Package Manager - Documentation files
 OE: opkg
 HomePage: https://git.yoctoproject.org/opkg/
@@ -72826,16 +72203,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: opkg-staticdev
-Version: 1:0.7.0-r0
-Depends: opkg-dev (= 1:0.7.0-r0)
+Version: 1:0.8.0-r0
+Depends: opkg-dev (= 1:0.8.0-r0)
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c109d7bd2cf30fa18b107f6f9fd76f8d
-SHA256sum: e014e62cd423861b078e0d003ff18b1ee61eec51aac40e68e79b870c55cd2459
-Size: 449680
-Filename: opkg-staticdev_0.7.0-r0_armv7ahf-neon.ipk
-Source: opkg_0.7.0.bb
+MD5Sum: cfc70c9f57d739360ea10ee9e31c43eb
+SHA256sum: 82543def71fe14b35dd57df71e3e7fcc6c4f974983c5d18fab745fdaee2c3652
+Size: 450022
+Filename: opkg-staticdev_0.8.0-r0_armv7ahf-neon.ipk
+Source: opkg_0.8.0.bb
 Description: Open Package Manager - Development files (Static Libraries)
 OE: opkg
 HomePage: https://git.yoctoproject.org/opkg/
@@ -72892,19 +72269,19 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: opkg
-Version: 1:0.7.0-r0
-Depends: libarchive, libc6 (>= 2.42+git), libopkg1 (>= 0.7.0), opkg-arch-config, update-alternatives-opkg
+Version: 1:0.8.0-r0
+Depends: libarchive, libc6 (>= 2.42+git), libopkg1 (>= 0.8.0), opkg-arch-config, update-alternatives-opkg
 Provides: opkg-collateral
 Replaces: opkg-collateral, opkg-nogpg
 Conflicts: opkg-collateral
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6b9c02af8d0261d23973acd9cdfeb7ac
-SHA256sum: 72f7c6bbfbccd14c6f6a73b096d42c3825fee0f711ddab9e25dbdd3fa5a983a7
-Size: 9952
-Filename: opkg_0.7.0-r0_armv7ahf-neon.ipk
-Source: opkg_0.7.0.bb
+MD5Sum: cf80c61794028235ba0db3b83e89586c
+SHA256sum: e6b19a40b4b4549c17e70f0091bb42188799387c34acad86a9e12b0055592074
+Size: 10048
+Filename: opkg_0.8.0-r0_armv7ahf-neon.ipk
+Source: opkg_0.8.0.bb
 Description: Open Package Manager
 OE: opkg
 HomePage: https://git.yoctoproject.org/opkg/
@@ -72969,8 +72346,8 @@ Depends: libc6 (>= 2.42+git), libpam (>= 1.7.1)
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ab32f54ee9327f9343c351abb7ca6606
-SHA256sum: 94beb290b90891a64bcbb7d10e8e9a6d6a3535e2a59e8300e5dd91c100960e05
+MD5Sum: dcf724a4c4c3b336a28203a4090d7174
+SHA256sum: 15f0b36929837807ee023180b8f43e54df7cb5161610e48b805827d47e07eeb0
 Size: 3074
 Filename: pam-filter-upperlower_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -72987,8 +72364,8 @@ Provides: pam-plugin-access-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 883264cb665cfa5ad0f94777f972aff7
-SHA256sum: 654f2e3633400b23b14d46798871c137fe43c79991f2f186aee349006791a8bc
+MD5Sum: 6d0ed757fbf8e728124b84b620b1f46c
+SHA256sum: 96396114a62f5bc518c50a7da3766e4056ca98be2aa69c39fcbde735cf2908c5
 Size: 9804
 Filename: pam-plugin-access_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73005,8 +72382,8 @@ Provides: pam-plugin-canonicalize-user-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: be2706626b27e70dbe16d4c64dac5298
-SHA256sum: 6cb6b8cd7b0dd75506fa8265686a6e834ec501c9871bab758599cc41eceb08da
+MD5Sum: d94d5dc371cf95534cd44572188c4b8a
+SHA256sum: d8fc59e091a803b33c172cfb2b0bbf75c7e8e3e520d7ffbc99dbfea1b5050941
 Size: 2470
 Filename: pam-plugin-canonicalize-user_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73023,8 +72400,8 @@ Provides: pam-plugin-debug-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: af9fe88edcdb5f475e6888aef59e0033
-SHA256sum: a47406baf6c7632e48f0a4b69828a209ea7945554460b766b05d1474104f9da9
+MD5Sum: a787ad9731e8f0271920ae30818db7b5
+SHA256sum: 81b7d65bdd0f8f74af63ac13b6f56e95ed68ad22a466681414ca03e6c9869e5f
 Size: 2980
 Filename: pam-plugin-debug_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73041,8 +72418,8 @@ Provides: pam-plugin-deny-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bcfd673d400317ae9f21d9a806daeac3
-SHA256sum: 11e2bc3fcc7979d055d627c4c87a8678bec960e28397418f147fd81902dba13d
+MD5Sum: cfa9b0844d45cfe4359273dc2d3ea82a
+SHA256sum: 569022c1b2e18d1e66ec06f9b4eda46c086aed5eab08ae1e4849918c75779021
 Size: 2050
 Filename: pam-plugin-deny_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73059,8 +72436,8 @@ Provides: pam-plugin-echo-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 745eaa513e355ec086963d99b1d3cd47
-SHA256sum: 6289b5addfe6d44f2836b069321d2b58ae17df7ee169dd8ec76fd5e05bbb513f
+MD5Sum: a5eeaea25a53d0cb051046920e073d81
+SHA256sum: 574ea9a8dd36dc7cd6e373d5ef167c3d6c7471dc022b0b2746989def9f2b319b
 Size: 3468
 Filename: pam-plugin-echo_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73077,9 +72454,9 @@ Provides: pam-plugin-env-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6e865d9b45cf911f68060b2fe3e49e0b
-SHA256sum: 3da2dcff9906d13996c5d52e43bcfa2f704d7b9e9ae4f4deb391b89a7f515eff
-Size: 7618
+MD5Sum: d6956af3ae8b3f069c2c0aee3ecef7f3
+SHA256sum: 2b250f693b539a706326da0a210e6087631e7fd4e18f65555695522ac2e24260
+Size: 7622
 Filename: pam-plugin-env_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -env
@@ -73095,9 +72472,9 @@ Provides: pam-plugin-exec-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6bb55dd4720b717ef65becea47e57c67
-SHA256sum: c09c2c9efa80108c3f51bbf7361d94626cba6d0359d7f7628d42e01ba23f0c75
-Size: 5978
+MD5Sum: dc097fed7c8191bb5934a0a740e44c33
+SHA256sum: b79213dc279b90ba185ecb730b6a98cd52299789911975eaccdfd63da7471dd1
+Size: 5980
 Filename: pam-plugin-exec_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -exec
@@ -73113,8 +72490,8 @@ Provides: pam-plugin-faildelay-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 98f999a75a882e743efb1d30d5cdbe6c
-SHA256sum: 5deafccd034f76b6be06dd0ccae264ece9da735356359c6e09f0aca4c85a2660
+MD5Sum: a8dbad5132e0c3e4e6e86f7955dffd86
+SHA256sum: 2179e10413ecffd3540ae8ec7778d660191a06546dffc94315b1aaaf29535ecf
 Size: 2880
 Filename: pam-plugin-faildelay_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73131,9 +72508,9 @@ Provides: pam-plugin-faillock-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 004407afe276f71f9911a0a680a5e3dd
-SHA256sum: 8e25df1887c2b3413c1c48c054dec409055c0bf43c13585d5b21b5cf6aea0e99
-Size: 7312
+MD5Sum: 35d9c5086882adc31a531018f97ddced
+SHA256sum: 3b44e1ab9ad81aaf003940354287049b9acd4d273caba67b34f48908ee4be609
+Size: 7310
 Filename: pam-plugin-faillock_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -faillock
@@ -73149,9 +72526,9 @@ Provides: pam-plugin-filter-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0fdd4588567ca99922f95ae64cc8bdb7
-SHA256sum: d5ad58e23446069482a6172a8c0ea7d848aeb5340e4d7e4043843e502c783d48
-Size: 6198
+MD5Sum: 20f4749594217b24da49da8eff3a14b4
+SHA256sum: 5f635ca289712493c56fe282f97c941e1fb8c843b6e56b10f46b394404bfc9bb
+Size: 6200
 Filename: pam-plugin-filter_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -filter
@@ -73167,8 +72544,8 @@ Provides: pam-plugin-ftp-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 32be46bf2a2fd18ac31eaf51098b4d9f
-SHA256sum: 8124d5767d9738bebdf29a84b175b1a79fd742b0816f80676d567df92993b4ab
+MD5Sum: 3d92c977825dadd323ef3be435e7cef5
+SHA256sum: 528d71953f94fc36164a008087e8efa1be545b89f62bcfc31db7dbe0dea8ea9b
 Size: 3178
 Filename: pam-plugin-ftp_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73185,8 +72562,8 @@ Provides: pam-plugin-group-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bd12298200afd135127307994e2280c9
-SHA256sum: 0bd6612b158a9f3cc45a2dcb00ee0f623ca341ffa0a93fd890fe7413e69b793c
+MD5Sum: c5a1c0e6596d8d4cf9864c75d8b59601
+SHA256sum: 8a139fd82d73003f0713a8e14d72464d89f0c14c5fea9506185a696eb2f90db0
 Size: 9664
 Filename: pam-plugin-group_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73203,8 +72580,8 @@ Provides: pam-plugin-issue-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aa56ddc42131ad653a678a9c2b1e0aa1
-SHA256sum: c470f24be28ba178cb4b5416548898a5eae1aef4f5eb4ec79ee7207ae62283e1
+MD5Sum: d07cad80be08bebbe1f3ebedfbfed748
+SHA256sum: e384039c12a89bd69c42b7215e9d766949eed3ac1119f1e7828649f8abeed5a0
 Size: 4226
 Filename: pam-plugin-issue_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73221,9 +72598,9 @@ Provides: pam-plugin-keyinit-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 04a4797e6be861df3532ba122adea5f9
-SHA256sum: e6882fb92f9047079fb3ee09070feeb817bbc3754f7afce880020e8ff381115e
-Size: 4156
+MD5Sum: 35ecab279925d20bf98f0c699f5861a1
+SHA256sum: 6f4a8a45cf23ca3d10d96ef79c4e8ca6017f04a1ea08cddefb2544c26badca76
+Size: 4154
 Filename: pam-plugin-keyinit_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -keyinit
@@ -73239,9 +72616,9 @@ Provides: pam-plugin-limits-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3cf11a68cc901e866e501623e9f585e8
-SHA256sum: b887f14ea5cd47d21ff4561eb91b937c6078f3074a053e2ec59aa345cf99ccea
-Size: 12910
+MD5Sum: cabebf138a722f3aa311053bc1c153fb
+SHA256sum: b002be3a330fff98ad7222869158fdbfd8f1f58c5af0f30ce6774af2a1973b62
+Size: 12908
 Filename: pam-plugin-limits_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -limits
@@ -73257,9 +72634,9 @@ Provides: pam-plugin-listfile-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eb88187999192a37dffda252f2afb7a8
-SHA256sum: aea926a21548fd2f58067d82b25c2296c0c79fd3787be2ed43558c08ea8c1d10
-Size: 4590
+MD5Sum: 04c8603a4f99a01ab9979482f54c6e75
+SHA256sum: 4d2261b4860afaf26086372bb91a58b5863ec53a0858c486ca066c6cde80fce1
+Size: 4588
 Filename: pam-plugin-listfile_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -listfile
@@ -73275,9 +72652,9 @@ Provides: pam-plugin-localuser-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 44e6a5ac592fd16e3bc3d445834d58d1
-SHA256sum: b87362037354dd94312a73c511854832278237baee19cff798e79bc43f91b4ea
-Size: 2880
+MD5Sum: b8c1fd065e1bc5ba9d9cd6190f96beb0
+SHA256sum: 84988c5e746ddaa4ad2c1d07be4da30ef700402811da6d9872efc2d2d8a7fe74
+Size: 2878
 Filename: pam-plugin-localuser_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -localuser
@@ -73293,9 +72670,9 @@ Provides: pam-plugin-loginuid-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: acd8a505f13141fee42a2112c9cddd0a
-SHA256sum: dcc5ce044e258d67ad8100812c76a50d8d96038450e245f839eaa93f3a06fc8d
-Size: 3084
+MD5Sum: 2c92d4cfdc999f2c9418b4317ef765b9
+SHA256sum: 2d3c99ddd1920ffb8887e3051c7894f1989ec0106fa5968cbd0a36f12366aca5
+Size: 3082
 Filename: pam-plugin-loginuid_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -loginuid
@@ -73311,9 +72688,9 @@ Provides: pam-plugin-mail-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 35b6399ddf0f7aadeb4ebc24dba9524a
-SHA256sum: 18a85dc53450467f035b101eec3a1dff20a0be8c81cd507247380405d71455d6
-Size: 5196
+MD5Sum: e52977456b664a820b0a8e010b51d8e1
+SHA256sum: 91ca93b2101488c1fd94b94760b9d6b5f90b08d63f6600f874240be4db210ac5
+Size: 5192
 Filename: pam-plugin-mail_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -mail
@@ -73329,9 +72706,9 @@ Provides: pam-plugin-mkhomedir-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 72574013d83c84e4a06ee21e59877200
-SHA256sum: 9b8c8d892a519ee84b6de0a62ecab1a83e8d61c37d6cd61c4dcca4704a592354
-Size: 3916
+MD5Sum: 29f961999f958180e605c837d74354ac
+SHA256sum: acd0e853b09019cf7d770d039725fe69eb6d1caef7488930921ec53216d94f57
+Size: 3914
 Filename: pam-plugin-mkhomedir_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -mkhomedir
@@ -73347,9 +72724,9 @@ Provides: pam-plugin-motd-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 80333fceb962a84f6fca661472d87b1d
-SHA256sum: eb0f719621538798737b9d28ee21d2eb03f543326ac8a95f83496b1e0fd994db
-Size: 5304
+MD5Sum: e03c89eef5567b10c8fb064188bf5407
+SHA256sum: e94beff13b9b317ef19dcfc8bc30e42bc016547dbbc7fc3bff1e2caeb04bed51
+Size: 5302
 Filename: pam-plugin-motd_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -motd
@@ -73365,9 +72742,9 @@ Provides: pam-plugin-namespace-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fc536c2c8ca0c44247c5de5cba0f19a2
-SHA256sum: 8bd4c60430fb14206308400cc3f4ed820670cd24e614ab0e684328f9f00f8304
-Size: 20368
+MD5Sum: fd7839ffcfd7d05af616ecf455e2ab24
+SHA256sum: b9b3804cdb01799d82533ae4b384a0a2e7dcbf2a0d8053b8dde954cbff0a3490
+Size: 20366
 Filename: pam-plugin-namespace_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -namespace
@@ -73383,8 +72760,8 @@ Provides: pam-plugin-nologin-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fbc3add520fbcdc801c3a5a29d818292
-SHA256sum: 9f06e0a779fea9a626a2cc18f86211d1a6b4ef3f529f3be031903ba15808c964
+MD5Sum: faf5edc7c34deb23b74449dcb55b5bde
+SHA256sum: 4b06c73627d16b248a33143fc21049705712e19959af61cad7f40357394c7867
 Size: 3236
 Filename: pam-plugin-nologin_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73401,9 +72778,9 @@ Provides: pam-plugin-permit-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e0ff15574a50ef077f6307b8a80042f5
-SHA256sum: e27e67f3b4c77fac752f02a4537eb2c495243e3d4f041a80da64de138113e536
-Size: 2278
+MD5Sum: 307950aed3e201640713a2c7d3732184
+SHA256sum: fe1943e329b4ce0f6ee2c9314d5a59221f09d0aa460920829b843ec1bdc8fee1
+Size: 2276
 Filename: pam-plugin-permit_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -permit
@@ -73419,8 +72796,8 @@ Provides: pam-plugin-pwhistory-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f32f2fcb743d3d4116e3fc2b0e6eddfe
-SHA256sum: 6371a523aee79cf3dea2252a50f65408c21df76792e7215cbd436641d8ac6d64
+MD5Sum: d9050e3f80f8bc443819e83e89a4a4ee
+SHA256sum: b173e5ed2452bd6dc86d8e1b6bffbaaafd9033fb668ceb35f035f3b1644feaab
 Size: 6488
 Filename: pam-plugin-pwhistory_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73437,8 +72814,8 @@ Provides: pam-plugin-rhosts-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a85a507297f737df675912ded709904f
-SHA256sum: e6fbe1a56e40699bb8bcfb303d2463e75c9290d32f2bd1aff4ceb029a415478b
+MD5Sum: 5d81d09cc05bf2f730d4cc1e0794046e
+SHA256sum: 08a26478a6252a7c93eb0591934008bd3b6914d715fd390cd41bc479b5a61de2
 Size: 3004
 Filename: pam-plugin-rhosts_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73455,9 +72832,9 @@ Provides: pam-plugin-rootok-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 438b985259917989fa654ef2d1bd845a
-SHA256sum: be8387d5089d51eb493c2bad7d7866c6c075a1e83ef867ee39de7f2beed83d09
-Size: 2518
+MD5Sum: 719d748a9ca1aba64925b492d7664ab3
+SHA256sum: 3fc45a279cfd0c51de9f1cbeb1ecd052e19c1312eabcaa73a18c1e07b55ef43a
+Size: 2520
 Filename: pam-plugin-rootok_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -rootok
@@ -73473,9 +72850,9 @@ Provides: pam-plugin-securetty-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9a26f6549926aad96d3fa4cf8bff8c38
-SHA256sum: 279deeea1d3be077bfff14fd3c06215c4314db05b88d1b1d7033d129f7072b61
-Size: 4058
+MD5Sum: ca2a71beba2dcd0f50739f0de9553ca8
+SHA256sum: 88306595f777034e48ecea3f83a3839f36b072d445faec9b98bd3dce166d8611
+Size: 4060
 Filename: pam-plugin-securetty_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -securetty
@@ -73491,9 +72868,9 @@ Provides: pam-plugin-setquota-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8b57a7681469b309ceb91adc5ecad658
-SHA256sum: 516b751c64977b38e74bc90e2d17677d0887980ca8d1dc36d8eb27ac968418c9
-Size: 5778
+MD5Sum: 889ece14c6d2bd2bd1b16a63baef65aa
+SHA256sum: db24b4c1e6e556aa090ed9224c81b6ec258c45e3113d5ab9a697a8cf7e3ccbfe
+Size: 5776
 Filename: pam-plugin-setquota_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -setquota
@@ -73509,8 +72886,8 @@ Provides: pam-plugin-shells-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 81e755b8a0f1b8e612a5d153b7c825f8
-SHA256sum: 3d45ac5a719c0c540c8dec9a36ddb1f854d22f9deda3ee970dc98b4a6856a9ad
+MD5Sum: a9c1cab6644969014d9c0afa6a9525dd
+SHA256sum: d662d67f6290fc13c42a8c8606f7bb32e1706507bcd992fbab3418eae4709349
 Size: 2882
 Filename: pam-plugin-shells_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73527,8 +72904,8 @@ Provides: pam-plugin-stress-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e406f5f6f1baf7f7df80c76795cfff92
-SHA256sum: f01009fdec418fa63a0ea3c7d12b780477edc87efbc7d35d1fd95e1e317b2ffb
+MD5Sum: 0b26ec788935904b98b35c3ee1b282fe
+SHA256sum: 3d2e49a93c73ff5c294a8898bad27a13edf9386623118d8b844fe3c5edb7b2e9
 Size: 5990
 Filename: pam-plugin-stress_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73545,8 +72922,8 @@ Provides: pam-plugin-succeed-if-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 187d54b88d875d32a8f2c1456288e922
-SHA256sum: 582654c1aae9d8ec02ef9ba7a0d65d85a9c5ba7f0aaf7ed2050ce8722e1af274
+MD5Sum: 5846fd6b7fb48d8be9f3284bbab3dcda
+SHA256sum: c9b5aeae87fb5e5433c2d27ed1f65eb7ae470f6e087de92f146db07f482c8e3f
 Size: 5584
 Filename: pam-plugin-succeed-if_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73563,9 +72940,9 @@ Provides: pam-plugin-time-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cfd2e06d80565cec367a37c75c998194
-SHA256sum: 87f7c249297ed941ae3fb2afae2c703667a6a631cb93401d96cd6705c6dfc1c5
-Size: 8796
+MD5Sum: a509f93328edf78ae80bdca07b4d47f6
+SHA256sum: 6e701dbcaf0f2bb72fdce0515667566a98c37488ebba8325e6ac7e36a594d0d5
+Size: 8794
 Filename: pam-plugin-time_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -time
@@ -73581,9 +72958,9 @@ Provides: pam-plugin-timestamp-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cd6f6aaf91db549a29ef1389c43e7076
-SHA256sum: b7538b1403247489e49b0a91fcf3ac465d80a06f5d9b95e78087b763b27025ff
-Size: 8650
+MD5Sum: f7018cec47294b9efc40bb3e8b28d859
+SHA256sum: 42568103bfcfab9b9ea7d2e7e3306c0e297357a6b84e96b18c6ee07aeac8de2d
+Size: 8648
 Filename: pam-plugin-timestamp_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -timestamp
@@ -73599,9 +72976,9 @@ Provides: pam-plugin-umask-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fac15d0deb5c819360ad4de2560fad67
-SHA256sum: f422bc31f63b5b74fd4b03ef1fb10b7f141c299122e1e5040441c62807836305
-Size: 3704
+MD5Sum: f8c4e4d8a518dcb0cf7b17b92130858c
+SHA256sum: e354bbe4241732faef161a9f8567f60d66e1a1b2c7ba47fc06c9292f5bf5b8ad
+Size: 3702
 Filename: pam-plugin-umask_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -umask
@@ -73617,9 +72994,9 @@ Provides: pam-plugin-unix-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c25e7c3191f6d96e1cba24b71520d0d9
-SHA256sum: ba5319aa143b53464cb179ff1725509c018a1e9c3009fa9bcd112a632cdc19b2
-Size: 21292
+MD5Sum: 624910d4e41db8e959f3bb94f25c8f3a
+SHA256sum: 301c5f0d277f1a433a8322738dcc8d948243be98ac5d4915f922e6aa501a45cf
+Size: 21290
 Filename: pam-plugin-unix_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -unix
@@ -73635,9 +73012,9 @@ Provides: pam-plugin-usertype-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f36b397f9a2eaf3cce32594ab07ceeab
-SHA256sum: be7104c30084da7b54523935ea82007709e05a58d33abc0cb971a07cec863cc3
-Size: 3962
+MD5Sum: 06e7d19d6457764d83cde05b53d00f58
+SHA256sum: d4d6bf6beba312190cf3ab9fdfe1246ed318d31a7f4dbab021eb96b050e27e6b
+Size: 3960
 Filename: pam-plugin-usertype_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -usertype
@@ -73653,8 +73030,8 @@ Provides: pam-plugin-warn-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c71d4856361c3a2f634b65f320029b6e
-SHA256sum: 8d295c83d92399a3d82fcce48851692f65db647e4cfd6137d0d3ed81091a71bd
+MD5Sum: 364bddf2dcf55a1f6d335c55378b734f
+SHA256sum: de2501507052ea2d9fc1e3541efc9e05483b345a1a2c7bd970673a2d7537f23b
 Size: 2630
 Filename: pam-plugin-warn_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -73671,9 +73048,9 @@ Provides: pam-plugin-wheel-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9bcb5d42b888e63e739f5f10144a6d33
-SHA256sum: d911331bb93db73fc40d82f8820ab222157ed591c6f772f8a72aa888cfe7f515
-Size: 3394
+MD5Sum: 4e0a7c5c23c2b09116e4ac1bb61f3256
+SHA256sum: 004e9edbea4a4279434ef826270264adec353bdf344037f2a9a0dd10b620c3c7
+Size: 3392
 Filename: pam-plugin-wheel_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
 Description: PAM plugin for -wheel
@@ -73689,8 +73066,8 @@ Provides: pam-plugin-xauth-suffix
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a7a1a800439bd8d0206f83a30573e0f8
-SHA256sum: 37a44e552a2418cb8c07874f71cb90b9cb66084e67b9e5512050c66be4e34e56
+MD5Sum: 4d2732751dc0bf75e3393083a5ebfd14
+SHA256sum: 239f1f381acfeb1f6439e6b7ffe49a2a5f7cb61023073a525a4c30740a8bb69f
 Size: 7500
 Filename: pam-plugin-xauth_1.7.1-r0_armv7ahf-neon.ipk
 Source: libpam_1.7.1.bb
@@ -88353,8 +87730,8 @@ Recommends: glibc-dbg, libgcc-dbg, libpng-dbg, libstdc++-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2ca6d56427c4ec553c0cf958d619200f
-SHA256sum: 021ca6e26242fc33dabebda602a75c2e6fb82db90c595137cf335c2c9e665187
+MD5Sum: e87296a40443ce2383924cf7a1de9bda
+SHA256sum: b088ca2db688280aefb0d8da9a63b612f73f0242214780641fadb2caa4398e7c
 Size: 5540
 Filename: png-util-dbg_1.0-r0_armv7ahf-neon.ipk
 Source: png-util.bb
@@ -88385,8 +87762,8 @@ Depends: libc6 (>= 2.42+git), libgcc1 (>= 15.2.0), libpng16-16 (>= 1.6.50), libs
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6b9fbb7d8ab87bb255b2c5734cd21705
-SHA256sum: 0c34de48453e9ca2bee4ecaefa558983ae569193d50b1d5c107bb15bd03fcb08
+MD5Sum: 054022a64038dd0855d5c61bd673ecf0
+SHA256sum: face93ec05f522a11687dfa0f72198a0dc64f7da3ef53c85402c83a94277dd70
 Size: 15880
 Filename: png-util_1.0-r0_armv7ahf-neon.ipk
 Source: png-util.bb
@@ -90857,40 +90234,6 @@ Source: pydpflib.bb
 Description: pydpflib version 4.0.+git-r0
 OE: pydpflib
 License: GPL-2.0-or-later
-Priority: optional
-
-Package: pyldb-dbg
-Version: 2.8.2-r0
-Recommends: glibc-dbg, libatomic-dbg, libldb-dbg, libpython3-dbg, libtalloc-dbg, libtdb-dbg, libtevent-dbg, popt-dbg
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0de5c01ac7a448e78fe4551ce2a20fd7
-SHA256sum: 59065c4d25e7d4d787079cce12361b82929e0bba9c084c43d1fce40d5c12d548
-Size: 98728
-Filename: pyldb-dbg_2.8.2-r0_armv7ahf-neon.ipk
-Source: libldb_2.8.2.bb
-Description: Hierarchical, reference counted memory pool system with destructors
-OE: libldb
-HomePage: https://ldb.samba.org
-License: LGPL-3.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later
-Priority: optional
-
-Package: pyldb
-Version: 2.8.2-r0
-Depends: libatomic1 (>= 15.2.0), libc6 (>= 2.42+git), libldb (>= 2.8.2), libpython3.13-1.0 (>= 3.13.9), libtalloc (>= 2.4.3), libtdb1 (>= 1.4.14), libtevent0 (>= 0.17.1), python3
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2a1d280f540595048be26f9b7f44df71
-SHA256sum: b758d56df81803c1722edcee9d89ba0e5fcc546d7f9b2c6d2a0ba75214de6679
-Size: 38098
-Filename: pyldb_2.8.2-r0_armv7ahf-neon.ipk
-Source: libldb_2.8.2.bb
-Description: Hierarchical, reference counted memory pool system with destructors
-OE: libldb
-HomePage: https://ldb.samba.org
-License: LGPL-3.0-or-later & LGPL-2.1-or-later & GPL-3.0-or-later
 Priority: optional
 
 Package: pytalloc
@@ -95570,23 +94913,6 @@ HomePage: http://www.python.org
 License: PSF-2.0
 Priority: optional
 
-Package: python3-tdb
-Version: 1.4.14-r0
-Depends: libatomic1 (>= 15.2.0), libc6 (>= 2.42+git), libtdb1 (>= 1.4.14), python3
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 25f60ceaf649c64a489082a738c0a1e9
-SHA256sum: 4d5824642710025282a45eae39b6838bc9a4d3a4196783201c8bf8cc033c2036
-Size: 10414
-Filename: python3-tdb_1.4.14-r0_armv7ahf-neon.ipk
-Source: libtdb_1.4.14.bb
-Description: The tdb library
-OE: libtdb
-HomePage: https://tdb.samba.org/
-License: LGPL-3.0-or-later & GPL-3.0-or-later
-Priority: optional
-
 Package: python3-terminal
 Version: 3.13.9-r0
 Depends: python3-core, python3-io
@@ -95619,23 +94945,6 @@ Description: Python test suite
 OE: python3
 HomePage: http://www.python.org
 License: PSF-2.0
-Priority: optional
-
-Package: python3-tevent
-Version: 0.17.1-r0
-Depends: libatomic1 (>= 15.2.0), libc6 (>= 2.42+git), libtalloc (>= 2.4.3), libtevent0 (>= 0.17.1), python3
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 698553e6716fd2ac7bb215c0f9cc00b9
-SHA256sum: fbb98e49dd8114a1df7a61526407b073b3b6b8a26007b6520c376b9cbf332bfc
-Size: 8972
-Filename: python3-tevent_0.17.1-r0_armv7ahf-neon.ipk
-Source: libtevent_0.17.1.bb
-Description: Hierarchical, reference counted memory pool system with destructors
-OE: libtevent
-HomePage: https://tevent.samba.org
-License: LGPL-3.0-or-later
 Priority: optional
 
 Package: python3-threading
@@ -96654,9 +95963,9 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5587693ed31d87b4c4c745d259e08b43
-SHA256sum: 381343375fb09e6c93375f783ca1d25570f3c195ca85652af8f89a4108a0242e
-Size: 124900
+MD5Sum: 2728cfd0890255548d8a7081b8d96daf
+SHA256sum: 0828d9437c1dc5f8ae1d7c1f78ba936cdb6e4065d12fdb1ca1474dd42934a01d
+Size: 124906
 Filename: replex-dbg_0.1.6.8-r0_armv7ahf-neon.ipk
 Source: replex_0.1.6.8.bb
 Description: replex remultiplexes TS (DVB) to PS (DVD) - Debugging files
@@ -96686,8 +95995,8 @@ Depends: libc6 (>= 2.42+git)
 Section: console/multimedia
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0b77d0a95cc694ee5ff6aca506220b23
-SHA256sum: ce4d05b8e2b90072b18bf959429a3d0fe62b38085fc0fd1f79816bd776a33d24
+MD5Sum: 3e122b908f3da99bfd6aaa645689ab7f
+SHA256sum: 6c4708d1db2c5a6637d1ef2fdf717a675c0c98ecd96e74be6d3fd302bab17922
 Size: 58128
 Filename: replex_0.1.6.8-r0_armv7ahf-neon.ipk
 Source: replex_0.1.6.8.bb
@@ -99638,9 +98947,9 @@ Recommends: glibc-dbg, libcrypto-dbg, libpam-dbg, libssl-dbg, zlib-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eae9c2eae4e6fdfdd846af3ef6fc0dfa
-SHA256sum: 0cc9f582e98f5ad6baa51d6468135503cd2b8ab5ceb6f39e34555f3711f5a2b5
-Size: 89154
+MD5Sum: 96b368f2fc81787943e9aa7c312878cf
+SHA256sum: 6ba34257610debb0f01c2627e3db7df6d2975a762602302c42258908f05f4819
+Size: 89160
 Filename: shellinabox-dbg_V2.21.0.r3+git437+a70d4f7-r0_armv7ahf-neon.ipk
 Source: shellinabox.bb
 Description: publish command line shell through AJAX interface - Debugging files
@@ -99689,9 +98998,9 @@ Recommends: update-rc.d
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5d870ad98a8c3d78ff8ec82e5be724c8
-SHA256sum: af1d28e3dbcbcd1e744202fc024de537e9a86c8aac4671e9f35e04fab5e4f2d5
-Size: 126980
+MD5Sum: bcf20cce044c13ab4ca973bafe71ed27
+SHA256sum: 873bd7eb3737adaecafb128ad2fd7b478499e26d0a3470a1fca85de303a98551
+Size: 126986
 Filename: shellinabox_V2.21.0.r3+git437+a70d4f7-r0_armv7ahf-neon.ipk
 Source: shellinabox.bb
 Description: publish command line shell through AJAX interface
@@ -100930,31 +100239,14 @@ HomePage: http://www.softpanorama.org/Net/Network_security/TCP_wrappers/
 License: BSD-1-Clause
 Priority: optional
 
-Package: tdb-tools
-Version: 1.4.14-r0
-Depends: libc6 (>= 2.42+git), libtdb1 (>= 1.4.14)
-Section: libs
-Architecture: armv7ahf-neon
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fcb5c2b06a0c923b9c6b62b682962f4b
-SHA256sum: 6bb0c438729deb9753e7325663ff07c22d675bec950e5924024357ec0bd14488
-Size: 17868
-Filename: tdb-tools_1.4.14-r0_armv7ahf-neon.ipk
-Source: libtdb_1.4.14.bb
-Description: The tdb library
-OE: libtdb
-HomePage: https://tdb.samba.org/
-License: LGPL-3.0-or-later & GPL-3.0-or-later
-Priority: optional
-
 Package: transmission-client
 Version: 4.1.0-1
 Depends: libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0), libcurl4 (>= 8.16.0), libevent-2.1-7 (>= 2.1.12), libgcc1 (>= 15.2.0), libssl3 (>= 3.6.0), libstdc++6 (>= 15.2.0)
 Section: network
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d2cf37d3c687adffa317f6af2259fdb1
-SHA256sum: b3fc48338016697b3534522cb499d48299b89f4cdd3509861932b57aec931fba
+MD5Sum: 51cefc81b2c3ca9800cdf93a9a6c7330
+SHA256sum: 6fda7db638d5303520def4cb71e507cc7cc82a3e1d73b5f678a7b17a3b42d18d
 Size: 4400980
 Filename: transmission-client_4.1.0-1_armv7ahf-neon.ipk
 Source: transmission_4.1.0.bb
@@ -101021,9 +100313,9 @@ Recommends: update-rc.d
 Section: network
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dbb588b2aa64e2ce0738f0a4ed07c1c2
-SHA256sum: 3d791d1c14f87e95eba2005c2b6ca817edd5e3a1d91445905a9f9095389c17ab
-Size: 1186320
+MD5Sum: 339c59f79d879200e8b622c77b9d40cc
+SHA256sum: deb264b6c248ecf00fb4c05d41f7ed00290ed84a975080a413cd5901bb065d0a
+Size: 1186318
 Filename: transmission_4.1.0-1_armv7ahf-neon.ipk
 Source: transmission_4.1.0.bb
 Description: transmission version 4.1.0-1
@@ -104199,9 +103491,9 @@ Depends: bash, coreutils, gawk
 Section: console/utils
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cda34d10d5653f0f8ee228932b8e7cce
-SHA256sum: a9b3e5cb26078f3ba10459c92567b52d6a54b0e22b406ffad5fbdbf1798cea98
-Size: 11016
+MD5Sum: fc6c08bbf7fb9619afaab3fd9fe1508a
+SHA256sum: a2ab74c76459a670f5063d3a3595fb756032c2bd7f85e64c0bc370a16ec77420
+Size: 11018
 Filename: wiper_9.65-r0_armv7ahf-neon.ipk
 Source: hdparm_9.65.bb
 Description: Utility for viewing/manipulating IDE disk drive/driver parameters
