@@ -244,14 +244,14 @@ License: PD
 Priority: required
 
 Package: enigma2-plugin-skins-cyber-fhd-dbg
-Version: git301+03a2eaf-r0
+Version: git307+0d76fef-r0
 Section: devel
 Architecture: all
 Maintainer: Vasiliks
-MD5Sum: 75fc3ef383766038204fc3488cc090ef
-SHA256sum: f509a59adab1f0f6bc6a1c7acc2a4b81e5cc781866403eb3a355d975fb508933
+MD5Sum: 3776ca0a01f95bb89525aa899ae545cd
+SHA256sum: ac3c3c81dddd4a73be723f4cee028e301b8c50f5da7abfd212139f95a67dc297
 Size: 560
-Filename: enigma2-plugin-skins-cyber-fhd-dbg_git301+03a2eaf-r0_all.ipk
+Filename: enigma2-plugin-skins-cyber-fhd-dbg_git307+0d76fef-r0_all.ipk
 Source: enigma2-plugin-skins-cyber-fhd.bb
 Description: enigma2-plugin-skins-cyber-fhd version git-r0 - Debugging files
 OE: enigma2-plugin-skins-cyber-fhd
@@ -259,15 +259,15 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-skins-cyber-fhd-dev
-Version: git301+03a2eaf-r0
-Recommends: enigma2-plugin-skins-cyber-fhd (= git301+03a2eaf-r0)
+Version: git307+0d76fef-r0
+Recommends: enigma2-plugin-skins-cyber-fhd (= git307+0d76fef-r0)
 Section: devel
 Architecture: all
 Maintainer: Vasiliks
-MD5Sum: 274764315475f4a9eb953fb1ff2ade11
-SHA256sum: e5d85016eeacef0c267460149e1b537e458e34fc8564c20d62d3876dda2d4ab5
-Size: 596
-Filename: enigma2-plugin-skins-cyber-fhd-dev_git301+03a2eaf-r0_all.ipk
+MD5Sum: c2b6992ab037cffde18abb407e0c26d3
+SHA256sum: b47cae8823a7a992595fd3d42da139f1de8116a8b22056ae5390ce54c6f6a030
+Size: 598
+Filename: enigma2-plugin-skins-cyber-fhd-dev_git307+0d76fef-r0_all.ipk
 Source: enigma2-plugin-skins-cyber-fhd.bb
 Description: enigma2-plugin-skins-cyber-fhd version git-r0 - Development files
 OE: enigma2-plugin-skins-cyber-fhd
@@ -275,14 +275,14 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-skins-cyber-fhd
-Version: git301+03a2eaf-r0
+Version: git307+0d76fef-r0
 Section: base
 Architecture: all
 Maintainer: Vasiliks
-MD5Sum: 4621a1889a5f19ce9d80628e02168ce2
-SHA256sum: 92c4954d2bbd1a44cf52c8afeef38191cfdc540152e20d41a519ee34cba2869d
-Size: 4947488
-Filename: enigma2-plugin-skins-cyber-fhd_git301+03a2eaf-r0_all.ipk
+MD5Sum: 6a52855525033196056dea0d5340b973
+SHA256sum: 0a80940959766df23d8b3b5b55722e193baeb49545f3194cbe3496cb4e9c3bbe
+Size: 5514204
+Filename: enigma2-plugin-skins-cyber-fhd_git307+0d76fef-r0_all.ipk
 Source: enigma2-plugin-skins-cyber-fhd.bb
 Description: enigma2-plugin-skins-cyber-fhd version git-r0
 OE: enigma2-plugin-skins-cyber-fhd
@@ -701,14 +701,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1247+3c82b57-3
+Version: 2+git1257+5d95cd6-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 39dbf91e13448dcbc09a17589e4f11d7
-SHA256sum: bd27cf39391e708331af09694b013ccd34e94f52ac18e407af2621706c0a7f4d
-Size: 560
-Filename: tuxbox-common-dbg_2+git1247+3c82b57-3_all.ipk
+MD5Sum: c789a6a05dcb07e98b9bbbca12f9c3e3
+SHA256sum: e0f48578c5d0d0e6760c7b2706321bd97641c439f8b431d8316e9e91750284a2
+Size: 562
+Filename: tuxbox-common-dbg_2+git1257+5d95cd6-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -716,15 +716,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1247+3c82b57-3
-Recommends: tuxbox-common (>= 2+git1247+3c82b57-3), tuxbox-common (<< 2+git1247+3c82b57-3.0), xz-dev
+Version: 2+git1257+5d95cd6-3
+Recommends: tuxbox-common (>= 2+git1257+5d95cd6-3), tuxbox-common (<< 2+git1257+5d95cd6-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 6cf3fc390cafc6f37b69846d324004ca
-SHA256sum: 930565c2aab28f01f1d2e0deb8a30a654d3efe5c8d3291daf0d81832b8d70c88
-Size: 612
-Filename: tuxbox-common-dev_2+git1247+3c82b57-3_all.ipk
+MD5Sum: 0a99d78db7de192057b565941ecebf41
+SHA256sum: c7fddc2081e8158c7fb39cfae1e2821b712038703170be3b14fb20d4f40e7211
+Size: 614
+Filename: tuxbox-common-dev_2+git1257+5d95cd6-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -732,15 +732,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1247+3c82b57-3
+Version: 2+git1257+5d95cd6-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: de620d4640d427a05e6c0c4540eab5a6
-SHA256sum: f4b1170ca77f0371004b103aa9a7bcd0f21200d367a8ac3e2e565fc2d255f0bc
-Size: 71166
-Filename: tuxbox-common_2+git1247+3c82b57-3_all.ipk
+MD5Sum: 2df12d5be2489663e1e8edc37153b8e3
+SHA256sum: 2e0e5816a65e18b598e51882d78e732554635022ff191d1057ec4a1cdc132217
+Size: 71182
+Filename: tuxbox-common_2+git1257+5d95cd6-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
