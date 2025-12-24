@@ -116,8 +116,8 @@ Version: 3.0.14-r0
 Section: base
 Architecture: et1x000
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cf6c6939771a788f31870c0d0f6c7a8e
-SHA256sum: 1b9c0af848b3b0fd03716c81f733d8d1d338689c66fa0c27ea0556dfb8006444
+MD5Sum: 83f84d5ea7b39bf8b89dd6eb0e019f58
+SHA256sum: ada50534ebca04c5ed1282d97c8869bc408eedc5a07a71b19309c9aec16a6040
 Size: 3794
 Filename: base-files_3.0.14-r0_et1x000.ipk
 Source: base-files_3.0.14.bb
@@ -177,9 +177,9 @@ Version: GCC-15.2-r0
 Section: base
 Architecture: et1x000
 Maintainer: OpenPLi team
-MD5Sum: d1eae0b8bbb020212f4ddfa6ff50979d
-SHA256sum: 23a6a4a04dfe4b7e933538879e93a61a018aacd03c90382a6f55a8e1b578be2b
-Size: 1300
+MD5Sum: 228d70d0acb4716d65b52a41c166a414
+SHA256sum: b4d148f466e5ed04d3c85b7231c77342d61eba99f079ebc564a62ba84ef6ffff
+Size: 1294
 Filename: enigma-info_GCC-15.2-r0_et1x000.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
@@ -1243,9 +1243,9 @@ Depends: aio-grab, python3-cheetah, python3-compression, python3-core, python3-i
 Section: base
 Architecture: et1x000
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c3029018a96e976b8a5fd9121ccc59eb
-SHA256sum: e77eb90afb30fb0bf501dc6f956dcdcde8a15ea6da57c5fa9b6b6b9920ae0ee3
-Size: 2160662
+MD5Sum: 194c03bc933438082d4d1732744993df
+SHA256sum: fa88036260d6939649201b9f59b92fa3ddb99287fb76487263b554b9827a63fc
+Size: 2160552
 Filename: enigma2-plugin-extensions-openwebif_2.2.2-git264+8ea90df-r0_et1x000.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0
@@ -1461,9 +1461,9 @@ Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, liba
 Section: base
 Architecture: et1x000
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8ce5d204cec8e94fd4516d4c1d869ceb
-SHA256sum: 6707e768d75073bb9ad29cfb2bc4d97b9f99ad1fe878d6bb4c714349c654ab3b
-Size: 20467398
+MD5Sum: 5ab63fad6642a76fe651ef601c6081eb
+SHA256sum: 9e264698b252aaacbad2ca5377685bbd73d6695c4c275a6eeee3ed5b7df5fb03
+Size: 20465380
 Filename: enigma2-plugin-extensions-socketmmi-dbg_3.13+git21971+ecb7369-r0_et1x000.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (debug)
@@ -1492,9 +1492,9 @@ Version: 3.13+git21971+ecb7369-r0
 Section: base
 Architecture: et1x000
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 33d0559ed212c74ce881f9c908a332fe
-SHA256sum: 2f03ec71d656c650444b0cb31057d23d69708ae752f52c70f71d0ae70b73f921
-Size: 150342
+MD5Sum: 96c22902d2fc05530e248a511836e6e5
+SHA256sum: a594df6a54e2166e58049b8225c4d2aff5abd27bb441d9195c254c9fec9bc85a
+Size: 150360
 Filename: enigma2-plugin-extensions-socketmmi-staticdev_3.13+git21971+ecb7369-r0_et1x000.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (static development)
@@ -1508,9 +1508,9 @@ Depends: libc6 (>= 2.42+git), libgcc1 (>= 15.2.0), libstdc++6 (>= 15.2.0), libud
 Section: base
 Architecture: et1x000
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3a114e74dd45d757df3d954f2754aab5
-SHA256sum: fb5b5ee6c888f7df30e626a274687ac2b9479a145545d94a39564d856be6b326
-Size: 14272
+MD5Sum: 4d628d06b1a4251632e7389b08205c6d
+SHA256sum: c1369c8ad9e7ec3f1bbec3ae7e51d768394a6dde056180f77252b3984d29f1aa
+Size: 14274
 Filename: enigma2-plugin-extensions-socketmmi_3.13+git21971+ecb7369-r0_et1x000.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
@@ -2292,9 +2292,9 @@ Recommends: glibc-dbg, libcrypto-dbg, libgcc-dbg, libssl-dbg, libstdc++-dbg, uch
 Section: devel
 Architecture: et1x000
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 908dfbf38bb744771dc67ad607a0327f
-SHA256sum: 1bb4f0d0f7913b62ac0f78572d6d7be8378c89dab16ae84c12611484774cea71
-Size: 2311624
+MD5Sum: 246a9d137c5d78c4240bb0ca5cf543e7
+SHA256sum: 87c3b14260b73be02f4d78072d208fb84907cb9faac5e6dd392c917c91975956
+Size: 2311644
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_git176+947f62e-r0_et1x000.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version git-r0 - Debugging files
@@ -2325,8 +2325,8 @@ Recommends: exteplayer3, gstplayer
 Section: base
 Architecture: et1x000
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 53a81a85c4cb08aca2a5be2d4bb33145
-SHA256sum: 0497e27d61db223941554d65b29457ce491bd308717627c574c41a8dbd7b922b
+MD5Sum: b778e0cd9e36771438f3466a61d4c972
+SHA256sum: 868c6dc36c12c65e619abeb1cda3b2fcc17e87d1d98bc74749da186de7617ba0
 Size: 177502
 Filename: enigma2-plugin-systemplugins-serviceapp_git176+947f62e-r0_et1x000.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
@@ -2341,9 +2341,9 @@ Recommends: glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libgcc-dbg, libgstaudio-1
 Section: devel
 Architecture: et1x000
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2e42a553dfd190d0d6015b7c52a058f1
-SHA256sum: 0447188568fa3b63bc5c1bd757ba48e330f46dd6643d1f86519417673bed8fe3
-Size: 895602
+MD5Sum: 9e633a51cca6413a084006c36c9f373c
+SHA256sum: ac5b17f0c41f7022fc86d6d3f691fd0a14cbb90848b891a38344cc6de19d47d1
+Size: 895604
 Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git73+bdb5a90-r0_et1x000.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: enigma2-plugin-systemplugins-servicemp3 version git-r0 - Debugging files
@@ -2374,9 +2374,9 @@ Provides: virtual-enigma2-mediaservice
 Section: base
 Architecture: et1x000
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0a0952c573f4626e875cc1fdc4aa5770
-SHA256sum: 0f057c5c07ddc61fc19f61fff5632f546e9f967263847461490929f54a58840d
-Size: 75252
+MD5Sum: 2b6871961f696b3ff0cd520738200699
+SHA256sum: f51f0d929d87531af50d83e81c08b311a17bf145420d17e100dc6f1ff4a73ff6
+Size: 75250
 Filename: enigma2-plugin-systemplugins-servicemp3_git73+bdb5a90-r0_et1x000.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: enigma2-plugin-systemplugins-servicemp3 version git-r0
@@ -2699,15 +2699,15 @@ Priority: optional
 
 Package: enigma2
 Version: 3.13+git21971+ecb7369-r0
-Depends: alsa-conf, enigma-info, enigma2-dhcp-wait, enigma2-fonts, ethtool, font-valis-enigma, glibc-gconv-iso8859-15, libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.42+git), libcrypt2 (>= 4.4.38), libcrypto3 (>= 3.6.0), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.2.0), libgif7 (>= 5.2.2), libglib-2.0-0 (>= 2.86.0), libgomp1 (>= 15.2.0), libjpeg62 (>= 3.1.2), libpng16-16 (>= 1.6.50), libpython3.13-1.0 (>= 3.13.9), libsigc-3.0-0 (>= 3.6.0), libssl3 (>= 3.6.0), libstdc++6 (>= 15.2.0), libtuxtxt0 (>= 2.0+git82+1402795), libtuxtxt32bpp0 (>= 2.0+git82+1402795), libudfread3 (>= 1.2.0+git126+139a219), libxml2 (>= 2.14.6), python3-codecs, python3-core, python3-crypt, python3-fcntl, python3-logging, python3-mmap, python3-netclient, python3-netserver, python3-numbers, python3-pickle, python3-process, python3-pyusb, python3-service-identity, python3-shell, python3-threading, python3-twisted, python3-twisted-core, python3-urllib3, python3-xml, python3-zopeinterface
+Depends: alsa-conf, enigma-info, enigma2-dhcp-wait, enigma2-fonts, ethtool, font-valis-enigma, glibc-gconv-iso8859-15, libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.42+git), libcrypt2 (>= 4.4.38), libcrypto3 (>= 3.6.0), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.2.0), libgif7 (>= 5.2.2), libglib-2.0-0 (>= 2.86.0), libgomp1 (>= 15.2.0), libjpeg62 (>= 3.1.2), libpng16-16 (>= 1.6.50), libpython3.13-1.0 (>= 3.13.11), libsigc-3.0-0 (>= 3.6.0), libssl3 (>= 3.6.0), libstdc++6 (>= 15.2.0), libtuxtxt0 (>= 2.0+git82+1402795), libtuxtxt32bpp0 (>= 2.0+git82+1402795), libudfread3 (>= 1.2.0+git126+139a219), libxml2 (>= 2.14.6), python3-codecs, python3-core, python3-crypt, python3-fcntl, python3-logging, python3-mmap, python3-netclient, python3-netserver, python3-numbers, python3-pickle, python3-process, python3-pyusb, python3-service-identity, python3-shell, python3-threading, python3-twisted, python3-twisted-core, python3-urllib3, python3-xml, python3-zopeinterface
 Replaces: enigma2-plugin-pli-softcamsetup
 Conflicts: enigma2-plugin-pli-softcamsetup
 Recommends: glibc-gconv-utf-16, gstreamer1.0-plugins-bad-aom, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mms, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvert, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-amrnb, gstreamer1.0-plugins-ugly-amrwbdec, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, hotplug-e2-helper, libdvdcss, python3-sendfile, virtual-enigma2-mediaservice
 Section: base
 Architecture: et1x000
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5df1df535788d672db7eb645c166c64d
-SHA256sum: 53a6f0fdf97c29e7d891c0b015e4e8605c4fc63bd8ecc97b58254ce57e9f9f1c
+MD5Sum: d38dd6c279e0c2e103d3ff8760e504d2
+SHA256sum: e1be27de752aab277f222f932bf6edd7222e10520aa8f76f20d2906fdc98a120
 Size: 9421770
 Filename: enigma2_3.13+git21971+ecb7369-r0_et1x000.ipk
 Source: enigma2.bb

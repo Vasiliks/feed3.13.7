@@ -4944,9 +4944,9 @@ Recommends: freetype-dbg, glibc-dbg, libgcc-dbg, libjpeg-turbo-dbg, libpng-dbg, 
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 662fb3438dbc8f4714a93e81b716e87f
-SHA256sum: c06252151069d38687d1d72e4add8c09d805f91c2c763f8bc8671ef332760b96
-Size: 5269376
+MD5Sum: 64a1515800ef1d889cfebf478508c2af
+SHA256sum: 98634302a60ca44148ac2290069a12d6d24527a3b592c38c34d389e010b605e7
+Size: 5269378
 Filename: directfb-dbg_1.7.7-r0_armv7ahf-neon.ipk
 Source: directfb_1.7.7.bb
 Description: Graphics abstraction library for the Linux Framebuffer Device - Debugging files
@@ -4995,8 +4995,8 @@ Depends: libc6 (>= 2.42+git), libfreetype6 (>= 2.13.3), libgcc1 (>= 15.2.0), lib
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 016ac8736f1ac623e7345c628b61729e
-SHA256sum: c9b2c7ff54df63156256359169baea40ab9b5c5cd7784525e0c1d7c44c5051f0
+MD5Sum: db7a9f0acc445e304d2b53781c4e83e3
+SHA256sum: 6f9cdbac2395fec8019a15f8edd43ec9636f9cc754b072c86d4b859853d9a6c0
 Size: 1296032
 Filename: directfb_1.7.7-r0_armv7ahf-neon.ipk
 Source: directfb_1.7.7.bb
@@ -6600,8 +6600,8 @@ Version: 28+git575+dbe70c7-r0
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 19e25154154592f699e299cea84e95c1
-SHA256sum: 970419880c46b8ea87609d249eed0b76cba7fb596766080136364133eea49ac5
+MD5Sum: 9e9801b2b58dcd2c0ebffaecbefa6f56
+SHA256sum: f2a7ad7608827d755d5501da9e69f580c7ef3bd90d476d13e016c870b849f473
 Size: 614
 Filename: enigma2-plugin-extensions-backupsuite-dbg_28+git575+dbe70c7-r0_armv7ahf-neon.ipk
 Source: enigma2-plugin-extensions-backupsuite.bb
@@ -6616,9 +6616,9 @@ Recommends: bzip2-dev, enigma2-plugin-extensions-backupsuite (= 28+git575+dbe70c
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9ea0afc43d6dae10ae752efa031ac92d
-SHA256sum: 3df838fe60bab65d7cb91862e7066c6b65d611edadb212e067d7da0620984e66
-Size: 696
+MD5Sum: ebe39b2f2b1dde8dd06bd8418f30834a
+SHA256sum: f067ad107bcc6884995310f872b8981de7331439e7e96c24e4d84266fff60345
+Size: 692
 Filename: enigma2-plugin-extensions-backupsuite-dev_28+git575+dbe70c7-r0_armv7ahf-neon.ipk
 Source: enigma2-plugin-extensions-backupsuite.bb
 Description: enigma2-plugin-extensions-backupsuite version 28+git-r0 - Development files
@@ -6632,9 +6632,9 @@ Depends: bzip2, enigma2-plugin-extensions-backupsuite, mtd-utils, mtd-utils-ubif
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9ff0b40ac5ba8a810ae2d84799597224
-SHA256sum: a72be639493f314632fe563aada19ae24356c6d9b53d79c31143d262d403cf92
-Size: 121572
+MD5Sum: 153bae2cc0477d81014bce5c9c5af6c7
+SHA256sum: daf4ff49cff7b5444bee950a56be1b04aba5974fffdad369a0f4d06364e452fc
+Size: 121620
 Filename: enigma2-plugin-extensions-backupsuite_28+git575+dbe70c7-r0_armv7ahf-neon.ipk
 Source: enigma2-plugin-extensions-backupsuite.bb
 Description: Enigma2 Plugin: extensions-backupsuite
@@ -6730,8 +6730,8 @@ Depends: enigma2-binary-plugins
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d8249155afe44e9b366914827fa403a7
-SHA256sum: 5e376f1dcaa48b80cde73e07be6454b2a62ae6ba3b0e4b99b1f29b628a508536
+MD5Sum: fb13135af7c63ce869c95b5728ab1bbd
+SHA256sum: 284bbd048aa5b7dafdf797ddbf7f935c0bd9947021e55da21891d27c7153459c
 Size: 105112
 Filename: enigma2-plugin-systemplugins-networkbrowser-staticdev_git78+483005f-r0_armv7ahf-neon.ipk
 Source: enigma2-binary-plugins.bb
@@ -6746,8 +6746,8 @@ Depends: enigma2-binary-plugins, libc6 (>= 2.42+git)
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: bffc302e373d373880164a070469516f
-SHA256sum: 6c74e835405d1f5a3f7e3351aa052a85bbe0c6d82868d868b4c2b0f8bb0ff149
+MD5Sum: c4cc25d0cbf914a181028beda38269d9
+SHA256sum: 8b2d15f3886d3fd9fbeb7dcb4938b90946e68a522aa2f525f70f4483df93dadd
 Size: 123440
 Filename: enigma2-plugin-systemplugins-networkbrowser_git78+483005f-r0_armv7ahf-neon.ipk
 Source: enigma2-binary-plugins.bb
@@ -6763,8 +6763,8 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 26648107c759b1ff44680e82a9f49a65
-SHA256sum: 9573434482b54a78fb343a0c3f97fa0d29f324f9df44ac6a76770a42ddf72597
+MD5Sum: edb32c13364e9c92d7fa9a50a5a557c5
+SHA256sum: a9921434ebd5f8144d8b048275897b1d39f7973c01bd0b01399ae00b46f691e0
 Size: 150996
 Filename: enigma2-plugin-systemplugins-vps-dbg_git78+483005f-r0_armv7ahf-neon.ipk
 Source: enigma2-binary-plugins.bb
@@ -8457,9 +8457,9 @@ Recommends: glibc-dbg, libgcc-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9bd5469569e2c746e79a6acc113d367f
-SHA256sum: e210bbb8a13ce2d8bfbf2f7859004ce465471d35a0bdd1a110db15ebf0e3bca4
-Size: 8739594
+MD5Sum: c06ed806be59485fe6e04b7f77e3950b
+SHA256sum: 4e1a1cd13e54e1ee98045391ce201e8c7b07ddd0912b8de5a1a6320e80c899dd
+Size: 8739556
 Filename: gcc-runtime-dbg_15.2.0-r0_armv7ahf-neon.ipk
 Source: gcc-runtime_15.2.bb
 Description: Runtime libraries from GCC - Debugging files
@@ -41545,8 +41545,8 @@ Recommends: glibc-dev, libgcc-dev
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 40316744ed06c20692856cb7703bf730
-SHA256sum: 31da43d92cbd1afa6dbe6c8984a1b3f25275a92d5e8fb9506c98440fd644178c
+MD5Sum: 977789c20c8e92695aaf9529c89979b0
+SHA256sum: 95e880a98ad3be3a9a8eb18462d5e0efff2920e84125d589fe0447a63499bbc9
 Size: 866
 Filename: libatomic-dev_15.2.0-r0_armv7ahf-neon.ipk
 Source: gcc-runtime_15.2.bb
@@ -41643,9 +41643,9 @@ Version: 15.2.0-r0
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 799fe97f893116e5c1650b7460a89d5a
-SHA256sum: 06c11c91c0ce59166f42a488c22ce88699d22ed563cd22de989f4aeb66be1c58
-Size: 30104
+MD5Sum: e0e0c5f5921bd6c8c20755ab45a81f36
+SHA256sum: b5d0a206e151d8a8544591a5105a9b4d10abbc3e1eded0eb13f68622d7de0a3a
+Size: 30106
 Filename: libatomic-staticdev_15.2.0-r0_armv7ahf-neon.ipk
 Source: gcc-runtime_15.2.bb
 Description: GNU C++11 atomics support library - static development files
@@ -41661,9 +41661,9 @@ Provides: libatomic
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ea462330b4031e97da5ff75d7f73507c
-SHA256sum: 3686d0acb7899fdf7e336d68fbd2e4c78d3ac6387f346769aa973d608e1e0368
-Size: 6960
+MD5Sum: 11abf28888c787405231fe71f837f6d3
+SHA256sum: f6871df16f036a9411aea715ca14460bc104206faa7b853a03097f69213e0634
+Size: 6958
 Filename: libatomic1_15.2.0-r0_armv7ahf-neon.ipk
 Source: gcc-runtime_15.2.bb
 Description: GNU C++11 atomics support library
@@ -44965,9 +44965,9 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 89f64e305dd311fb683fd01d7a5ab39a
-SHA256sum: 5548aa078ff388ac9032e1f4841d41466348e91e6ed521219b13af7ef8b2c81d
-Size: 353938
+MD5Sum: 2cb0923a103d85cf9c1497f79e99876f
+SHA256sum: 0d72e12028cf97fb9466f3d274e602cbf929634fe3b65265d60c3946d5252739
+Size: 353932
 Filename: libgcc-s-dbg_15.2.0-r0_armv7ahf-neon.ipk
 Source: libgcc_15.2.bb
 Description: GNU cc and gcc C compilers - Debugging files
@@ -44983,8 +44983,8 @@ Recommends: glibc-dev, libgcc1 (= 15.2.0-r0)
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8a19475a3242ddc3c220ace1368c6053
-SHA256sum: c8b9f5ca5b7a3eca376724de3f3efcdd8dc404642aa8f2557b93f979dd0be1bf
+MD5Sum: e26cc922959dba5acb41ca109f8c0213
+SHA256sum: 9eb21838b49fd1fa224a68b2e43edcba0bbf287f850d7363ba621df10c6123a7
 Size: 567162
 Filename: libgcc-s-dev_15.2.0-r0_armv7ahf-neon.ipk
 Source: libgcc_15.2.bb
@@ -45001,8 +45001,8 @@ Provides: libgcc
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ef41eae69e5180398d6902d989cac1db
-SHA256sum: 17344dcd51ef606a18f2103b3b490366afdc9d9ec64e95afea3641a4eab17fc1
+MD5Sum: 791dcafdd512691b5ffa65529be18c10
+SHA256sum: 4c9e8514743cf7f58a00019e2fc3c05727a2b77ce34d0a6e9e05d000ce67bd69
 Size: 46268
 Filename: libgcc1_15.2.0-r0_armv7ahf-neon.ipk
 Source: libgcc_15.2.bb
@@ -47903,9 +47903,9 @@ Recommends: glibc-dbg, libffi-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7df122379d633d5323ad24a1ec52f80b
-SHA256sum: 9544bd8274ca61a7dbabe945b96d0cf0b227b0e5602114139c6790d6a78b0ac3
-Size: 692142
+MD5Sum: 0a60a2366d2d67fc5ef154defa1a1d6c
+SHA256sum: 439f70fe80f2e72326b7922f925ef226488e3ed9a71d7ce43d8b84c7915e0590
+Size: 692140
 Filename: libgirepository-1.0-dbg_1.84.0-r0_armv7ahf-neon.ipk
 Source: gobject-introspection_1.84.0.bb
 Description: Middleware layer between GObject-using C libraries and language bindings - Debugging files
@@ -47957,8 +47957,8 @@ Provides: gobject-introspection-tools
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 217597949a3bad09f0c8e1ab4d0761bb
-SHA256sum: a32a01e203502ea0e454489914eb0e20685a70936fecadc3007044eb7b954b08
+MD5Sum: 13ada6dd9c4f7cd679fe397851035cae
+SHA256sum: a0b84ac2af32e0404e163b9a1346668345a70ff45800b3f6b749b33388f427af
 Size: 267288
 Filename: libgirepository-1.0-tools_1.84.0-r0_armv7ahf-neon.ipk
 Source: gobject-introspection_1.84.0.bb
@@ -50461,8 +50461,8 @@ Recommends: glibc-dev, libgcc-dev
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e05f178d1fdb39224c7ae466acb176c7
-SHA256sum: c5a2c42c68fdbf1a0935671484518002efd7f4c36a2c461b778538eaf74f4201
+MD5Sum: 02c1344553ee0d7c8c3968c8c3993068
+SHA256sum: 2ea72392399a9700c3023d954fa75c3b30f6b6d070667b07a247b53cfcb2fbbb
 Size: 8120
 Filename: libgomp-dev_15.2.0-r0_armv7ahf-neon.ipk
 Source: gcc-runtime_15.2.bb
@@ -50477,9 +50477,9 @@ Version: 15.2.0-r0
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fafab935ba72720c151a8bfee4e5b4b4
-SHA256sum: 7b9c88dc888b0aa07a37ea089e8270a6608f1b5390cf65982ece5d4b66525bd8
-Size: 941748
+MD5Sum: 98a1b5c42e00148280200da62412fb18
+SHA256sum: 7cf55b3ad7464e33c920e4c9cbe54789b612fa9337a2ba5edd26db98269c62c9
+Size: 941746
 Filename: libgomp-staticdev_15.2.0-r0_armv7ahf-neon.ipk
 Source: gcc-runtime_15.2.bb
 Description: GNU OpenMP parallel programming library - static development files
@@ -50495,8 +50495,8 @@ Provides: libgomp
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c5f379615d3e7ea27a5e0db965e6ea29
-SHA256sum: 209e8e0aeb082cfea26d1f0d97c7673e4abc72bab924297c6836afb7eded2ff9
+MD5Sum: d39812e4ba6f3e160898a3716bfb9907
+SHA256sum: 0312f6ad437a355e373a18143da58db1248ddd8d24806d5ae467d62013a4dae1
 Size: 171312
 Filename: libgomp1_15.2.0-r0_armv7ahf-neon.ipk
 Source: gcc-runtime_15.2.bb
@@ -52793,8 +52793,8 @@ Recommends: glibc-dev, libgcc-dev
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1b7d34d9bd45e7add409ac067d188d71
-SHA256sum: 22f7b1bd8c008e07939f38ad242490afb0f1fe612e313b2c924169494e5c42d3
+MD5Sum: c6766758150bcac2cddf90b1b6a35661
+SHA256sum: a3c30f1de79e7efeb6f5866c7d8ed05bff72572c421dac9a3f4ed9003fe3b387
 Size: 1014
 Filename: libitm-dev_15.2.0-r0_armv7ahf-neon.ipk
 Source: gcc-runtime_15.2.bb
@@ -52809,8 +52809,8 @@ Version: 15.2.0-r0
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 796a860b5080b162696020d84b190356
-SHA256sum: 096fe1b7395655a045d29fde9261658bd795c228bcef254da5723e97c9b5ff16
+MD5Sum: 239e3dee3370aa92b3bb228226552066
+SHA256sum: ae1feb23d0ac3e19e1dac017344a632f36abcb318a5c02f4548993c698069976
 Size: 507968
 Filename: libitm-staticdev_15.2.0-r0_armv7ahf-neon.ipk
 Source: gcc-runtime_15.2.bb
@@ -52827,9 +52827,9 @@ Provides: libitm
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a1695c71afa4eadbddbc104cf0b0af68
-SHA256sum: 72af60608f69f889b034af413b3ed16380797396aa84d4e626fff16f1c7ff14a
-Size: 31504
+MD5Sum: 083d573831082c039d4554478372789a
+SHA256sum: 6008b3417808c2916d7d80cbb0bf786be98c94fadcb912ab1198911382c75d2f
+Size: 31502
 Filename: libitm1_15.2.0-r0_armv7ahf-neon.ipk
 Source: gcc-runtime_15.2.bb
 Description: GNU transactional memory support library
@@ -58005,17 +58005,17 @@ License: LGPL-2.1-or-later & MIT & BSD-3-Clause
 Priority: optional
 
 Package: libpython3.13-1.0
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), libgcc
 Provides: libpython3
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b2bcd2310e9d4ddc6ce6c3c3e212a517
-SHA256sum: d8776304402db92f67756d160d411262849ae5154cff7f84cd81ceb6f70e7b9d
-Size: 1908942
-Filename: libpython3.13-1.0_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 26eefd644e53b9b755d1162c88899046
+SHA256sum: 6793a2c96c90d27a0118301d809ce1e372cf8acaec10a2b2b11c2f53aed03bce
+Size: 1910012
+Filename: libpython3.13-1.0_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: The Python Programming Language
 OE: python3
 HomePage: http://www.python.org
@@ -59793,9 +59793,9 @@ Recommends: glibc-dev, libgcc-dev
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fa88740691115b6697cd4a0d56240847
-SHA256sum: e5c7da481714f3ed98e52f3e88131bc3154e33e528075c3e4cf2ede6e2c1a8c5
-Size: 2086948
+MD5Sum: 136b927afc476cf9358f50fd6594344c
+SHA256sum: 18e5e22fb483e60296122b4bbc66d650e8e762fe0d9030f2f85b1a36f2fa82ab
+Size: 2087000
 Filename: libstdc++-dev_15.2.0-r0_armv7ahf-neon.ipk
 Source: gcc-runtime_15.2.bb
 Description: GNU standard C++ library - development files
@@ -59809,9 +59809,9 @@ Version: 15.2.0-r0
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4362a20382b90284cdfb13e9c0ca3c1f
-SHA256sum: 0d39881c6c0c2b0e7afebcabc0427622dc9e179fba4db3319990f0eb5a362937
-Size: 16446548
+MD5Sum: cf572254d9baf81a9d7a2372c9f248d6
+SHA256sum: 0f2a20fcdc0259362d7501db87d60f2865a32471a96322093fcac197bc1c13cf
+Size: 16446552
 Filename: libstdc++-staticdev_15.2.0-r0_armv7ahf-neon.ipk
 Source: gcc-runtime_15.2.bb
 Description: GNU standard C++ library - static development files
@@ -59827,9 +59827,9 @@ Provides: libstdc++
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bc3ba3b541a884aa2dfe59814ee2cd34
-SHA256sum: 719002310a53485d9c1cc9c1b60288cb659913136ac3b55e641cef6d3503296d
-Size: 838950
+MD5Sum: eede664589e6d92256945d53467fb8ac
+SHA256sum: 7bc6f3720d1cf200b89c8582216a80abe41e32e80e525b723c15d983cd336b81
+Size: 838946
 Filename: libstdc++6_15.2.0-r0_armv7ahf-neon.ipk
 Source: gcc-runtime_15.2.bb
 Description: GNU standard C++ library
@@ -59971,9 +59971,9 @@ Recommends: glibc-dbg, libatomic-dbg, libpython3-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 17507e280a7735c1fb8ad95ca81b5b26
-SHA256sum: a1208bdede962f2998e540f1c4badee0785a2ebdbde95fa9e10ef4274786a3b7
-Size: 168642
+MD5Sum: 4afafca36688943428b59f9749899604
+SHA256sum: 31d13aca97cb7e27452cd24075c4fb9e107fd180587e9c7f64e21b0ddba25931
+Size: 168644
 Filename: libtalloc-dbg_2.4.3-r0_armv7ahf-neon.ipk
 Source: libtalloc_2.4.3.bb
 Description: Hierarchical, reference counted memory pool system with destructors - Debugging files
@@ -60052,13 +60052,13 @@ Priority: optional
 
 Package: libtalloc
 Version: 2.4.3-r0
-Depends: libatomic1 (>= 15.2.0), libc6 (>= 2.42+git), libpython3.13-1.0 (>= 3.13.9)
+Depends: libatomic1 (>= 15.2.0), libc6 (>= 2.42+git), libpython3.13-1.0 (>= 3.13.11)
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f715c1b5e389aae7e7849aedbdc7ce79
-SHA256sum: 5104febefb3e23ca7b54062564b1272ca662fb023c3f7ccfefc723d0261f84b4
-Size: 34080
+MD5Sum: 5f136624209b6a7b2ec626dac7e0e230
+SHA256sum: 387d69646d14b906a5e08ef5c0d37ff635d4a58eb5284f2644109b2f9a954661
+Size: 34082
 Filename: libtalloc_2.4.3-r0_armv7ahf-neon.ipk
 Source: libtalloc_2.4.3.bb
 Description: Hierarchical, reference counted memory pool system with destructors
@@ -61971,8 +61971,8 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 319684714a6d296d56714e2d916ff7ed
-SHA256sum: 2fa1976341335c470e16d11e13606c901d58cebd8bd50b6b4c91d4d0081c5a48
+MD5Sum: c29706d14ba09bb7c175b21cc099fa09
+SHA256sum: b63620fd974b60cd9f05368c5a4d884b92b878abc0027cbc3cad2be65805c561
 Size: 2032670
 Filename: libxml2-dbg_2.14.6-r0_armv7ahf-neon.ipk
 Source: libxml2_2.14.6.bb
@@ -62022,9 +62022,9 @@ Depends: libc6 (>= 2.42+git), libxml2 (>= 2.14.6), python3-core
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ac68595362ec0a11c289ce252d088da4
-SHA256sum: 4cd917a152a1f447d75e054dbf0c29dd19cb4963d4af97f2053e2eea67478f41
-Size: 229078
+MD5Sum: d7fe2a44b4966e4a1b25fc617481f80d
+SHA256sum: 4c5980145e2e2adb608fac9445b0304fcc34e372a2d4cb09ab887af58193d26a
+Size: 229076
 Filename: libxml2-python_2.14.6-r0_armv7ahf-neon.ipk
 Source: libxml2_2.14.6.bb
 Description: XML C Parser Library and Toolkit
@@ -90763,13 +90763,13 @@ Priority: optional
 
 Package: pydpflib
 Version: 4.0.+git61+fcd1158-r0
-Depends: libc6 (>= 2.42+git), libpython3.13-1.0 (>= 3.13.9), libusb-0.1-4 (>= 0.1.8)
+Depends: libc6 (>= 2.42+git), libpython3.13-1.0 (>= 3.13.11), libusb-0.1-4 (>= 0.1.8)
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cbacddc9af05dafa45b189e1a4141cc3
-SHA256sum: 6935d9ba1e4b0554fabfed6f817e18636dcbdff5ee9208b9db0d0dca17d9bc61
-Size: 37472
+MD5Sum: 15c250f25fa7c4999a9a4bf8012c6e17
+SHA256sum: 33f4db752d280a08b27cc3942642019e77f0a265e5d9c82a077808e19f64a59f
+Size: 37474
 Filename: pydpflib_4.0.+git61+fcd1158-r0_armv7ahf-neon.ipk
 Source: pydpflib.bb
 Description: pydpflib version 4.0.+git-r0
@@ -90779,13 +90779,13 @@ Priority: optional
 
 Package: pytalloc
 Version: 2.4.3-r0
-Depends: libatomic1 (>= 15.2.0), libc6 (>= 2.42+git), libpython3.13-1.0 (>= 3.13.9), libtalloc (>= 2.4.3), python3
+Depends: libatomic1 (>= 15.2.0), libc6 (>= 2.42+git), libpython3.13-1.0 (>= 3.13.11), libtalloc (>= 2.4.3), python3
 Section: libs
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 576a49bd95ac7c80bec9a47bb87a98c3
-SHA256sum: 42fe6ebea73cefbd1a8d66ccd5d94ef5bde79bbcf241935be2a153da10e1564a
-Size: 4128
+MD5Sum: a44d0c401e65f30670f44a9334ad30bf
+SHA256sum: e1f800dcb21b150b5a6d3ebb22b59f47fe51dae7047f1a31e913292ebf5da1ef
+Size: 4126
 Filename: pytalloc_2.4.3-r0_armv7ahf-neon.ipk
 Source: libtalloc_2.4.3.bb
 Description: Hierarchical, reference counted memory pool system with destructors
@@ -90872,16 +90872,16 @@ License: MIT
 Priority: optional
 
 Package: python3-asyncio
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core, python3-io, python3-logging, python3-netclient, python3-numbers, python3-stringold
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 70a6713b38831ca6150acc40fd828236
-SHA256sum: 6582ad94028603b3ee9d7b67ebe9f521f76d334937f8b4dce5552b16576ce5c1
-Size: 251538
-Filename: python3-asyncio_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: ddb6ceb35e817bc0830d0efce36b19ff
+SHA256sum: 091c4237bbc72f499d9cde67c139d3a55e53b63520bccb852deba1aaadc42444
+Size: 251746
+Filename: python3-asyncio_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python Asynchronous I/O
 OE: python3
 HomePage: http://www.python.org
@@ -91053,16 +91053,16 @@ License: MIT
 Priority: optional
 
 Package: python3-audio
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2997e00304e6be84be710b66ac226303
-SHA256sum: e8f2397c1e1caededbd23eb006388340408e9b64a51ac0f2f85383c9570b3603
-Size: 11138
-Filename: python3-audio_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: f8ccbcc661fe4e5277a2e256eefd151a
+SHA256sum: d41b804689350ea7c2197fc72e9fe1352c4f067a1558ad116ff860a550f58c80
+Size: 11136
+Filename: python3-audio_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python Audio Handling
 OE: python3
 HomePage: http://www.python.org
@@ -91322,9 +91322,9 @@ Recommends: glibc-dbg, libffi-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 841f6d0e8abb6781af6692ad93a44718
-SHA256sum: 0e605bac04849f728fc7f8ec4f0c3841df97ab0dbb5a13f89d4e4d63aa71242a
-Size: 406900
+MD5Sum: 94e297ca184972b72e1b8d814e99fa2b
+SHA256sum: 1eab31d44416f44e24f1f57812bd4e5626afeca532d6276b782509f547678e08
+Size: 406834
 Filename: python3-cffi-dbg_1.17.1-r0_armv7ahf-neon.ipk
 Source: python3-cffi_1.17.1.bb
 Description: Foreign Function Interface for Python calling C code - Debugging files
@@ -91388,9 +91388,9 @@ Depends: libc6 (>= 2.42+git), libffi8 (>= 3.5.2), python3-core, python3-ctypes, 
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: db137092931edeff6de18af61878ce7b
-SHA256sum: ee051ff007fd2103bedb7a3bfb81da07373b71ddf3761a43e408415bfe2f9214
-Size: 258106
+MD5Sum: e948eaae189cd0278a4e68615869bfb8
+SHA256sum: a44707f7cfad1b8898fdef08ccef4d342a340008ffa3b12f1f93bf2c8e6a7735
+Size: 258104
 Filename: python3-cffi_1.17.1-r0_armv7ahf-neon.ipk
 Source: python3-cffi_1.17.1.bb
 Description: Foreign Function Interface for Python calling C code
@@ -91504,8 +91504,8 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 15f7659462d95e3848a101a31ecc790a
-SHA256sum: c070de5758ff48c8a010bffd0e1476a6a3450eed7a1472fa2bd9524371b23fb1
+MD5Sum: e29837c090c986062cabee6c53ef1496
+SHA256sum: b83d6cf45bcee354ded3d12f37c2dbce92e103e0fd0c943e98074a90208b91a8
 Size: 23616
 Filename: python3-cheetah-dbg_3.2.6.post2-r0_armv7ahf-neon.ipk
 Source: python3-cheetah_3.2.6.post2.bb
@@ -91570,8 +91570,8 @@ Depends: libc6 (>= 2.42+git), python3-core, python3-pickle, python3-pprint
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 50380907bd73149a3bff845b30145a18
-SHA256sum: 35887e94225262f0703c76c3ec16e0e7cd4a4d92663c647b23771069dbd159d8
+MD5Sum: fa354339980e864b58e8d7b7f7c91102
+SHA256sum: 40311edbaeb8bff3139c4c92af50a8f9e3de46cbc4d77ca541b08b87f6db7b32
 Size: 308906
 Filename: python3-cheetah_3.2.6.post2-r0_armv7ahf-neon.ipk
 Source: python3-cheetah_3.2.6.post2.bb
@@ -91664,16 +91664,16 @@ License: BSD-3-Clause
 Priority: optional
 
 Package: python3-codecs
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a5713f879f63304fc3fe422d1986fdf6
-SHA256sum: 7fd17e4c6cf78c15702bf4ade0b4a45647cebb27ce3f0e489116df29cad46946
+MD5Sum: 8f381415e21f97e13b5cd2832cf09244
+SHA256sum: 7b6540f90b3b958bc01a55f282de82f70f5f9bdbe23f86a28e445ffd7f95d292
 Size: 14508
-Filename: python3-codecs_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+Filename: python3-codecs_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python codec
 OE: python3
 HomePage: http://www.python.org
@@ -91681,16 +91681,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-compile
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b6dc5a9637e0bf7bcb7e9b32882ede1e
-SHA256sum: f6450cdc76f2ce3f9b470893b8166727d4546e8944d845c7a2890c00dfa3505d
-Size: 4532
-Filename: python3-compile_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 0fc3f22f633c841920b9c9034ddc0142
+SHA256sum: 9db1ca9edc0bbbc1b5f069601b6ab1fdad48634e8869d820c2b2f7d61c6a912c
+Size: 4530
+Filename: python3-compile_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python bytecode compilation support
 OE: python3
 HomePage: http://www.python.org
@@ -91698,16 +91698,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-compression
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a53aa6992f21b854a3871221d05810d2
-SHA256sum: e9f03f6728b9b5883a7e4c4d77d1406a8ab3230e9fb1b581b35e7379a2a94c0e
-Size: 50826
-Filename: python3-compression_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 14cd467ed11fb9d2c0ea6be95517664c
+SHA256sum: 4fca2437fd6433a30cb364e1234a350418a8b92a8435d565a95039babe0aa211
+Size: 51054
+Filename: python3-compression_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python high-level compression support
 OE: python3
 HomePage: http://www.python.org
@@ -91797,16 +91797,16 @@ License: MIT
 Priority: optional
 
 Package: python3-core
-Version: 3.13.9-r0
-Depends: libbz2-1 (>= 1.0.8), libc6 (>= 2.42+git), liblzma5 (>= 5.8.1), libpython3.13-1.0 (>= 3.13.9), libreadline8 (>= 8.3), libz1 (>= 1.3.1), python3-compression
+Version: 3.13.11-r0
+Depends: libbz2-1 (>= 1.0.8), libc6 (>= 2.42+git), liblzma5 (>= 5.8.1), libpython3.13-1.0 (>= 3.13.11), libreadline8 (>= 8.3), libz1 (>= 1.3.1), python3-compression
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c1ca1d0fdbf8aee030fc740b24f25613
-SHA256sum: 95e0df5373f30ce3267c92684140486cc2be031ebea961346ff241a015b9fefb
-Size: 1000142
-Filename: python3-core_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: caff48d9192491666dccf5f83f391e76
+SHA256sum: e76e7100a690cf027a991d8d026a57e7da970de92f7cd634e4f871b6963f35d2
+Size: 1000434
+Filename: python3-core_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python interpreter and core modules
 OE: python3
 HomePage: http://www.python.org
@@ -91814,17 +91814,17 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-crypt
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0), python3-core
 Recommends: ca-certificates, openssl
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6d3f4565804b0846566fa892eeab530a
-SHA256sum: bf671b5fa864f6841c00dcae3826e09e4cf2d3261fff15bdefc7665a22c5fdc5
-Size: 115352
-Filename: python3-crypt_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: b5748f275685ea338512de5d516bb7f0
+SHA256sum: 91bd98ecd7e1f543a7a0008da0ceb33d107bc5edbf55e6c34ec1ba37a24c2058
+Size: 115356
+Filename: python3-crypt_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python basic cryptographic and hashing support
 OE: python3
 HomePage: http://www.python.org
@@ -91915,17 +91915,17 @@ License: Apache-2.0 | BSD-3-Clause
 Priority: optional
 
 Package: python3-ctypes
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), libffi8 (>= 3.5.2), python3-core, python3-io, python3-math
 Recommends: ldconfig
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bd7670ec3b71ee580ce2427637569c7a
-SHA256sum: cda2d56dee637986936c5f920bf5444bf3f447ff5f11bd6ef73db380fb2e8801
-Size: 92558
-Filename: python3-ctypes_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 14027e7a1b553504acaa8d28df45aa1a
+SHA256sum: b4e8d8276d5a372cf893f34d8d6b6ef67fada3c0e1c0a6f6344c05eea5bacb55
+Size: 92428
+Filename: python3-ctypes_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python C types support
 OE: python3
 HomePage: http://www.python.org
@@ -91933,16 +91933,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-curses
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), libncursesw5 (>= 6.5), libpanelw5 (>= 6.5), libtinfo5 (>= 6.5), python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ce93d5fc8aaeaf9bab1f111ab6f18fa0
-SHA256sum: a1220385ce863723c060e3591afd6d7a49e6c52c20d8f488816bd8552b26fead
-Size: 57482
-Filename: python3-curses_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: ad3179142cd1b9fd47638ced680844ba
+SHA256sum: bd69d6eccc4dcb47adc19cb876cee894067ac1ac8a7bfc7b4ac1f343560ca2ee
+Size: 57484
+Filename: python3-curses_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python curses support
 OE: python3
 HomePage: http://www.python.org
@@ -91955,8 +91955,8 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f41affc8ead651f32f8c43e7620dfe11
-SHA256sum: f830405c40dd535d6f2c59917c459090f93db4f1aab830bca1d56b1169070825
+MD5Sum: bdf4ee95cb37605c24a3a531b5e24b06
+SHA256sum: cdb6e08ffac2a8175d3d99debd6cf8f998a831490f446fe9b025580989bc1097
 Size: 19248
 Filename: python3-daap-dbg_0.7.1-r0_armv7ahf-neon.ipk
 Source: python3-daap_0.7.1.bb
@@ -92017,8 +92017,8 @@ Depends: libc6 (>= 2.42+git), python3-compression, python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ac1b4c64ce5eee892c365ef3b0f443e8
-SHA256sum: e1db82b9f1c2cd4a469d4b1268e4106054f7a999bc8d1dd2f5f355b66ed550b2
+MD5Sum: 6d975edebbdeb697467961a2c5b41ff6
+SHA256sum: e7bf08423a6a5f53a00d8c17eb8171bc09155fb0ca207d47b18d7d9944ee0cd4
 Size: 19012
 Filename: python3-daap_0.7.1-r0_armv7ahf-neon.ipk
 Source: python3-daap_0.7.1.bb
@@ -92028,16 +92028,16 @@ License: LGPL-2.1-only
 Priority: optional
 
 Package: python3-datetime
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 40c10e9f387f155d624a9d2e18c9207c
-SHA256sum: 08f6d9b7f7ff89a845f9c0dd2a6beeeface9e40f7bc282a65fd9d530b9a67391
-Size: 49838
-Filename: python3-datetime_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 01d0719957cf1a20e40b4bc808a837d3
+SHA256sum: 3423152e64a0cd27207a1be9fae152b6c8c98d8422a51a68dadae5fbb5486ad7
+Size: 49842
+Filename: python3-datetime_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python calendar and time support
 OE: python3
 HomePage: http://www.python.org
@@ -92143,16 +92143,16 @@ License: BSD-3-Clause & Apache-2.0
 Priority: optional
 
 Package: python3-db
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), libgdbm-compat4 (>= 1.26), python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e3b4b5e170eb9a98c4287e2d7e36cdcd
-SHA256sum: 9d4b3063cef15af340831b8db1b46ebd2e52011ca806a86a4fd742340999b873
-Size: 17634
-Filename: python3-db_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: b1f3ee2e4ebe4485268cf5215a205390
+SHA256sum: 5a9f13713096ff250b9e844abf3a6921d9c861fdd666df2570d6badc214175c1
+Size: 17632
+Filename: python3-db_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python file-based database support
 OE: python3
 HomePage: http://www.python.org
@@ -92160,16 +92160,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-dbg
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Recommends: expat-dbg, gdbm-compat-dbg, gdbm-dbg, glibc-dbg, libbz2-dbg, libcrypto-dbg, libffi-dbg, liblzma-dbg, libpython3-dbg, libsqlite3-dbg, libssl-dbg, ncurses-libncursesw-dbg, ncurses-libpanelw-dbg, ncurses-libtinfo-dbg, readline-dbg, util-linux-libuuid-dbg, zlib-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6278b54a69a85b8013492e329a56f026
-SHA256sum: c2a14fad3030c23e286465e050d523e739196c0bae106863bae781d2bf1bc1ac
-Size: 16109556
-Filename: python3-dbg_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 71b1023c7a085162113a67b2ff681a32
+SHA256sum: 1704146b4c5b20ff28ea8765c914cc7c6c7ac516258611223d1eb295b331160b
+Size: 16183688
+Filename: python3-dbg_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: The Python Programming Language - Debugging files
 OE: python3
 HomePage: http://www.python.org
@@ -92182,9 +92182,9 @@ Recommends: dbus-dbg, dbus-lib-dbg, glib-2.0-dbg, glibc-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b9821f819d4ec7600fde8a2ecf2484db
-SHA256sum: 708d6bdb272c9db1b2313961fb8a24a98a7dad2929e9e2f0f5f15208e50b2561
-Size: 200610
+MD5Sum: f6e4e2954d1e175158e04c25084251d8
+SHA256sum: bbc664b490c7ecd3f8e4ce75e75c35753a2d98eef73f04329890bd58c522aa65
+Size: 200632
 Filename: python3-dbus-dbg_1.4.0-r0_armv7ahf-neon.ipk
 Source: python3-dbus_1.4.0.bb
 Description: Python bindings for the DBus inter-process communication system - Debugging files
@@ -92233,9 +92233,9 @@ Depends: libc6 (>= 2.42+git), libdbus-1-3 (>= 1.16.2), libglib-2.0-0 (>= 2.86.0)
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 22d5aa489cd29f78f58ff87f002288da
-SHA256sum: 53c17f5d6b231cea27546fc01ab28d5b723631dd98941704dc9ee4c43660b928
-Size: 108350
+MD5Sum: e038f220b4e575cba72fef1bf3a5e067
+SHA256sum: 1f85e9b9e864ca5b120444518f8180365d5110c60675e7dd76c3991d319a13ae
+Size: 108356
 Filename: python3-dbus_1.4.0-r0_armv7ahf-neon.ipk
 Source: python3-dbus_1.4.0.bb
 Description: Python bindings for the DBus inter-process communication system
@@ -92245,16 +92245,16 @@ License: MIT
 Priority: optional
 
 Package: python3-debugger
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core, python3-pprint, python3-shell, python3-stringold
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2109cbd2ee7b3d542f62c7e38318c6b1
-SHA256sum: d48881660cb12f9ce83135d1a0e5a57d3781b0c3f948516152d4387a34089c30
-Size: 40508
-Filename: python3-debugger_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 522cb6b1f71f910b6632332aad04de8f
+SHA256sum: 945353b20030c66dbaf60cb4ae6c2af2148b4c83d6ad322b04cbc44c766d8940
+Size: 40506
+Filename: python3-debugger_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python debugger
 OE: python3
 HomePage: http://www.python.org
@@ -92262,17 +92262,17 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-dev
-Version: 3.13.9-r0
-Depends: libc6 (>= 2.42+git), libpython3.13-1.0 (>= 3.13.9), python3-core, update-alternatives-opkg
+Version: 3.13.11-r0
+Depends: libc6 (>= 2.42+git), libpython3.13-1.0 (>= 3.13.11), python3-core, update-alternatives-opkg
 Recommends: bash-dev, bzip2-dev, expat-dev, gdbm-compat-dev, gdbm-dev, glibc-dev, libbz2-dev, libcrypto-dev, libffi-dev, libgcc-dev, liblzma-dev, libpython3-dev, libsqlite3-dev, libssl-dev, ncurses-dev, ncurses-libncursesw-dev, ncurses-libpanelw-dev, ncurses-libtinfo-dev, openssl-dev, python3-asyncio-dev, python3-audio-dev, python3-codecs-dev, python3-compile-dev, python3-compression-dev, python3-core-dev, python3-crypt-dev, python3-ctypes-dev, python3-curses-dev, python3-datetime-dev, python3-db-dev, python3-debugger-dev, python3-difflib-dev, python3-doctest-dev, python3-email-dev, python3-ensurepip-dev, python3-fcntl-dev, python3-gdbm-dev, python3-html-dev, python3-idle-dev, python3-image-dev, python3-io-dev, python3-json-dev, python3-logging-dev, python3-mailbox-dev, python3-math-dev, python3-mime-dev, python3-misc-dev, python3-mmap-dev, python3-modules-dev, python3-multiprocessing-dev, python3-netclient-dev, python3-netserver-dev, python3-numbers-dev, python3-pickle-dev, python3-pkgutil-dev, python3-plistlib-dev, python3-pprint-dev, python3-profile-dev, python3-pydoc-dev, python3-resource-dev, python3-shell-dev, python3-sqlite3-dev, python3-statistics-dev, python3-stringold-dev, python3-syslog-dev, python3-terminal-dev, python3-threading-dev, python3-tkinter-dev, python3-tomllib-dev, python3-unittest-dev, python3-unixadmin-dev, python3-venv-dev, python3-xml-dev, python3-xmlrpc-dev, python3-zoneinfo-dev, readline-dev, sqlite3-dev, update-alternatives-opkg-dev, util-linux-libuuid-dev, xz-dev, zlib-dev
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 237fc024fb5a830e195da6d331c466cc
-SHA256sum: 8758c39be30033233bd556c29e24ca192d46f92f61da0b9e877c66562fe7fade
-Size: 366732
-Filename: python3-dev_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 3cdebf5ec198f373d98498e9abb1d211
+SHA256sum: dc4396d2a4d7dd8790e8a69ce9bd8c65cc1d57fbe5303f246001e357b9a55c17
+Size: 367892
+Filename: python3-dev_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python development package
 OE: python3
 HomePage: http://www.python.org
@@ -92280,16 +92280,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-difflib
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 37b4aaa2e0379cadcb2113491185a71b
-SHA256sum: 9c5383c20c83dce84961e12750d85848feb1655b43263463faf0b9d577ef80b4
-Size: 21304
-Filename: python3-difflib_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 49035062d19d72e2c241a51f933a0d93
+SHA256sum: 633ad26279f16331b983d9040f84aacaab855f957c2a0ff6537dc6a82f99ed82
+Size: 21302
+Filename: python3-difflib_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python helpers for computing deltas between objects
 OE: python3
 HomePage: http://www.python.org
@@ -92297,15 +92297,15 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-doc
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Section: doc
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 46ee8d23e303bd9e28840a0d9b4c9aa1
-SHA256sum: 772b628874a9df1cf9665e991420fb2b2ac0cf89c707cc2223aca1613f642ab7
-Size: 9944
-Filename: python3-doc_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 1a9e2b71f80389d4c5fadb205fc0c2f3
+SHA256sum: f2159942e63658523605f0c574c2608edb105d58df64b5ca149eaa8894dae0a9
+Size: 9946
+Filename: python3-doc_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: The Python Programming Language - Documentation files
 OE: python3
 HomePage: http://www.python.org
@@ -92313,16 +92313,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-doctest
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core, python3-debugger, python3-difflib, python3-pprint, python3-shell, python3-stringold, python3-unittest
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7799ac69ffae5b6e9ec9397a87d6e1b0
-SHA256sum: 1ec7c2fe45004e56f3809c3c36c96ed81a32e7de356f792f8d269abe6fe917e4
+MD5Sum: 5de5a612f7039cba7d688806ef5efaf9
+SHA256sum: 108d9e44949e90151128c8d2eb5e23d93081ba3ba9525e21f779c9faa5932c17
 Size: 35146
-Filename: python3-doctest_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+Filename: python3-doctest_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python framework for running examples in docstrings
 OE: python3
 HomePage: http://www.python.org
@@ -92330,16 +92330,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-email
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core, python3-datetime, python3-io, python3-math, python3-mime, python3-netclient, python3-stringold
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 81f8a54430303bb5d6707b5eb23db39e
-SHA256sum: 91cdf918b56b5dc33f9881d44fe85cc02c2672a9c9e317fb27c04cc72d16e9e9
-Size: 157512
-Filename: python3-email_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 056d5b37134f922cfae804fe77e08f76
+SHA256sum: b9c80a04c6fd476a1757e92541e3bae0305a3397229ddcdea202c4e4001072da
+Size: 157588
+Filename: python3-email_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python email support
 OE: python3
 HomePage: http://www.python.org
@@ -92347,16 +92347,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-ensurepip
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 15318b2013557fde5af8786849ee4832
-SHA256sum: c926712020e77b3a612b89c08d9967f83ce6f2ba9c8bec3d6926469087a6fe5a
-Size: 1711592
-Filename: python3-ensurepip_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: b83bcbb1170f560305b3280bfc53b891
+SHA256sum: b1c2f4a5df5ecbbf85129d7a5f434b3665c94fe00fb4a347408993aa76a79812
+Size: 1711596
+Filename: python3-ensurepip_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Support for bootstrapping the pip installer
 OE: python3
 HomePage: http://www.python.org
@@ -92364,16 +92364,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-fcntl
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1e2ab437a82873907d7bd2145b549ceb
-SHA256sum: d411d4bd83ad7abd0d6e112adf347cfb71f6b98d14c63af43c96c7ad05375e47
+MD5Sum: cd9acc13c140a22fb25e220bb063ff6a
+SHA256sum: 62a614dfd929b229dee488bb8ada67221e89a5768c43893e9e7d1536d4eed17a
 Size: 626
-Filename: python3-fcntl_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+Filename: python3-fcntl_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python's fcntl interface
 OE: python3
 HomePage: http://www.python.org
@@ -92463,16 +92463,16 @@ License: MIT
 Priority: optional
 
 Package: python3-gdbm
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), libgdbm6 (>= 1.26), python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e8f763908396723a8eb7414d451f4ed8
-SHA256sum: dc414fc73264174ffa9bfb47d3470a1396f50b95cf06fc25e1902ce4fd61e4cb
-Size: 9104
-Filename: python3-gdbm_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 5c598936dd23ec1fdb133efe8145d41b
+SHA256sum: 555a581cc5cc8656fe9ba3dc62f12f477c5c30079a66caf3758e9e27ec0833c9
+Size: 9110
+Filename: python3-gdbm_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python GNU database support
 OE: python3
 HomePage: http://www.python.org
@@ -92480,16 +92480,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-html
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b7b561d2bda99b87d461ec1d3da0cc78
-SHA256sum: eb80aa6687d3503ff8fe91ddf0c0e3a338785dbbf4619e92e6d34920fa1c2ebb
-Size: 53992
-Filename: python3-html_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 3e395e457cc7099494f43b1adbfaa52c
+SHA256sum: 0f9916fb2547d48b44cab39cfb86f1ec53ed3ceaef08416cb721f3deb805ef25
+Size: 54170
+Filename: python3-html_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python HTML processing support
 OE: python3
 HomePage: http://www.python.org
@@ -92677,16 +92677,16 @@ License: BSD-3-Clause
 Priority: optional
 
 Package: python3-idle
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 07d6fbebb461944ba92a2d13f66f79ca
-SHA256sum: 5333bde86a33fec69e45757602320d0d80d05fb21c0889b66eefa96112063bf8
-Size: 512194
-Filename: python3-idle_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: a1e465f155f95a59c0b21d42cb2e2320
+SHA256sum: decae22dde4578ad2e8a3f1352451a465e371e6626f882bf98d3428c165419bb
+Size: 512714
+Filename: python3-idle_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python Integrated Development Environment
 OE: python3
 HomePage: http://www.python.org
@@ -92776,16 +92776,16 @@ License: BSD-3-Clause & Python-2.0 & Unicode-TOU
 Priority: optional
 
 Package: python3-image
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 65c403830e1553d21d0226fed3f685e8
-SHA256sum: 2e352b40c3a44127e47ef990bb263d12a89fba4700eb58f82ebe72c3faee1856
+MD5Sum: 323944763963ec54f8c08628f389b3bc
+SHA256sum: 3eaadcd92b45cc01679adc7211e4f07af34f9400852674ea29c041163d492dae
 Size: 2738
-Filename: python3-image_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+Filename: python3-image_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python graphical image handling
 OE: python3
 HomePage: http://www.python.org
@@ -92892,16 +92892,16 @@ License: MIT
 Priority: optional
 
 Package: python3-io
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0), libssl3 (>= 3.6.0), python3-core, python3-math, python3-netclient
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3bd7763e349e297443a763c0c4960f8b
-SHA256sum: bb6cb636e5e00f363ac1946d834749318c18932c9ac74f455e945e20c6c5da70
-Size: 128652
-Filename: python3-io_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: d7be21c1134f066349523443b8891b60
+SHA256sum: 0a42ab70c125a19b7e9d4c76fce2c23bea3909c2bdaacac40da666b2c6c38211
+Size: 128184
+Filename: python3-io_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python low-level I/O
 OE: python3
 HomePage: http://www.python.org
@@ -92991,16 +92991,16 @@ License: Python-2.0
 Priority: optional
 
 Package: python3-json
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b6ce95908a72188d9fe662f5ff419cfd
-SHA256sum: cd25f41b55ba4f68c9929129c70c500269601980dd309e6efd0b785e71fd3aac
-Size: 40596
-Filename: python3-json_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 423c492363c3a204762410771067f7ff
+SHA256sum: 8b579bbcd0eda551700850e67c81d9ef5007fd30fc3bbf9e51780c507933d142
+Size: 40592
+Filename: python3-json_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python JSON support
 OE: python3
 HomePage: http://www.python.org
@@ -93008,16 +93008,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-logging
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core, python3-io, python3-netserver, python3-pickle, python3-stringold, python3-threading
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7b368c5d1fa4dfbd69356c8f07d49eb4
-SHA256sum: 2e13eb6ffa37fe8be1333a5e234716f4c9d8a8c55e07e5836063141648fd61b8
-Size: 65112
-Filename: python3-logging_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: cacb2fe1a14bc6d7fa26149ed61e4084
+SHA256sum: daa0b7ad38c4a5fe486cce4d25ac23850333843e0522304f27ad1face0873376
+Size: 65128
+Filename: python3-logging_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python logging support
 OE: python3
 HomePage: http://www.python.org
@@ -93025,16 +93025,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-mailbox
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core, python3-datetime, python3-email, python3-io, python3-math, python3-mime, python3-netclient, python3-stringold
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e334929b4225a4efe16a1970c45e8036
-SHA256sum: 690a205a42cf1876b82c3327c4927e4a08bb79680f200e82012a9a79324bf31c
-Size: 39390
-Filename: python3-mailbox_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 92e684e08f36b828f36af42a20b5968b
+SHA256sum: 07ba42510edcce5909c2449a53e1ae2552cc2800a284dba9b68db705d4998c75
+Size: 39388
+Filename: python3-mailbox_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python mailbox format support
 OE: python3
 HomePage: http://www.python.org
@@ -93042,16 +93042,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-math
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ba2449b955a634201d5353b4860abfbb
-SHA256sum: dd54d843eecc34271e3ffbd320edceab15f5ab9a937151194b2b481c47a85b88
-Size: 34760
-Filename: python3-math_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: a19c9030bf5793ca6a722ef7fbbcfb4f
+SHA256sum: b83d6ebd4444b115f4e4b1ea8e5e2bbae222c08f0586d9836af0ad9f2e74377f
+Size: 34762
+Filename: python3-math_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python math support
 OE: python3
 HomePage: http://www.python.org
@@ -93059,16 +93059,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-mime
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5c9cbea7e95013741cbcf081b24a322b
-SHA256sum: 861648d0ef1ff803003ad12f6d2c4920898f2c49988dcc8100d43c0f33d1c0b0
-Size: 5212
-Filename: python3-mime_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: d29ab00e4e4a685409b029a2a8401f08
+SHA256sum: 5b09c9fe18737b2b0ccd50f8aec521c28e708bda70d95a242bed9d2346ddd0a8
+Size: 5210
+Filename: python3-mime_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python MIME handling APIs
 OE: python3
 HomePage: http://www.python.org
@@ -93076,16 +93076,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-misc
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), python3-audio, python3-codecs, python3-core, python3-email, python3-numbers, python3-pickle, python3-pydoc
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2230158eedc6e750fb88293a9a523140
-SHA256sum: de82a561c0d68118de3dfbd9fecb8a0561f4671fc45087d1088d55863799cfad
-Size: 2035582
-Filename: python3-misc_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 1b2410c55c4e107dc60aa8671cd0d34c
+SHA256sum: 305ac335e1486dbceb6fa877db8c84bd7e72f78cb4b7d6efc555904fa34419a5
+Size: 2036718
+Filename: python3-misc_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: The Python Programming Language
 OE: python3
 HomePage: http://www.python.org
@@ -93093,16 +93093,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-mmap
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 08356a00617024e4acbd91b810dd6609
-SHA256sum: 713d2cef81e7537af23df7de67dc358b7d2c69569d96c1e4929d514f3da0ef84
+MD5Sum: c4d56e057d2a5e75fbfdccab4e35dcac
+SHA256sum: 841d47dd85db9d2df8b10421ac434b0c972ff9af10a0e9d15200620d94bc404c
 Size: 12794
-Filename: python3-mmap_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+Filename: python3-mmap_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python memory-mapped file support
 OE: python3
 HomePage: http://www.python.org
@@ -93110,17 +93110,17 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-modules
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-asyncio, python3-audio, python3-codecs, python3-compile, python3-compression, python3-core, python3-crypt, python3-ctypes, python3-curses, python3-datetime, python3-db, python3-debugger, python3-difflib, python3-doctest, python3-email, python3-ensurepip, python3-fcntl, python3-gdbm, python3-html, python3-idle, python3-image, python3-io, python3-json, python3-logging, python3-mailbox, python3-math, python3-mime, python3-misc, python3-mmap, python3-multiprocessing, python3-netclient, python3-netserver, python3-numbers, python3-pickle, python3-pkgutil, python3-plistlib, python3-pprint, python3-profile, python3-pydoc, python3-resource, python3-shell, python3-sqlite3, python3-statistics, python3-stringold, python3-syslog, python3-terminal, python3-threading, python3-tkinter, python3-tomllib, python3-unittest, python3-unixadmin, python3-venv, python3-xml, python3-xmlrpc, python3-zoneinfo
 Provides: python3
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dc60b8663e1e880af3f233a5a9639222
-SHA256sum: 1b2fac45b176eee59d940bad0927b0e7cc0314f87dfce720bb19328f6f213127
+MD5Sum: 34a7f5f3e86844e44b498be7a512e75b
+SHA256sum: 8be494ac9f81c442e452065a704b192a1acbbc20d6004328c02762348d3e1a32
 Size: 912
-Filename: python3-modules_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+Filename: python3-modules_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: All Python modules
 OE: python3
 HomePage: http://www.python.org
@@ -93178,16 +93178,16 @@ License: MIT
 Priority: optional
 
 Package: python3-multiprocessing
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), python3-core, python3-crypt, python3-ctypes, python3-io, python3-math, python3-mmap, python3-netclient, python3-pickle, python3-threading
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8092fa559df86d2fbd887d5907840f36
-SHA256sum: 26b325f82a5a18771143be952d4fd0393546f0f012d08c05f5ecacb4dd5e97c5
-Size: 157466
-Filename: python3-multiprocessing_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: bb1c4dcf5431ed89324c099995116363
+SHA256sum: 60d1238f53363313ef022419cc52cd93fc4ad6146def2eeced4e7aff67dac9dd
+Size: 158692
+Filename: python3-multiprocessing_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python multiprocessing support
 OE: python3
 HomePage: http://www.python.org
@@ -93272,16 +93272,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: python3-netclient
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libuuid1 (>= 2.41.1), python3-core, python3-crypt, python3-datetime, python3-email, python3-io, python3-math, python3-mime, python3-stringold
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6fdbf55bded82e22b2c578bf892e71ff
-SHA256sum: 24a041cd4d592092eb316e6492c45f573037e09a7aae08126b4a9804df7669d1
-Size: 94008
-Filename: python3-netclient_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 01a4bf5eb6f28a099c32ee54217664c1
+SHA256sum: 6aa1b3d1fa553146c97a48aefb94a5d7d46a59d70910c0ae841bd7bab65c397e
+Size: 94692
+Filename: python3-netclient_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python Internet Protocol clients
 OE: python3
 HomePage: http://www.python.org
@@ -93294,8 +93294,8 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 551e94455fe3a8c2c4bd10c850ff3ecd
-SHA256sum: 64775ada24940b913e58bbb9dddb9ac39e3727818903596e11b4cab252941d55
+MD5Sum: e66e13c8050b4b29385c64a5e5789f81
+SHA256sum: f48d0cb8a8ebfdece2ec43125758d7c8a3c709237bb26ba223f2f75c8f0fd3ef
 Size: 45832
 Filename: python3-netifaces-dbg_0.11.0-r0_armv7ahf-neon.ipk
 Source: python3-netifaces_0.11.0.bb
@@ -93341,9 +93341,9 @@ Depends: libc6 (>= 2.42+git), python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bc2c4f382334d95d597790d0f4eb5853
-SHA256sum: d16da9de6e4f99cf92f13256aa11a9b1a9a7d12db546bd32f1870c57988441e1
-Size: 8812
+MD5Sum: 844dd88c8a8c8a35aab0cecebf936119
+SHA256sum: 23a5b67718d64b94e3e2baaa327718058c330cd3785df040dbdbf0282808318b
+Size: 8806
 Filename: python3-netifaces_0.11.0-r0_armv7ahf-neon.ipk
 Source: python3-netifaces_0.11.0.bb
 Description: python3-netifaces version 0.11.0-r0
@@ -93352,16 +93352,16 @@ License: MIT
 Priority: optional
 
 Package: python3-netserver
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core, python3-io
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c6395a29e0aee9588cb86e322a58e064
-SHA256sum: 28ca2934a01fdb7c89e71d02316fc15d0c042b7f86bd0d439280bdda7eacd982
+MD5Sum: e4661766ae0587909faef0de347a0401
+SHA256sum: a3b6e56bc3c4a9db37cef138cd7d9e1d5ba2fd0854d246f99c40dd82d32c0d58
 Size: 10522
-Filename: python3-netserver_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+Filename: python3-netserver_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python Internet Protocol servers
 OE: python3
 HomePage: http://www.python.org
@@ -93369,16 +93369,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-numbers
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fb9f1a50e1bbafffe26fefec5066afde
-SHA256sum: 7551b376d02f87fa435ba0ef835fd6d63aadae61103f9d2172968781e77211b8
-Size: 138150
-Filename: python3-numbers_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 958961eec480b96c41062204d704b936
+SHA256sum: 57bbe0cf08e31a1f75c486f67af64dc2f330bc134846c527732e4d710004d846
+Size: 138472
+Filename: python3-numbers_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python number APIs
 OE: python3
 HomePage: http://www.python.org
@@ -93518,16 +93518,16 @@ License: ISC
 Priority: optional
 
 Package: python3-pickle
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 420b88bfa2cfea2ab91e736cd5f0d780
-SHA256sum: f92616f8410678b5cefaa46da8d6c792cabd22740baff9180822a6f603796db1
-Size: 49746
-Filename: python3-pickle_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 744c3d8319ab31ea2caf5df796245719
+SHA256sum: e96398573983c1c505c1336c30ba72c58f2ab8f60582c640439dc7a6a8c18529
+Size: 49744
+Filename: python3-pickle_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python serialisation/persistence support
 OE: python3
 HomePage: http://www.python.org
@@ -93540,9 +93540,9 @@ Recommends: freetype-dbg, glibc-dbg, lcms-dbg, libjpeg-turbo-dbg, libwebp-dbg, o
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e54e182dc402d1da3af9894d73fb5c0a
-SHA256sum: 5721c0b1faac5a2aa21975f438812ca75ccc0d0eab86530a006fbd39d133bea3
-Size: 1071492
+MD5Sum: 2cdf3ea046b4a485bca62e6003dce13c
+SHA256sum: bd155d7f54ea8ac8349a4f4fe96a6313ed6dfc70035187241b3521b380c7ef14
+Size: 1071272
 Filename: python3-pillow-dbg_11.3.0-r0.2_armv7ahf-neon.ipk
 Source: python3-pillow_11.3.0.bb
 Description: python3-pillow version 11.3.0-r0.2 - Debugging files
@@ -93607,9 +93607,9 @@ Provides: python3-imaging
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 99cdcf362a7c94ccaf3975f3e8b69309
-SHA256sum: ced82dd2f5d469bc4cbb1690595f66f213a8b6fad1f1db54aa2f183d2947305c
-Size: 890346
+MD5Sum: 7e5f9898c5d885f04f7acf3fb20f6cfb
+SHA256sum: 10149d735abe77e981d39bb22a9e7f228360b9eb92c3338db7ff7b5cce9a7d7c
+Size: 890350
 Filename: python3-pillow_11.3.0-r0.2_armv7ahf-neon.ipk
 Source: python3-pillow_11.3.0.bb
 Description: python3-pillow version 11.3.0-r0.2
@@ -93636,16 +93636,16 @@ License: MIT
 Priority: optional
 
 Package: python3-pkgutil
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 642ed6dc1891044ffe0f3f3aacc9b9ce
-SHA256sum: 6089cb80bbdceb134883f57582b8d172924e0460effac362699d839d6378842a
-Size: 636
-Filename: python3-pkgutil_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 1c13036861129ebf3f4d646dd85239a0
+SHA256sum: 2720503bfd1bcc3847bebaac6c136a8563998ae399149ed65cd0c39ba4be84d7
+Size: 634
+Filename: python3-pkgutil_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python package extension utility support
 OE: python3
 HomePage: http://www.python.org
@@ -93653,16 +93653,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-plistlib
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core, python3-datetime, python3-xml
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7d548ca6ef10a6b8ebe8e6e844fb0208
-SHA256sum: f8a7ea0d7c2f77f72a12c95d16e831cb6d168038690665fc1902dce9c2b00ede
-Size: 17210
-Filename: python3-plistlib_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 1fb64e363b15ebaea92d10c8667d9e0f
+SHA256sum: 43286414266699018f8311e43640bfdcfe129652ef1be8e494d6359df89f7301
+Size: 17418
+Filename: python3-plistlib_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Generate and parse Mac OS X .plist files
 OE: python3
 HomePage: http://www.python.org
@@ -93670,16 +93670,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-pprint
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 372b9045a7ab9b0cd3f336bb02eef11c
-SHA256sum: 1b0b8dfae174d138eb66323613b10fcf14bc5de9b653551f9b97766718405dec
-Size: 12178
-Filename: python3-pprint_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: b1947ad3eca8f2a305082f6c2121d422
+SHA256sum: d644fd50fdf91acba3c8645a012afb50553d706c8934d7b2cb78598c9bd6eab7
+Size: 12174
+Filename: python3-pprint_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python pretty-print support
 OE: python3
 HomePage: http://www.python.org
@@ -93718,16 +93718,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: python3-profile
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f52507cc78bba6978f0558a1ecd8136b
-SHA256sum: 083ed09fecf4d4712bf7ee8f06663a61f2d17d76d7f5acd823e49e233d0cfdfa
-Size: 27634
-Filename: python3-profile_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: f63ffec12b06e4ab93d67e0fd33e7f8e
+SHA256sum: 586078914bee80e74b709c56d70800fae3a5b23a7e2897b10cd945e46ba9e615
+Size: 27632
+Filename: python3-profile_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python basic performance profiling support
 OE: python3
 HomePage: http://www.python.org
@@ -93986,8 +93986,8 @@ Recommends: cairo-dbg, glibc-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0c2f637810a3d2aebbf0d5e9827668cf
-SHA256sum: 5632526e4b49d11695e8c0af309a574f26f1d36ac38055f3c8b89e59e81ecf0d
+MD5Sum: ba2d38f52bfa5f236df8f440d360712d
+SHA256sum: 00a7eea362853c35535cf985e40c6e00fb06ee10cf363792a327f0e1ece31449
 Size: 186300
 Filename: python3-pycairo-dbg_1.28.0-r0_armv7ahf-neon.ipk
 Source: python3-pycairo_1.28.0.bb
@@ -94053,9 +94053,9 @@ Depends: libc6 (>= 2.42+git), libcairo2 (>= 1.18.4)
 Section: python-devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1c5a27c21e292ffd2706f8323e9342d9
-SHA256sum: e2f3aa9dafd45ecd5d4a0466785e5e4066a74f76dd25dc8a2b3980fbe9e409a9
-Size: 107342
+MD5Sum: 9b504376bd2ae8dc287cbaa0ace1ec21
+SHA256sum: e9cc9ef6c98bce8e74704b7259ae34c7d43db998d6db0a85374527b32ed90315
+Size: 107346
 Filename: python3-pycairo_1.28.0-r0_armv7ahf-neon.ipk
 Source: python3-pycairo_1.28.0.bb
 Description: Python bindings for the Cairo canvas library
@@ -94148,16 +94148,16 @@ License: BSD-3-Clause
 Priority: optional
 
 Package: python3-pydoc
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core, python3-io
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bf1258a55687bc998a932465cf5ca66c
-SHA256sum: 49d16c53c596c7cc1e16e5b995d224278f4b6084216bb5d1ac0b574604415a5e
-Size: 130054
-Filename: python3-pydoc_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 54cec4ea371c7cdcd470a5c0a3d7ab96
+SHA256sum: 7ee933e3769e74554ca5b1d39f922667d0c101b603bda94c9cf1489386a8b40b
+Size: 130474
+Filename: python3-pydoc_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python interactive help support
 OE: python3
 HomePage: http://www.python.org
@@ -94170,9 +94170,9 @@ Recommends: cairo-dbg, cairo-gobject-dbg, glib-2.0-dbg, glibc-dbg, libffi-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e620aef6c65f98d8d2a6592ec102ddae
-SHA256sum: 1940368f6e9e57a2671894737d5b103ce80b5f373e52c518cb927c5076fd6c42
-Size: 628906
+MD5Sum: 349dfc98b3fb2485f4a862680497dcc1
+SHA256sum: 7dc349fd779cbcf12b0476730627dd397cc5b196abfecb385aef3da4d68a048d
+Size: 628468
 Filename: python3-pygobject-dbg_3.52.3-r0_armv7ahf-neon.ipk
 Source: python3-pygobject_3.52.3.bb
 Description: Python GObject bindings - Debugging files
@@ -94237,9 +94237,9 @@ Depends: gobject-introspection, libc6 (>= 2.42+git), libcairo-gobject2 (>= 1.18.
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6f43da188020a3b68f08697b579ee2b5
-SHA256sum: 429633be7e487210051d683681a4cc0f86b9f38080c7cad7d1c2425d2c76a53f
-Size: 279776
+MD5Sum: 31f397223a6530d51dfdf3c933eb85dd
+SHA256sum: 904662c94248e18644bbb2c035def208a24991d83f781a71e472cf1bb874ed07
+Size: 279774
 Filename: python3-pygobject_3.52.3-r0_armv7ahf-neon.ipk
 Source: python3-pygobject_3.52.3.bb
 Description: Python GObject bindings
@@ -94940,16 +94940,16 @@ License: Apache-2.0
 Priority: optional
 
 Package: python3-resource
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 14538dc650d71da03c2438dea39b4725
-SHA256sum: d52de908b342b61d77c422eb471b7f71790d72bdaebd317c10273e41e3b47846
+MD5Sum: 9e9c4a0a6c300f4230537d7235b2df17
+SHA256sum: 8efcc928459a6769af7cd6c32fc160533fcbb4cca53b7f088e81933e43db0ffd
 Size: 6980
-Filename: python3-resource_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+Filename: python3-resource_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python resource control interface
 OE: python3
 HomePage: http://www.python.org
@@ -94962,9 +94962,9 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 27d1fdb81bdb44f9ed5b39a65a85b53d
-SHA256sum: 0ecca885a264d70d7c23db740f4cb13d096070e7622b1a2c0adb3129843d312c
-Size: 13938
+MD5Sum: f5834fe78432111e640892ddb7583ad0
+SHA256sum: 81895bf6264ab729b466a794585e83a031e1813bbdc28a900aba6e36954bd6de
+Size: 13940
 Filename: python3-sendfile-dbg_2.0.1+git130+afda92b-r0_armv7ahf-neon.ipk
 Source: python3-sendfile_git.bb
 Description: Interface to the sendfile syscall - Debugging files
@@ -95012,8 +95012,8 @@ Depends: libc6 (>= 2.42+git), python3-core
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9a02aa7689c3dd3be6e1265728933460
-SHA256sum: 7e97e8e0fb5b7c6d1979852afa2c6995c2984effa67328a9fac7c2a69b1e9cac
+MD5Sum: 953a27a666148284e046296a0087bb61
+SHA256sum: be4e907d5c03dbf456babbae429d03533af37606edfee663a2a93c8cfe7af83f
 Size: 3170
 Filename: python3-sendfile_2.0.1+git130+afda92b-r0_armv7ahf-neon.ipk
 Source: python3-sendfile_git.bb
@@ -95172,16 +95172,16 @@ License: MIT
 Priority: optional
 
 Package: python3-shell
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core, python3-stringold
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 498ddba21b76ecd4bb65680f3cfad3fb
-SHA256sum: bed3e8bb40a9c44838f69f33063038e73795b9093c0c4a8ca0540cbebb592a97
-Size: 7168
-Filename: python3-shell_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: fbc30ec14a728ca2ca0436cb7dd8c0e8
+SHA256sum: 8fe688cc806a8bb2b4d039eaf6f1949a3ec463d5e5b9cdc5c0089f4726101392
+Size: 7166
+Filename: python3-shell_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python shell-like functionality
 OE: python3
 HomePage: http://www.python.org
@@ -95194,9 +95194,9 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a339c0d794407bf699e4de95714eea17
-SHA256sum: 9b747424c19468e0eb0e490e5c36f0ea9a6b53d998f4817323b7562d203ab4d3
-Size: 104118
+MD5Sum: 0c8bf07f920bef3be3a7d183a722c4ed
+SHA256sum: c222bed52f2c5c55998e799a605e1da0ce419d8ebab942d3c7898c58ae89acf6
+Size: 104122
 Filename: python3-simplejson-dbg_3.20.2-r0_armv7ahf-neon.ipk
 Source: python3-simplejson_3.20.2.bb
 Description: Simple, fast, extensible JSON encoder/decoder for Python - Debugging files
@@ -95277,9 +95277,9 @@ Depends: libc6 (>= 2.42+git), python3-core, python3-io, python3-netserver, pytho
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ea1f39f51feae0ad99283dcf5f78d0f8
-SHA256sum: 12d4df3c9d394b66871c04c1caf6569045c3354f1475de701335d2a2826a33f2
-Size: 62552
+MD5Sum: ea275736b0a47b666f586c081231225d
+SHA256sum: 93b04c8c76bdaa7d26e49813631e4233c051164e7c93b39e73a6c60be776f15e
+Size: 62550
 Filename: python3-simplejson_3.20.2-r0_armv7ahf-neon.ipk
 Source: python3-simplejson_3.20.2.bb
 Description: Simple, fast, extensible JSON encoder/decoder for Python
@@ -95371,16 +95371,16 @@ License: MIT
 Priority: optional
 
 Package: python3-sqlite3
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), libsqlite3-0 (>= 3.48.0), python3-core, python3-datetime
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f8a29e8e8583bee4622c41139403059e
-SHA256sum: 201075faa5145540b700fc539c7812fc1a3c99c6b1e99bee2bc348f6373a3f6a
-Size: 54228
-Filename: python3-sqlite3_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 0d9011ff1348a9bde3d956fce1699a03
+SHA256sum: 88308a82b4442f29280a20f603a6490e6ac03d5a6cb5c1dbd93e35e64c244e21
+Size: 54176
+Filename: python3-sqlite3_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python Sqlite3 database support
 OE: python3
 HomePage: http://www.python.org
@@ -95388,15 +95388,15 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-src
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6ad1abd143f787f06c2c0fb3bd13a0d4
-SHA256sum: 026e4ecd02dc30b603a9e7ecbea25aa852fd315ac71ffafed735f4d40d0d005b
-Size: 2705128
-Filename: python3-src_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: f19b8c2a9b8e4a9b708df49cff1525e9
+SHA256sum: e084dfb4e172195c9ea817d9472b708e4db0004ebfd22f8fd05837a651dcb4d6
+Size: 2708992
+Filename: python3-src_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: The Python Programming Language - Source files
 OE: python3
 HomePage: http://www.python.org
@@ -95404,16 +95404,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-statistics
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), python3-core, python3-math, python3-numbers
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 14a7b8e0f35c2efc5c1baae587756100
-SHA256sum: feee4edab6ba12b95c2bf33d55f094b158a34e195e7fc7a5ef2efe52df0127bb
-Size: 24900
-Filename: python3-statistics_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 769514e0999ab910058e16dc229ddc3e
+SHA256sum: 42f5b022ec0b02bce9402b7bd893c273662b574a28135befb1964369b3a2e94f
+Size: 25020
+Filename: python3-statistics_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Basic statistics module
 OE: python3
 HomePage: http://www.python.org
@@ -95421,16 +95421,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-stringold
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d28dc75ce4b0caa159dc7520c0eae449
-SHA256sum: 06ffc6855ee22b11a115aebeae73d9eca97ac766d4f4295ec118bd0cf3b10dc3
+MD5Sum: 61ca12ddb889e1803c84e8fae14d490d
+SHA256sum: 3e78750fe8664211812458e60a519a00fec9f8ef369a943101daa8fb2f911730
 Size: 5950
-Filename: python3-stringold_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+Filename: python3-stringold_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Common string operations
 OE: python3
 HomePage: http://www.python.org
@@ -95438,16 +95438,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-syslog
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1ba713ed770a723cf63aace8c2c8b541
-SHA256sum: 0cef08a441da05c7204ca0582600b3c90d656c726145acbb7ab691916e7625ab
-Size: 5740
-Filename: python3-syslog_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: a50d34239e4df2c415488f2a802165d7
+SHA256sum: f356b2d501f20211571ce56b884dcfff4a626af0206805cccd831441596b9fa8
+Size: 5738
+Filename: python3-syslog_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python syslog interface
 OE: python3
 HomePage: http://www.python.org
@@ -95455,16 +95455,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-terminal
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core, python3-io
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9c8292c9d4a03002e39c698bfee700ee
-SHA256sum: 1a572b05581f17f6a0630c44f2feca347db08a59287d8c0ba0bbf3c51973d455
-Size: 1988
-Filename: python3-terminal_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 3260b4301dbb7c1119d81b76c3ee2ce1
+SHA256sum: 3e85fd25fd0fef04244b6083de2899bcdec0f338221d7d9a06bec0f1fbb613f2
+Size: 1986
+Filename: python3-terminal_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python terminal controlling support
 OE: python3
 HomePage: http://www.python.org
@@ -95472,16 +95472,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-tests
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: bash, python3-core, python3-modules
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 48c99410d295b48e70f5df2774d5e016
-SHA256sum: 093d1a0ea5151a5108dbea4ebeaa45072572b7ab6297d50157d680b91f195003
-Size: 229414
-Filename: python3-tests_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: de39a43d85d3307fc39c700b2c7fb851
+SHA256sum: c088f052a66d0fa7c667b80256db630524c574995b6a6037035b375a0ffbb8f2
+Size: 229526
+Filename: python3-tests_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python test suite
 OE: python3
 HomePage: http://www.python.org
@@ -95489,16 +95489,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-threading
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cfa54be3c7a436512da7b885f9198e05
-SHA256sum: 16ea089e1d8346a32402ec6056e9cf328165fc3cc14c0359cc5afddbf791f53b
-Size: 11758
-Filename: python3-threading_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: fadeff25adcafdf6304c24a8e898be4c
+SHA256sum: 69d6695e52a93ccfd8139454c963fcef0facdeab456e7b68f0c59c285b65d8b7
+Size: 11760
+Filename: python3-threading_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python threading & synchronization support
 OE: python3
 HomePage: http://www.python.org
@@ -95506,16 +95506,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-tkinter
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7302b901d1aaf5d0f96cb1957997fc12
-SHA256sum: 217868387b715b515e2b2d8e20394e679be33c939d95b152ed962566300d5ef1
-Size: 104960
-Filename: python3-tkinter_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: b343fa806ba013035998401c7e8771f6
+SHA256sum: 9106a50f8a9342d3c42a2131a506a84caed0ab5f2327020ba913428fcc3f0171
+Size: 104964
+Filename: python3-tkinter_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python Tcl/Tk bindings
 OE: python3
 HomePage: http://www.python.org
@@ -95523,16 +95523,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-tomllib
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8860624deecd6016ced0bfed84b079df
-SHA256sum: c24130985bd9e06f85cb05fbd8be3541bd881ba637f65af282809080fcc167e0
-Size: 15944
-Filename: python3-tomllib_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 0f7920d7468fea9f3ef519de4e487914
+SHA256sum: 9db468e97fdced7686ccdd3ef8fa51a399af76f4af46f39cadebf7243f7a0498
+Size: 15942
+Filename: python3-tomllib_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Provides an interface for parsing TOML
 OE: python3
 HomePage: http://www.python.org
@@ -95955,16 +95955,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-unittest
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-asyncio, python3-core, python3-difflib, python3-io, python3-logging, python3-netclient, python3-numbers, python3-pprint, python3-stringold
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cc1253dc8254060ca29c9f81f847e17b
-SHA256sum: dfb52ec65f45ba8a40c7b623eb739c3262f27aabdfccdfbdbaff2f3767bdde13
+MD5Sum: f44b4ddafb4f120bfa6753c006a548e1
+SHA256sum: c010486fdaedfe17dc85ee101197a59c4d3dfe849bada96eb23b6cb2434aef3f
 Size: 106294
-Filename: python3-unittest_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+Filename: python3-unittest_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python unit testing framework
 OE: python3
 HomePage: http://www.python.org
@@ -95972,16 +95972,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-unixadmin
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core, python3-io
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c7f533d514a1475d2f7b04339bae946a
-SHA256sum: 54d55af1cb742bae592275972ed51204dd03f09e2b90d726d03b07f5516d5106
-Size: 4168
-Filename: python3-unixadmin_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 5c1fdeb988177a9ee2f1437eace9dac5
+SHA256sum: 19861819d0185d797052096bfed62fc17ace8cc6c779f9db298eb83ccdcbb67d
+Size: 4166
+Filename: python3-unixadmin_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python Unix administration support
 OE: python3
 HomePage: http://www.python.org
@@ -96071,17 +96071,17 @@ License: MIT
 Priority: optional
 
 Package: python3-venv
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-core, python3-logging, python3-stringold
 Provides: python3-pyvenv
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 930e69d38f69044bbd854d9354baa835
-SHA256sum: 41352ed4fcc8e5c7016b6b68046db5863daba11ef5c54259b3e6652e994acf81
-Size: 19862
-Filename: python3-venv_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: 6d6e119ce6cc4baf0a76f42f1cabdb2a
+SHA256sum: c5081311ff8e753b70a28869c14708ce5f9719d11efd4a5e2a427f121f2e16d2
+Size: 19860
+Filename: python3-venv_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Provides support for creating lightweight virtual environments with their own site directories, optionally isolated from system site directories.
 OE: python3
 HomePage: http://www.python.org
@@ -96187,16 +96187,16 @@ License: LGPL-2.0-or-later & GPL-2.0-or-later
 Priority: optional
 
 Package: python3-xml
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), libexpat1 (>= 2.7.3), python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7474d4cd5b66c5ed31cb588af9187220
-SHA256sum: bfaff892b0665709656500567367eadd57433910c9c1e1dfd3cedbb092052e0b
-Size: 167394
-Filename: python3-xml_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: afc510b1433ce01d5ffc883792a77237
+SHA256sum: 94272a5673f12cb3957507e13ae947fa3bcfc5c29f9e450660063065f0bf7581
+Size: 168462
+Filename: python3-xml_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python basic XML support
 OE: python3
 HomePage: http://www.python.org
@@ -96204,16 +96204,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-xmlrpc
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-compression, python3-core, python3-datetime, python3-email, python3-html, python3-io, python3-mime, python3-netclient, python3-netserver, python3-numbers, python3-pydoc, python3-stringold, python3-xml
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9cfc95f063cda6024a81b09a3f278dff
-SHA256sum: 6607a3297bcda7fdedb187637cf50f9eb9cd852b2b8d05d72d9ea0c6fee327fb
+MD5Sum: 4e5f9b29b42e3d1ded2f2d765ffa93ff
+SHA256sum: 857b68feb53b3b1d50dd35adaec79dfb73d7a1d371f81353fa27bd70a45f3fe2
 Size: 34430
-Filename: python3-xmlrpc_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+Filename: python3-xmlrpc_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Python XML-RPC support
 OE: python3
 HomePage: http://www.python.org
@@ -96221,16 +96221,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-zipapp
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: python3-compression, python3-core
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 61ef4f00dcfcd581f3337cb313edc38d
-SHA256sum: e9506e503a8adffc160fc591d879cf9b3f3349f9317d89dcd56606e0b91a058c
+MD5Sum: edfc596d370b3acda51e377ecacdff0d
+SHA256sum: 9e806c303c37850c095f1929bba45a0415481c8ec6cc6c0c8d28b115cfb37f1b
 Size: 5734
-Filename: python3-zipapp_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+Filename: python3-zipapp_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: Tools to manage the creation of zip files containing Python code
 OE: python3
 HomePage: http://www.python.org
@@ -96238,16 +96238,16 @@ License: PSF-2.0
 Priority: optional
 
 Package: python3-zoneinfo
-Version: 3.13.9-r0
+Version: 3.13.11-r0
 Depends: libc6 (>= 2.42+git), python3-core, python3-datetime
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 734256ffd4899e6198966629a515c89d
-SHA256sum: 87af11ecc72cffe67b413c4bbaaeb1c8b008c661cd95fe193984ce58eb79e3b8
-Size: 35950
-Filename: python3-zoneinfo_3.13.9-r0_armv7ahf-neon.ipk
-Source: python3_3.13.7.bb
+MD5Sum: e9a0f8397246455003e0ca0ce3a10a92
+SHA256sum: 80094a2f498666c8c8c1e3f0989dd8a1f83f8921613eb594c7658f3c7fc1507e
+Size: 35970
+Filename: python3-zoneinfo_3.13.11-r0_armv7ahf-neon.ipk
+Source: python3_3.13.9.bb
 Description: IANA time zone support
 OE: python3
 HomePage: http://www.python.org
@@ -96260,9 +96260,9 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 700b218b9f26c988e83ff8f323d1dc92
-SHA256sum: 239f6886d12b4d573d1d745f2353ab9cd6eb27ae0124740a759a2b8c360cd9a5
-Size: 65140
+MD5Sum: 42e8eb46216b66679d3e0320306ae395
+SHA256sum: b624bbc98123e712c18da02cd9559b60dad7462ba7f23af7965b05892dae5515
+Size: 65138
 Filename: python3-zopeinterface-dbg_7.1.1-r0_armv7ahf-neon.ipk
 Source: python3-zopeinterface_7.1.1.bb
 Description: Interface definitions for Zope products - Debugging files
@@ -96339,8 +96339,8 @@ Provides: zope-interfaces
 Section: devel/python
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 89235573ab6fc2ec9804a8ea9f3384d6
-SHA256sum: 3a9f852e5d3d90d20ded5101c5049234b4d833b9d3bb43f6baaaa18f6234b149
+MD5Sum: 9a39485e2de8f0c72ea6405a0bad151b
+SHA256sum: 911aa78eb33de99200f9020b4671a0b1442b3e7ae0e14a35f15f55acce035cfb
 Size: 132816
 Filename: python3-zopeinterface_7.1.1-r0_armv7ahf-neon.ipk
 Source: python3-zopeinterface_7.1.1.bb
@@ -100786,9 +100786,9 @@ Depends: libc6 (>= 2.42+git), libcrypto3 (>= 3.6.0), libcurl4 (>= 8.16.0), libev
 Section: network
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 51cefc81b2c3ca9800cdf93a9a6c7330
-SHA256sum: 6fda7db638d5303520def4cb71e507cc7cc82a3e1d73b5f678a7b17a3b42d18d
-Size: 4400980
+MD5Sum: c6f1b533341e889fcbda1d710d41fc96
+SHA256sum: 7a068605103e4548adf81f7c2afbb6fc0bef5a51d3c7c6ff0c4710be690daac5
+Size: 4400986
 Filename: transmission-client_4.1.0-1_armv7ahf-neon.ipk
 Source: transmission_4.1.0.bb
 Description: transmission version 4.1.0-1
@@ -100854,9 +100854,9 @@ Recommends: update-rc.d
 Section: network
 Architecture: armv7ahf-neon
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 339c59f79d879200e8b622c77b9d40cc
-SHA256sum: deb264b6c248ecf00fb4c05d41f7ed00290ed84a975080a413cd5901bb065d0a
-Size: 1186318
+MD5Sum: db98800f754de11a581479c1db9e0d7e
+SHA256sum: 4fbfbd40d32cf7896510bbe9f6b74439731afccd581fc30d2652a18b00ad78f6
+Size: 1186320
 Filename: transmission_4.1.0-1_armv7ahf-neon.ipk
 Source: transmission_4.1.0.bb
 Description: transmission version 4.1.0-1
