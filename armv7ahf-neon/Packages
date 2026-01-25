@@ -72352,14 +72352,14 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: openpli-bootlogo-dbg
-Version: 20260124-r1
+Version: 20260125-r1
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: PLi team
-MD5Sum: e5a3e7db546cd7f16389d5c868370e0d
-SHA256sum: 85254c4a0f40cc4aff842796b4e0a681962271e56083d8c3346a4bf564210919
+MD5Sum: e47f6de2db841b6ec3a7b969add7470f
+SHA256sum: 25f68b2bc48d890243a2db0f3afa9d09dd87fc4474ce57a33043cbf42b48fcd5
 Size: 568
-Filename: openpli-bootlogo-dbg_20260124-r1_armv7ahf-neon.ipk
+Filename: openpli-bootlogo-dbg_20260125-r1_armv7ahf-neon.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r1 - Debugging files
 OE: openpli-bootlogo
@@ -72367,15 +72367,15 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openpli-bootlogo-dev
-Version: 20260124-r1
-Recommends: initscripts-dev, openpli-bootlogo (= 20260124-r1), showiframe-dev, update-rc.d-dev
+Version: 20260125-r1
+Recommends: initscripts-dev, openpli-bootlogo (= 20260125-r1), showiframe-dev, update-rc.d-dev
 Section: devel
 Architecture: armv7ahf-neon
 Maintainer: PLi team
-MD5Sum: 9b4f0771ab3a3c3f74bb8d4ce3be9370
-SHA256sum: 722cd7d24abe2f81bdf2d1ee731c65c5790673816765695335cf1bdcfe42b3b6
-Size: 632
-Filename: openpli-bootlogo-dev_20260124-r1_armv7ahf-neon.ipk
+MD5Sum: 942db938f28ad7fc5e57fbf2dab2e870
+SHA256sum: 2a9d0d25ef0d612ecc12bb611c6344376575d7eda5fb5417ad5b060b998fd029
+Size: 634
+Filename: openpli-bootlogo-dev_20260125-r1_armv7ahf-neon.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r1 - Development files
 OE: openpli-bootlogo
@@ -72383,16 +72383,16 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openpli-bootlogo
-Version: 20260124-r1
+Version: 20260125-r1
 Depends: showiframe
 Recommends: update-rc.d
 Section: base
 Architecture: armv7ahf-neon
 Maintainer: PLi team
-MD5Sum: 1b16308eaa54b0d35457fd25ac25407d
-SHA256sum: 604135e7264553a8ff4408ca071f8edf993362f71d341387c14e1909160a217e
+MD5Sum: 465369f53017e6ce8b68a872053ca79d
+SHA256sum: e9e1a944352eb782b2bd6bb655ae9c2e9a2a5b50dfb1d1ef2ef18d3b695d52f7
 Size: 294286
-Filename: openpli-bootlogo_20260124-r1_armv7ahf-neon.ipk
+Filename: openpli-bootlogo_20260125-r1_armv7ahf-neon.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r1
 OE: openpli-bootlogo
